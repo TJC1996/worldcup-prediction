@@ -1,0 +1,183 @@
+:root{
+  --pitch:#0B3D2E;
+  --turf:#123F30;
+  --turf-2:#1B4736;
+  --chalk:#F4F7F2;
+  --chalk-dim:#B9CDB9;
+  --floodlight:#E8B33D;
+  --rust:#C1432A;
+  --sky:#6FA8C9;
+  --line: rgba(244,247,242,0.14);
+}
+*{ box-sizing:border-box; }
+html{ scroll-behavior:smooth; }
+body{
+  margin:0;
+  background:var(--pitch);
+  color:var(--chalk);
+  font-family:'Inter',system-ui,sans-serif;
+  -webkit-font-smoothing:antialiased;
+  position:relative;
+}
+body::before{
+  content:"";
+  position:fixed; inset:0;
+  background-image:
+    repeating-linear-gradient(0deg, transparent 0 119px, var(--line) 119px 120px);
+  opacity:.35;
+  pointer-events:none;
+}
+a{ color:var(--sky); text-decoration:none; }
+a:hover, a:focus{ text-decoration:underline; }
+a:focus-visible, button:focus-visible, .tab:focus-visible{
+  outline:2px solid var(--floodlight); outline-offset:2px;
+}
+
+header{
+  max-width:920px; margin:0 auto; padding:48px 24px 28px;
+  border-bottom:1px solid var(--line);
+}
+.eyebrow{
+  font-family:'JetBrains Mono',monospace;
+  font-size:12px; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--floodlight); margin:0 0 10px;
+}
+h1{
+  font-family:'Oswald',sans-serif; font-weight:700;
+  font-size:clamp(32px,5vw,48px); line-height:1.05; margin:0 0 12px;
+  letter-spacing:.01em;
+}
+.lede{
+  color:var(--chalk-dim); font-size:15px; max-width:560px; line-height:1.6; margin:0;
+}
+.legend{
+  margin-top:18px; font-family:'JetBrains Mono',monospace; font-size:11.5px;
+  color:var(--chalk-dim); display:flex; gap:18px; flex-wrap:wrap;
+}
+.track-record{ color:var(--floodlight); }
+.legend span{ display:inline-flex; align-items:center; gap:6px; }
+.dot{ width:8px; height:8px; border-radius:50%; display:inline-block; }
+.dot.high{ background:var(--floodlight); }
+.dot.medium{ background:var(--sky); }
+.dot.low{ background:var(--rust); }
+
+.notice{
+  max-width:920px; margin:18px auto 0; padding:12px 24px;
+  font-family:'JetBrains Mono',monospace; font-size:12.5px; color:var(--chalk-dim);
+  border-left:2px solid var(--sky);
+}
+
+nav.dates{
+  max-width:920px; margin:28px auto 0; padding:0 24px;
+  display:flex; gap:8px; overflow-x:auto; padding-bottom:4px;
+}
+.tab{
+  font-family:'JetBrains Mono',monospace; font-size:13px; color:var(--chalk-dim);
+  background:var(--turf); border:1px solid var(--line); border-bottom:none;
+  padding:9px 16px 11px; border-radius:6px 6px 0 0; cursor:pointer; white-space:nowrap;
+  position:relative; flex-shrink:0;
+}
+.tab[aria-selected="true"]{
+  color:var(--chalk); background:var(--turf-2); border-color:var(--floodlight);
+}
+
+main{ max-width:920px; margin:0 auto; padding:20px 24px 80px; }
+
+.card{
+  background:var(--turf); border:1px solid var(--line); border-radius:10px;
+  padding:22px 22px 6px; margin-bottom:18px;
+}
+.matchup{
+  display:flex; align-items:baseline; justify-content:space-between;
+  gap:12px; flex-wrap:wrap;
+}
+.teams{
+  font-family:'Oswald',sans-serif; font-weight:600; font-size:21px;
+  letter-spacing:.01em;
+}
+.teams .vs{ color:var(--chalk-dim); font-weight:500; font-size:14px; margin:0 8px; }
+.confbadge{
+  font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.08em;
+  text-transform:uppercase; padding:4px 10px; border-radius:20px;
+  display:inline-flex; align-items:center; gap:6px; border:1px solid var(--line);
+}
+.confbadge .dot{ width:7px; height:7px; }
+
+.lines{ margin:18px 0 14px; }
+.line-row{ margin-bottom:9px; }
+.line-label{
+  font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:.1em;
+  color:var(--chalk-dim); text-transform:uppercase; margin-bottom:5px;
+  display:flex; justify-content:space-between;
+}
+.bar{
+  height:10px; border-radius:5px; overflow:hidden; display:flex;
+  background:var(--pitch);
+}
+.bar.opening{ height:6px; opacity:.55; }
+.seg{ height:100%; }
+.seg.a{ background:var(--floodlight); }
+.seg.draw{ background:var(--chalk-dim); }
+.seg.b{ background:var(--rust); }
+.bar-readout{
+  font-family:'JetBrains Mono',monospace; font-size:11px; color:var(--chalk-dim);
+  margin-top:5px; display:flex; gap:14px;
+}
+
+.verdict{
+  font-family:'Oswald',sans-serif; font-size:15px; font-weight:600;
+  color:var(--floodlight); margin:14px 0 8px; letter-spacing:.01em;
+}
+
+.result{
+  font-family:'JetBrains Mono',monospace; font-size:12.5px;
+  margin:0 0 16px; display:flex; align-items:center; gap:7px;
+}
+.result.correct{ color:var(--floodlight); }
+.result.incorrect{ color:var(--rust); }
+.result-icon{ font-size:13px; }
+
+details{ border-top:1px solid var(--line); padding:14px 0; }
+summary{
+  cursor:pointer; font-family:'JetBrains Mono',monospace; font-size:11.5px;
+  letter-spacing:.08em; text-transform:uppercase; color:var(--chalk-dim);
+  list-style:none; display:flex; align-items:center; gap:8px;
+}
+summary::-webkit-details-marker{ display:none; }
+summary::before{ content:"▸"; color:var(--sky); }
+details[open] summary::before{ content:"▾"; }
+
+.factors{ margin:14px 0 0; padding:0; list-style:none; }
+.factors li{
+  font-size:14px; line-height:1.55; color:var(--chalk);
+  padding-left:16px; position:relative; margin-bottom:10px;
+}
+.factors li::before{
+  content:"—"; position:absolute; left:0; color:var(--sky);
+}
+
+.unconfirmed{
+  margin-top:14px; padding:12px 14px; border-left:2px solid var(--rust);
+  background:rgba(193,66,42,0.08); font-size:13px; color:var(--chalk-dim);
+}
+.unconfirmed strong{ color:var(--rust); font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.06em; text-transform:uppercase; display:block; margin-bottom:6px; }
+
+.sentiment{
+  margin-top:14px; padding:12px 14px; border-radius:6px; background:var(--pitch);
+  font-size:13px; color:var(--chalk-dim);
+}
+.sentiment strong{ color:var(--chalk); font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.06em; text-transform:uppercase; display:block; margin-bottom:6px; }
+
+.sources{ margin-top:14px; padding:0; list-style:none; font-size:12.5px; }
+.sources li{ margin-bottom:5px; color:var(--chalk-dim); }
+
+footer{
+  max-width:920px; margin:0 auto; padding:24px 24px 60px;
+  font-family:'JetBrains Mono',monospace; font-size:11.5px; color:var(--chalk-dim);
+  border-top:1px solid var(--line);
+}
+
+@media (max-width:560px){
+  .matchup{ flex-direction:column; align-items:flex-start; }
+  .teams{ font-size:18px; }
+}

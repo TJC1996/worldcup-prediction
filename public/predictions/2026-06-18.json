@@ -1,0 +1,189 @@
+[
+  {
+    "date": "2026-06-18",
+    "match": "Czechia vs. South Africa",
+    "market_baseline": {
+      "teamA_win": "53%",
+      "draw": "27%",
+      "teamB_win": "20%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "56%",
+      "draw": "26%",
+      "teamB_win": "18%"
+    },
+    "predicted_outcome": "Czechia Win (Probable) or Draw",
+    "confidence": "medium",
+    "key_factors": [
+      "South Africa is missing two key starting midfielders, Themba Zwane and Sphephelo Sithole, due to red card suspensions from the opener against Mexico.",
+      "Czechia holds a higher FIFA ranking (40th) compared to South Africa (60th).",
+      "Both teams have had 6 full days of rest (7 days since their opening matches on June 11).",
+      "Czechia traveled ~1,480 miles from Guadalajara, while South Africa traveled ~1,340 miles from Mexico City to the Atlanta venue.",
+      "Both teams are desperate for points after opening group stage losses (Czechia 1-2 to South Korea, South Africa 0-2 to Mexico)."
+    ],
+    "unverified_or_unknown": [
+      "Late fitness test results for Czechia forward Jan Kuchta remain unconfirmed."
+    ],
+    "sources": [
+      "https://www.fifa.com (FIFA World Rankings)",
+      "https://www.foxsports.com (Betting Odds and Match Previews)",
+      "https://www.si.com (Betting Odds)",
+      "https://www.reddit.com/r/soccer (Reddit Match Threads)"
+    ],
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 28,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 32.0,
+      "teamB_favor_pct": 32.0,
+      "neutral_pct": 36.0,
+      "excluded_joke_or_bot_count": 3,
+      "bias_note": "Reddit's audience skews younger, more English-language, and more internet-native than the general fan base — a different bias than X, not a cleaner one. The sample is drawn from r/soccer, which tends to skew heavily toward English-speaking fans and can have varying team-specific biases, though here the sentiment is fairly balanced between the two underdogs.",
+      "max_allowed_probability_shift": "±4 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer Czechia vs South Africa match thread"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-18",
+    "match": "Switzerland vs. Bosnia and Herzegovina",
+    "market_baseline": {
+      "teamA_win": "61%",
+      "draw": "23%",
+      "teamB_win": "16%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "64%",
+      "draw": "23%",
+      "teamB_win": "13%"
+    },
+    "predicted_outcome": "Switzerland Win (Probable)",
+    "confidence": "medium",
+    "key_factors": [
+      "Switzerland has a clean bill of health with no reported injuries or suspensions.",
+      "Bosnia's key starting defender Sead Kolašinac and captain/striker Edin Džeko are highly doubtful due to injuries.",
+      "Switzerland ranks significantly higher in FIFA standings (19th) compared to Bosnia (64th).",
+      "Switzerland has a travel advantage, traveling only ~345 miles from Santa Clara to Los Angeles, compared to Bosnia traveling ~2,180 miles from Toronto.",
+      "Switzerland has 4 rest days since their opening match on June 13, whereas Bosnia has 5 rest days since June 12."
+    ],
+    "unverified_or_unknown": [
+      "The exact starting status of Edin Džeko (shoulder) and Sead Kolašinac (knock) remains unconfirmed prior to kickoff."
+    ],
+    "sources": [
+      "https://www.fifa.com (FIFA World Rankings)",
+      "https://www.si.com (Betting Odds)",
+      "https://www.hardrock.bet (Betting Odds)",
+      "https://www.reddit.com/r/soccer (Reddit Match Threads)"
+    ],
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 32,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 47.0,
+      "teamB_favor_pct": 25.0,
+      "neutral_pct": 28.0,
+      "excluded_joke_or_bot_count": 4,
+      "bias_note": "Reddit's audience skews younger, more English-language, and more internet-native than the general fan base — a different bias than X, not a cleaner one. The sample includes comments from r/bih, introducing a supporter-bias risk in favor of Bosnia and Herzegovina.",
+      "max_allowed_probability_shift": "±4 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer Switzerland vs Bosnia prediction",
+        "site:reddit.com/r/bih Switzerland vs Bosnia discussion"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-18",
+    "match": "Canada vs. Qatar",
+    "market_baseline": {
+      "teamA_win": "74%",
+      "draw": "17%",
+      "teamB_win": "9%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "76%",
+      "draw": "16%",
+      "teamB_win": "8%"
+    },
+    "predicted_outcome": "Canada Win (Likely)",
+    "confidence": "medium",
+    "key_factors": [
+      "Canada has home-field advantage playing in Vancouver at BC Place.",
+      "Canada receives a major boost with the return of star captain Alphonso Davies and defender Moïse Bombito from injury, though defender Alfie Jones is ruled out.",
+      "Canada ranks 30th in the world, compared to Qatar at 56th.",
+      "Canada has 5 rest days (played June 12), while Qatar has 4 rest days (played June 13).",
+      "Qatar has a travel advantage, traveling ~838 miles from Santa Clara to Vancouver, compared to Canada traveling ~2,090 miles from Toronto."
+    ],
+    "unverified_or_unknown": [
+      "Whether Alphonso Davies will start the match or be used as a substitute is unconfirmed."
+    ],
+    "sources": [
+      "https://www.fifa.com (FIFA World Rankings)",
+      "https://www.sportsbettingdime.com (Betting Odds)",
+      "https://www.foxsports.com (Team News and Injury Updates)",
+      "https://www.reddit.com/r/soccer (Reddit Match Threads)"
+    ],
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 42,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 62.0,
+      "teamB_favor_pct": 10.0,
+      "neutral_pct": 28.0,
+      "excluded_joke_or_bot_count": 5,
+      "bias_note": "Reddit's audience skews younger, more English-language, and more internet-native than the general fan base — a different bias than X, not a cleaner one. The sample relies heavily on r/CanadaSoccer, which introduces a significant supporter-bias risk in favor of Canada.",
+      "max_allowed_probability_shift": "±4 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer Canada vs Qatar match thread",
+        "site:reddit.com/r/CanadaSoccer Canada vs Qatar prediction"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-18",
+    "match": "Mexico vs. South Korea",
+    "market_baseline": {
+      "teamA_win": "47%",
+      "draw": "28%",
+      "teamB_win": "25%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "45%",
+      "draw": "28%",
+      "teamB_win": "27%"
+    },
+    "predicted_outcome": "Mexico Win (Slight Favorites) or Draw",
+    "confidence": "medium",
+    "key_factors": [
+      "Mexico is missing starting center back César Montes due to a red card suspension.",
+      "South Korea has zero travel fatigue since they played their opener in Guadalajara, while Mexico had to travel ~287 miles from Mexico City.",
+      "South Korea acclimated to the high-altitude conditions of Guadalajara by training in Salt Lake City prior to the tournament.",
+      "Mexico is ranked 14th in the world, while South Korea is ranked 25th.",
+      "Both teams have had 6 full days of rest (both played on June 11)."
+    ],
+    "unverified_or_unknown": [
+      "Mexico's exact starting defensive adjustments to replace César Montes are unconfirmed."
+    ],
+    "sources": [
+      "https://www.fifa.com (FIFA World Rankings)",
+      "https://www.si.com (Betting Odds)",
+      "https://www.aljazeera.com (Match Previews and Team News)",
+      "https://www.reddit.com/r/LigaMX (Reddit Community Discussions)"
+    ],
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 55,
+      "confidence_tier": "stronger_signal",
+      "teamA_favor_pct": 69.0,
+      "teamB_favor_pct": 13.0,
+      "neutral_pct": 18.0,
+      "excluded_joke_or_bot_count": 8,
+      "bias_note": "Reddit's audience skews younger, more English-language, and more internet-native than the general fan base — a different bias than X, not a cleaner one. The sample is heavily drawn from r/LigaMX (pre-match thread), which carries an extreme supporter-bias risk in favor of Mexico.",
+      "max_allowed_probability_shift": "±6 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/LigaMX Mexico vs South Korea pre-match thread",
+        "site:reddit.com/r/sportsbook Mexico vs South Korea prediction"
+      ]
+    }
+  }
+]
