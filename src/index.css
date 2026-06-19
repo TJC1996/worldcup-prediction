@@ -77,8 +77,14 @@ nav.dates{
   padding:9px 16px 11px; border-radius:6px 6px 0 0; cursor:pointer; white-space:nowrap;
   position:relative; flex-shrink:0;
 }
+.tab:hover{ background: var(--turf-2); }
 .tab[aria-selected="true"]{
   color:var(--chalk); background:var(--turf-2); border-color:var(--floodlight);
+}
+.tab::after{
+  content:"";
+  position:absolute; left:8px; right:8px; bottom:-1px; height:1px;
+  background:repeating-linear-gradient(90deg, var(--pitch) 0 4px, transparent 4px 8px);
 }
 
 main{ max-width:920px; margin:0 auto; padding:20px 24px 80px; }
@@ -86,6 +92,7 @@ main{ max-width:920px; margin:0 auto; padding:20px 24px 80px; }
 .card{
   background:var(--turf); border:1px solid var(--line); border-radius:10px;
   padding:22px 22px 6px; margin-bottom:18px;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.25) inset, 0 4px 14px rgba(0,0,0,0.22);
 }
 .matchup{
   display:flex; align-items:baseline; justify-content:space-between;
@@ -133,7 +140,7 @@ main{ max-width:920px; margin:0 auto; padding:20px 24px 80px; }
   font-family:'JetBrains Mono',monospace; font-size:12.5px;
   margin:0 0 16px; display:flex; align-items:center; gap:7px;
 }
-.result.correct{ color:var(--floodlight); }
+.result.correct{ color:var(--sky); }
 .result.incorrect{ color:var(--rust); }
 .result-icon{ font-size:13px; }
 
@@ -166,7 +173,8 @@ details[open] summary::before{ content:"▾"; }
   margin-top:14px; padding:12px 14px; border-radius:6px; background:var(--pitch);
   font-size:13px; color:var(--chalk-dim);
 }
-.sentiment strong{ color:var(--chalk); font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.06em; text-transform:uppercase; display:block; margin-bottom:6px; }
+.sentiment strong{ color:var(--chalk); font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.06em; text-transform:uppercase; display:inline; }
+.sentiment strong::after{ content: ": "; color: var(--chalk-dim); }
 
 .sources{ margin-top:14px; padding:0; list-style:none; font-size:12.5px; }
 .sources li{ margin-bottom:5px; color:var(--chalk-dim); }

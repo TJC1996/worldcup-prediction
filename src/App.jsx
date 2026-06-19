@@ -26,7 +26,7 @@ export default function App() {
     <>
       <header>
         <p className="eyebrow">Match Day Predictions</p>
-        <h1>World Cup 2026, called daily</h1>
+        <h1>World Cup 2026, Called Daily</h1>
         <p className="lede">
           Each card shows the sportsbook-implied line and where our model
           moved it, with the specific facts behind that move and what's
@@ -63,11 +63,18 @@ export default function App() {
         ))}
       </main>
 
-      <footer>
-        Predictions are probabilistic estimates, not certainties, generated
-        from public odds, rankings, and reported team news. Verify
-        high-stakes facts independently before relying on them.
-      </footer>
+    <footer>
+      <p>
+      Fan sentiment reflects Reddit discussion only — a younger, more
+      English-language audience than the general fanbase. It's shown for
+      context and never influences the probabilities above.
+      </p>
+      <p>
+      Predictions are probabilistic estimates, not certainties, generated
+      from public odds, rankings, and reported team news. Verify
+      high-stakes facts independently before relying on them.
+      </p>
+    </footer>
     </>
   );
 }
