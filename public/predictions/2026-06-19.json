@@ -1,0 +1,186 @@
+[
+  {
+    "date": "2026-06-19",
+    "match": "USA vs. Australia",
+    "market_baseline": {
+      "teamA_win": "59%",
+      "draw": "23%",
+      "teamB_win": "18%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "58%",
+      "draw": "24%",
+      "teamB_win": "18%"
+    },
+    "predicted_outcome": "USA Win (Slight Favorites) or Draw",
+    "confidence": "medium",
+    "key_factors": [
+      "USA star winger Christian Pulisic is questionable due to a calf injury sustained in the opening match against Paraguay.",
+      "Australia has a significant travel advantage, traveling only ~120 miles from Vancouver to Seattle, compared to the USA traveling ~960 miles from Los Angeles.",
+      "USA has a rest advantage with 6 full days of rest (played June 12) compared to Australia's 5 full days of rest (played June 13).",
+      "Both teams won their opening Group D fixtures (USA 4-1 vs Paraguay, Australia 2-0 vs Türkiye), making this match a battle for the top spot in the group.",
+      "In their last 10 years, the teams have met only once, with the USA winning 2-1 in an October 2025 friendly match."
+    ],
+    "unverified_or_unknown": [
+      "The exact starting status of Christian Pulisic (calf injury) is unconfirmed prior to kickoff."
+    ],
+    "sources": [
+      "https://www.fifa.com (FIFA World Rankings and Schedule)",
+      "https://www.ussoccer.com (USMNT News and Travel Logs)",
+      "https://www.foxsports.com (Betting Odds and Match Previews)",
+      "https://www.reddit.com/r/soccer (Reddit Match Threads)"
+    ],
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 48,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 52.0,
+      "teamB_favor_pct": 23.0,
+      "neutral_pct": 25.0,
+      "excluded_joke_or_bot_count": 5,
+      "bias_note": "Reddit's audience skews younger, more English-language, and more internet-native than the general fan base — a different bias than X, not a cleaner one. The sample leans heavily on r/ussoccer, introducing a significant supporter-bias risk in favor of the USA.",
+      "max_allowed_probability_shift": "±4 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer USA vs Australia match thread",
+        "site:reddit.com/r/ussoccer USA vs Australia discussion"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-19",
+    "match": "Scotland vs. Morocco",
+    "market_baseline": {
+      "teamA_win": "16%",
+      "draw": "28%",
+      "teamB_win": "56%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "15%",
+      "draw": "27%",
+      "teamB_win": "58%"
+    },
+    "predicted_outcome": "Morocco Win (Probable)",
+    "confidence": "high",
+    "key_factors": [
+      "Morocco is ranked 7th in the world (official June 11 update) and showed strong form in a 1-1 draw against Brazil, while Scotland is ranked 42nd.",
+      "Scotland has a travel advantage (0 miles) since they played their opener in Boston, compared to Morocco traveling ~300 miles from Philadelphia to Boston.",
+      "Both teams have had 5 full days of rest since their opening matches on June 13 (Scotland won 1-0 against Haiti, Morocco drew 1-1 against Brazil).",
+      "Both teams have reported no new injuries or suspensions to key starters. John McGinn is confirmed fit for Scotland, and Ismael Saibari is confirmed fit for Morocco.",
+      "The teams have never met in an official match in the last 10 years prior to this kickoff."
+    ],
+    "unverified_or_unknown": [],
+    "sources": [
+      "https://www.fifa.com (FIFA World Rankings and Official Lineups)",
+      "https://www.foxsports.com (Betting Odds and Group Standings)",
+      "https://www.theguardian.com (Team News and Match Previews)",
+      "https://www.reddit.com/r/soccer (Reddit Match Threads)"
+    ],
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 38,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 28.0,
+      "teamB_favor_pct": 47.0,
+      "neutral_pct": 25.0,
+      "excluded_joke_or_bot_count": 3,
+      "bias_note": "Reddit's audience skews younger, more English-language, and more internet-native than the general fan base — a different bias than X, not a cleaner one. The sample leans heavily on r/soccer, which tends to favor British/European teams slightly, but Morocco's strong global support and historical semi-final run in 2022 balance this, showing a clear lean towards Morocco.",
+      "max_allowed_probability_shift": "±4 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer Scotland vs Morocco match thread",
+        "site:reddit.com/r/soccer Scotland vs Morocco prediction"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-19",
+    "match": "Brazil vs. Haiti",
+    "market_baseline": {
+      "teamA_win": "87%",
+      "draw": "9%",
+      "teamB_win": "4%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "86%",
+      "draw": "10%",
+      "teamB_win": "4%"
+    },
+    "predicted_outcome": "Brazil Win (Likely)",
+    "confidence": "medium",
+    "key_factors": [
+      "Brazil is a massive favorite (ranked 6th in the world) against Haiti (ranked 83rd).",
+      "Brazil superstar forward Neymar is ruled out for this match with a calf injury, and coach Carlo Ancelotti has confirmed he will rotate the starting lineup.",
+      "Brazil has a travel advantage (0 miles) since they played their opener in Philadelphia, compared to Haiti traveling ~300 miles from Boston to Philadelphia.",
+      "Both teams have had 5 full days of rest since their opening matches on June 13 (Brazil drew 1-1 with Morocco, Haiti lost 0-1 to Scotland).",
+      "In their last 10 years, the teams have never met (their last meeting was a 7-1 win for Brazil on June 8, 2016, which falls outside the 10-year window by 11 days)."
+    ],
+    "unverified_or_unknown": [
+      "The exact recovery timeline for Neymar (calf injury) is unconfirmed, though he is ruled out for this match."
+    ],
+    "sources": [
+      "https://www.fifa.com (FIFA World Rankings)",
+      "https://www.foxsports.com (Betting Odds and Injury Updates)",
+      "https://www.football-italia.net (Team Lineup Adjustments)",
+      "https://www.reddit.com/r/soccer (Reddit Discussions)"
+    ],
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 44,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 80.0,
+      "teamB_favor_pct": 10.0,
+      "neutral_pct": 10.0,
+      "excluded_joke_or_bot_count": 4,
+      "bias_note": "Reddit's audience skews younger, more English-language, and more internet-native than the general fan base — a different bias than X, not a cleaner one. The sample shows a massive bias in favor of Brazil, reflecting their status as global football giants and heavy favorites.",
+      "max_allowed_probability_shift": "±4 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer Brazil vs Haiti match thread",
+        "site:reddit.com/r/soccer Brazil vs Haiti discussion"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-19",
+    "match": "Türkiye vs. Paraguay",
+    "market_baseline": {
+      "teamA_win": "45%",
+      "draw": "29%",
+      "teamB_win": "26%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "44%",
+      "draw": "30%",
+      "teamB_win": "26%"
+    },
+    "predicted_outcome": "Türkiye Win (Slight Favorites) or Draw",
+    "confidence": "high",
+    "key_factors": [
+      "Türkiye is ranked 22nd in the world, while Paraguay is ranked 41st in the official June 11 update.",
+      "Paraguay has a travel advantage, traveling ~345 miles from Los Angeles to Santa Clara, compared to Türkiye traveling ~800 miles from Vancouver.",
+      "Paraguay has a minor rest advantage, having played on June 12 (6 full rest days) compared to Türkiye playing on June 13 (5 full rest days).",
+      "Both teams are desperate for a win after opening defeats in Group D (Türkiye 0-2 vs Australia, Paraguay 1-4 vs USA).",
+      "The teams have never played each other in an official match in the last 10 years."
+    ],
+    "unverified_or_unknown": [],
+    "sources": [
+      "https://www.fifa.com (FIFA World Rankings and Official Match Schedule)",
+      "https://www.levisstadium.com (Venue and Logistics Details)",
+      "https://www.foxsports.com (Betting Odds and Match Previews)",
+      "https://www.reddit.com/r/soccer (Reddit Discussions)"
+    ],
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 42,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 45.0,
+      "teamB_favor_pct": 25.0,
+      "neutral_pct": 30.0,
+      "excluded_joke_or_bot_count": 5,
+      "bias_note": "Reddit's audience skews younger, more English-language, and more internet-native than the general fan base — a different bias than X, not a cleaner one. The sample leans slightly towards Türkiye, reflecting Arda Güler and Hakan Çalhanoğlu's popularity on r/soccer, though a significant portion remains neutral or analytical.",
+      "max_allowed_probability_shift": "±4 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer Turkey vs Paraguay match thread",
+        "site:reddit.com/r/soccer Turkey vs Paraguay prediction"
+      ]
+    }
+  }
+]
