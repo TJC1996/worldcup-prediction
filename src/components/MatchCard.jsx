@@ -6,6 +6,7 @@ export default function MatchCard({ match }) {
   const [teamA, teamB] = match.match.replace(/\./g, '').split(/ vs\.? /i);
   const unconfirmed = match.unverified_or_unknown || [];
   const sources = match.sources || [];
+  const weather = match.weather_check;
 
   return (
     <div className="card">
@@ -41,13 +42,21 @@ export default function MatchCard({ match }) {
             <li key={i}>{factor}</li>
           ))}
         </ul>
+
+        {weather && weather.asymmetric_factor_found && (
+          <div className="weather-flag">
+            <strong>Weather factor</strong>
+            {weather.conditions}
+          </div>
+        )}
+
         {unconfirmed.length > 0 && (
           <div className="unconfirmed">
             <strong>Unconfirmed</strong>
             {unconfirmed.join(' ')}
           </div>
         )}
-        <SentimentBox sentiment={match.social_sentiment_signal} />
+        <SentimentBox sentiment={match.social_sentiment_signal} teamA={teamA} teamB={teamB} />
         <ol className="sources">
           {sources.map((source, i) => (
             <li key={i}>{source}</li>
