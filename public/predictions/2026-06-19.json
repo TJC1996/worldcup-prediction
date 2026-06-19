@@ -8,8 +8,8 @@
       "teamB_win": "18%"
     },
     "adjusted_probability": {
-      "teamA_win": "58%",
-      "draw": "24%",
+      "teamA_win": "57%",
+      "draw": "25%",
       "teamB_win": "18%"
     },
     "predicted_outcome": "USA Win (Slight Favorites) or Draw",
@@ -38,8 +38,8 @@
       "teamB_favor_pct": 23.0,
       "neutral_pct": 25.0,
       "excluded_joke_or_bot_count": 5,
-      "bias_note": "Reddit's audience skews younger, more English-language, and more internet-native than the general fan base — a different bias than X, not a cleaner one. The sample leans heavily on r/ussoccer, introducing a significant supporter-bias risk in favor of the USA.",
-      "max_allowed_probability_shift": "±4 points",
+      "bias_note": "83% of the sample came from r/ussoccer, USA's own fan community.",
+      "max_allowed_probability_shift": "±0 points",
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer USA vs Australia match thread",
         "site:reddit.com/r/ussoccer USA vs Australia discussion"
@@ -55,9 +55,9 @@
       "teamB_win": "56%"
     },
     "adjusted_probability": {
-      "teamA_win": "15%",
-      "draw": "27%",
-      "teamB_win": "58%"
+      "teamA_win": "16%",
+      "draw": "28%",
+      "teamB_win": "56%"
     },
     "predicted_outcome": "Morocco Win (Probable)",
     "confidence": "high",
@@ -83,8 +83,8 @@
       "teamB_favor_pct": 47.0,
       "neutral_pct": 25.0,
       "excluded_joke_or_bot_count": 3,
-      "bias_note": "Reddit's audience skews younger, more English-language, and more internet-native than the general fan base — a different bias than X, not a cleaner one. The sample leans heavily on r/soccer, which tends to favor British/European teams slightly, but Morocco's strong global support and historical semi-final run in 2022 balance this, showing a clear lean towards Morocco.",
-      "max_allowed_probability_shift": "±4 points",
+      "bias_note": "100% of the sample came from r/soccer, introducing a neutral to slightly Euro-centric bias.",
+      "max_allowed_probability_shift": "±0 points",
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer Scotland vs Morocco match thread",
         "site:reddit.com/r/soccer Scotland vs Morocco prediction"
@@ -100,8 +100,8 @@
       "teamB_win": "4%"
     },
     "adjusted_probability": {
-      "teamA_win": "86%",
-      "draw": "10%",
+      "teamA_win": "85%",
+      "draw": "11%",
       "teamB_win": "4%"
     },
     "predicted_outcome": "Brazil Win (Likely)",
@@ -130,8 +130,8 @@
       "teamB_favor_pct": 10.0,
       "neutral_pct": 10.0,
       "excluded_joke_or_bot_count": 4,
-      "bias_note": "Reddit's audience skews younger, more English-language, and more internet-native than the general fan base — a different bias than X, not a cleaner one. The sample shows a massive bias in favor of Brazil, reflecting their status as global football giants and heavy favorites.",
-      "max_allowed_probability_shift": "±4 points",
+      "bias_note": "100% of the sample came from r/soccer, reflecting a heavy global supporter lean toward Brazil.",
+      "max_allowed_probability_shift": "±0 points",
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer Brazil vs Haiti match thread",
         "site:reddit.com/r/soccer Brazil vs Haiti discussion"
@@ -147,9 +147,9 @@
       "teamB_win": "26%"
     },
     "adjusted_probability": {
-      "teamA_win": "44%",
+      "teamA_win": "43%",
       "draw": "30%",
-      "teamB_win": "26%"
+      "teamB_win": "27%"
     },
     "predicted_outcome": "Türkiye Win (Slight Favorites) or Draw",
     "confidence": "high",
@@ -175,8 +175,8 @@
       "teamB_favor_pct": 25.0,
       "neutral_pct": 30.0,
       "excluded_joke_or_bot_count": 5,
-      "bias_note": "Reddit's audience skews younger, more English-language, and more internet-native than the general fan base — a different bias than X, not a cleaner one. The sample leans slightly towards Türkiye, reflecting Arda Güler and Hakan Çalhanoğlu's popularity on r/soccer, though a significant portion remains neutral or analytical.",
-      "max_allowed_probability_shift": "±4 points",
+      "bias_note": "100% of the sample came from r/soccer, reflecting a neutral global community sample.",
+      "max_allowed_probability_shift": "±0 points",
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer Turkey vs Paraguay match thread",
         "site:reddit.com/r/soccer Turkey vs Paraguay prediction"
