@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import { usePredictions } from './hooks/usePredictions';
 import DateTabs from './components/DateTabs';
 import MatchCard from './components/MatchCard';
@@ -75,6 +76,8 @@ export default function App() {
       high-stakes facts independently before relying on them.
       </p>
     </footer>
+
+    <Analytics />
     </>
   );
 }
