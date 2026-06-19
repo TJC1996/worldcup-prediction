@@ -43,7 +43,11 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer Czechia vs South Africa match thread"
       ]
-    }
+    },
+    "actual_result": "Czechia 1-1 South Africa",
+    "actual_winner": "draw",
+    "graded_correct": false,
+    "graded_at": "2026-06-19"
   },
   {
     "date": "2026-06-18",
@@ -90,7 +94,11 @@
         "site:reddit.com/r/soccer Switzerland vs Bosnia prediction",
         "site:reddit.com/r/bih Switzerland vs Bosnia discussion"
       ]
-    }
+    },
+    "actual_result": "Switzerland 4-1 Bosnia and Herzegovina",
+    "actual_winner": "teamA",
+    "graded_correct": true,
+    "graded_at": "2026-06-19"
   },
   {
     "date": "2026-06-18",
@@ -137,7 +145,11 @@
         "site:reddit.com/r/soccer Canada vs Qatar match thread",
         "site:reddit.com/r/CanadaSoccer Canada vs Qatar prediction"
       ]
-    }
+    },
+    "actual_result": "Canada 6-0 Qatar",
+    "actual_winner": "teamA",
+    "graded_correct": true,
+    "graded_at": "2026-06-19"
   },
   {
     "date": "2026-06-18",
@@ -184,6 +196,10 @@
         "site:reddit.com/r/LigaMX Mexico vs South Korea pre-match thread",
         "site:reddit.com/r/sportsbook Mexico vs South Korea prediction"
       ]
-    }
+    },
+    "actual_result": "Mexico 1-0 South Korea",
+    "actual_winner": "teamA",
+    "graded_correct": true,
+    "graded_at": "2026-06-19"
   }
 ]
