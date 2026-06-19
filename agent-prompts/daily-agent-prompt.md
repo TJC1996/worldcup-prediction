@@ -14,7 +14,10 @@ it's published. Because of this:
 - Never state a fact you have not retrieved via a tool call this run.
 - Never invent a statistic, score, injury, suspension, or quote.
 - If you cannot verify a specific detail, mark it "unknown" rather than 
-  estimate it.
+  estimate it. A vague-but-true statement beats a specific-but-unverified one.
+- Treat any claim with unusually precise detail (exact goal minute, named 
+  scorer, named suspended player) as requiring an explicit source in your 
+  search results. If you can't find that source, drop the detail.
 - Begin directly with Part A, Step A0. Do not explore unrelated local 
   files, configuration directories, or any "memory"/"brain"-type 
   directories before starting.
@@ -79,43 +82,66 @@ STEP B1 — STATISTICAL / MARKET DATA (per match)
 Search for and retrieve, with a cited source for each:
   - Current FIFA ranking or Elo rating, both teams
   - Market-implied win/draw/loss probability from TWO separate sportsbooks 
-    or odds aggregators. Average their implied probabilities for 
-    market_baseline. If they disagree by more than 8 points on the 
-    favorite, note this in "key_factors".
-  - Each team's last 5 competitive results
-  - Confirmed (officially reported only) injuries/suspensions, prioritizing 
-    official statements or a dedicated injury-tracking source over a 
-    passing mention in a general article
+    or odds aggregators, not just one. Convert each book's odds to an 
+    implied probability if not already shown as one. Average the two 
+    books' implied probabilities to produce market_baseline. If the two 
+    books disagree by more than 8 percentage points on the favorite, note 
+    this disagreement explicitly in "key_factors" as a sign of unsettled 
+    market opinion.
+  - Each team's results in their last 5 competitive matches
+  - Confirmed (officially reported only) injuries/suspensions to starters. 
+    Prioritize official team or federation statements, or a dedicated 
+    injury-tracking source (e.g. Sofascore's missing-players page, 
+    Physioroom), over a general news article that merely mentions an 
+    injury in passing.
   - Head-to-head record, last 10 years
   - Venue, rest days since last match, travel distance since last match
-  - Forecast weather at the match venue for kickoff time. Record what you 
-    found in "weather_check" regardless of whether it matters. Only treat 
-    it as probability-moving if there's a specific, citable asymmetry 
-    between the two teams; otherwise it's style context in "key_factors", 
-    not a reason to shift either team's number.
-Anything unverifiable goes in "unverified_or_unknown." List both 
-sportsbooks in "sources," labeled by name.
+  - Forecast weather at the match venue for kickoff time (temperature, 
+    heat index, precipitation). Record what you found in "weather_check" 
+    (see schema below) regardless of whether it ends up mattering. Only 
+    treat weather as a fact that justifies moving the probability if 
+    there's a specific, citable asymmetry between the two teams. Hot or 
+    wet conditions alone, affecting both teams equally, belong in 
+    "key_factors" as context on expected match style — not as a reason to 
+    shift either team's probability.
+Anything unverifiable goes in "unverified_or_unknown," not into a stated 
+fact. List both sportsbooks used in "sources," labeled by name.
 
 STEP B2 — FAN SENTIMENT SNAPSHOT (Reddit)
-X/Twitter is excluded — no accessible samples in any prior run. Search 
-Reddit and similar forums for match-specific discussion from the last 
-24-48 hours, restricted to subreddits actually about this match, the 
-tournament, or one of the two countries.
+X/Twitter is excluded from this scan — it requires authentication and has 
+returned zero accessible samples in every prior run. Do not spend search 
+calls on x.com queries.
 
-Classify each post: pro_teamA / pro_teamB / neutral_analytical / 
-joke_or_sarcasm / bot_or_spam_like — only the first three count.
+Search Reddit and similar open forums for match-specific discussion from 
+roughly the last 24-48 hours. Target only subreddits actually about the 
+specific match, the tournament, or one of the two countries. Do not use 
+generic domestic club-league subreddits unless the result is specifically 
+and clearly about this international match. If a query surfaces 
+irrelevant threads, drop them rather than counting them toward the sample.
 
-confidence_tier is sample-size only and purely informational: n<10 = 
-insufficient_sample; n10-25 = weak_signal; n25-50 = moderate_signal; n>50 
-= stronger_signal. This snapshot never moves adjusted_probability — always 
-set "max_allowed_probability_shift" to "±0 points". bias_note states only 
-the specific per-match fact (which subreddit dominated, what share).
+Classify each retrieved post/comment: pro_teamA / pro_teamB / 
+neutral_analytical / joke_or_sarcasm / bot_or_spam_like — only the first 
+three count toward the sample.
+
+confidence_tier describes sample size only and is purely informational — 
+it never moves any probability: n<10 = insufficient_sample; n10-25 = 
+weak_signal; n25-50 = moderate_signal; n>50 = stronger_signal.
+
+This entire sentiment snapshot is informational color only. It never moves 
+adjusted_probability — see Step B3. Always set 
+"max_allowed_probability_shift" to "±0 points".
+
+bias_note must contain ONLY the specific, per-match fact — not a generic 
+disclaimer. State which single subreddit (if any) the sample leaned on and 
+roughly what share it represented.
 
 STEP B3 — REASONING
-Start from market-implied probability as baseline. Only move away from it 
-using a specific, cited, verified fact from Step B1. Never adjust on 
-narrative, reputation, or sentiment. Any shift over 10 points requires 
-naming the specific fact behind it.
+Start from the market-implied probability as baseline. Only move away from 
+it using a specific, cited, verified fact from Step B1. Never adjust on 
+narrative, reputation, or sentiment of any kind. The Step B2 sentiment 
+snapshot is informational only and must never change adjusted_probability. 
+Any shift over 10 points from baseline requires naming the specific fact 
+behind it.
 
 STEP B4 — OUTPUT SCHEMA (one JSON array, one object per match)
 {
@@ -130,7 +156,7 @@ STEP B4 — OUTPUT SCHEMA (one JSON array, one object per match)
   "sources": ["..."],
   "weather_check": {
     "checked": true,
-    "conditions": "string, or null if checked but nothing notable",
+    "conditions": "string describing what was found, e.g. '84°F, high humidity, no rain expected', or null if checked but nothing notable",
     "asymmetric_factor_found": true/false
   },
   "social_sentiment_signal": {
@@ -146,7 +172,8 @@ STEP B4 — OUTPUT SCHEMA (one JSON array, one object per match)
     "sources_or_queries_used": []
   }
 }
-confidence = "high" only if "unverified_or_unknown" is empty.
+confidence = "high" only if "unverified_or_unknown" is empty for that match. 
+Otherwise cap at "medium" or "low."
 
 STEP B4.5 — PRESERVE ALREADY-GRADED MATCHES IN TODAY'S FILE
 If today's date already has a file (e.g. from Part A grading an early 
@@ -155,38 +182,64 @@ completely unchanged. Only generate fresh data for today's matches that
 haven't kicked off.
 
 STEP B5 — VALIDATE BEFORE WRITING
-Verify ALL of the following before proceeding:
-  - Syntactically valid JSON, no duplicate keys, no missing commas.
-  - Every match object has every schema field.
-  - "sources" contains at least two distinctly named sportsbooks per 
-    match, or "unverified_or_unknown" explicitly says a second couldn't 
-    be found.
-  - "weather_check.checked" is true for every match.
-  - Each "key_factors" point is genuinely distinct, not restated.
-If any check fails, fix it before writing — never write a file that 
-passes JSON-syntax checks but fails a content check above.
+Build the full array fresh from this run's data for today's date — never 
+edit, append to, or merge with a previous run's output file, except for 
+the preservation rule above. Before writing anything, verify ALL of the 
+following, and do not proceed to the Final Step until every check passes:
+  - The result is syntactically valid JSON: no duplicate keys, no missing 
+    commas, no two array elements or object key-value pairs placed next to 
+    each other without a separating comma.
+  - Every match object contains every field from the schema above — none 
+    silently dropped or partially written.
+  - For every match, "sources" contains at least two distinctly named 
+    sportsbooks or odds providers (e.g. two different company names, not 
+    the same source listed twice or only one). If you genuinely cannot 
+    find two separate odds sources for a specific match after a real 
+    search attempt, you may still write that match using the one source 
+    found, but you must explicitly state in "unverified_or_unknown" that 
+    a second sportsbook could not be located — do not silently fall back 
+    to one source without flagging it.
+  - "weather_check.checked" must be true for every match. If it is false, 
+    that match has not actually been searched and must not be written 
+    until it is.
+  - Re-read your own "key_factors" for each match and confirm each point 
+    is a genuinely distinct fact, not the same point restated twice.
+If any check fails, go back and complete the missing step before writing 
+— do not write a file that passes the JSON-syntax check but fails a 
+content check above. If you cannot produce complete output after a 
+genuine attempt, write a file with a plain-text error explaining 
+specifically which check failed, instead of writing incomplete data 
+silently.
 
 ═══════════════════════════════════════
 FINAL STEP — WRITE EVERYTHING AND PUSH ONCE
 ═══════════════════════════════════════
 Write every date file touched in Part A, and today's file from Part B, to:
   /Users/anthonyclark/Desktop/worldcup-predictions-v1/public/predictions/{date}.json
-Update manifest.json to include today's date if not already present, 
-preserving every prior date.
+(create the public/predictions/ folder if it doesn't exist).
+
+Update:
+  /Users/anthonyclark/Desktop/worldcup-predictions-v1/public/predictions/manifest.json
+Read the existing file if one exists, add today's date if not already 
+present, and write it back — every prior date must remain in the list.
 
 Then run, in order, ONCE for this entire run covering both parts:
   cd /Users/anthonyclark/Desktop/worldcup-predictions-v1
   git add public/predictions/
   git commit -m "Grading + predictions for {TODAYS_DATE}"
   git push origin main
-If git is not configured with working credentials, write the files and 
-stop there — do not attempt to push without credentials.
+If git is not configured with working credentials, write the files as 
+specified and stop there — do not attempt to push without credentials, and 
+do not prompt for them interactively.
 
 GUARDRAILS
-- Never phrase predicted_outcome as a certainty.
+- Never phrase predicted_outcome as a certainty — this is a probabilistic 
+  estimate.
 - If asked to predict the eventual tournament winner before the bracket is 
-  set, give a probability distribution, not one name.
-- Never grade a match that hasn't actually finished.
-- Never modify any prediction field while grading.
+  set, give a probability distribution across plausible teams, not one name.
+- Never grade a match that hasn't actually finished, even if you can find 
+  speculative or in-progress score reporting.
+- Never modify any prediction-related field while grading — only add the 
+  four result fields listed in Step A2.
 - If you cannot find today's fixture list at all, write a file stating 
   that explicitly rather than guessing matches.
