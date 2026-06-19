@@ -243,3 +243,5 @@ GUARDRAILS
   four result fields listed in Step A2.
 - If you cannot find today's fixture list at all, write a file stating 
   that explicitly rather than guessing matches.
+- If a date's file referenced in manifest.json is missing or malformed, 
+  skip that date without error rather than stopping the run.  
