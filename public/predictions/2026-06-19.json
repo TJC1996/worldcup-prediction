@@ -32,6 +32,11 @@
       "https://www.foxsports.com (Betting Odds and Match Previews)",
       "https://www.reddit.com/r/soccer (Reddit Match Threads)"
     ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Upper 70s, sunny, dry",
+      "asymmetric_factor_found": false
+    },
     "social_sentiment_signal": {
       "data_accessible": true,
       "sample_size": 48,
@@ -79,6 +84,11 @@
       "https://www.theguardian.com (Team News and Match Previews)",
       "https://www.reddit.com/r/soccer (Reddit Match Threads)"
     ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Mid-to-upper 70s, dry",
+      "asymmetric_factor_found": false
+    },
     "social_sentiment_signal": {
       "data_accessible": true,
       "sample_size": 38,
@@ -128,6 +138,11 @@
       "https://www.football-italia.net (Team Lineup Adjustments)",
       "https://www.reddit.com/r/soccer (Reddit Discussions)"
     ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Mid 70s, mostly clear, winds WNW 10-20 mph, low precip chance",
+      "asymmetric_factor_found": false
+    },
     "social_sentiment_signal": {
       "data_accessible": true,
       "sample_size": 44,
@@ -175,6 +190,11 @@
       "https://www.foxsports.com (Betting Odds and Match Previews)",
       "https://www.reddit.com/r/soccer (Reddit Discussions)"
     ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Mid 60s, clear skies, comfortable",
+      "asymmetric_factor_found": false
+    },
     "social_sentiment_signal": {
       "data_accessible": true,
       "sample_size": 42,
