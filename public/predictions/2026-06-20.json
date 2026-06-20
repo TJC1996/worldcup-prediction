@@ -49,7 +49,7 @@
       "neutral_pct": 25.0,
       "excluded_joke_or_bot_count": 3,
       "bias_note": "100% of the sample came from r/soccer, representing a neutral to slightly Euro-centric global fan community.",
-      "max_allowed_probability_shift": "±0 points",
+      "max_allowed_probability_shift": "\u00b10 points",
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer Netherlands vs Sweden World Cup 2026"
       ]
@@ -57,11 +57,28 @@
     "actual_result": "Netherlands 5-1 Sweden",
     "actual_winner": "teamA",
     "graded_correct": true,
-    "graded_at": "2026-06-20"
+    "graded_at": "2026-06-20",
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Michael Oliver",
+      "teamA_cards_per_match": null,
+      "teamB_cards_per_match": null,
+      "teamA_red_card_or_second_yellow_rate": null,
+      "teamB_red_card_or_second_yellow_rate": null,
+      "referee_dismissal_rate_this_tournament": null,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null
   },
   {
     "date": "2026-06-20",
-    "match": "Germany vs. Côte d'Ivoire",
+    "match": "Germany vs. C\u00f4te d'Ivoire",
     "market_baseline": {
       "teamA_win": "61%",
       "draw": "22%",
@@ -75,10 +92,10 @@
     "predicted_outcome": "Germany Win (Probable)",
     "confidence": "high",
     "key_factors": [
-      "Germany is ranked 9th in the world, while Côte d'Ivoire is ranked 33rd.",
-      "Côte d'Ivoire starting center back Evan Ndicka is officially ruled out due to a hamstring/thigh injury, forcing a rotation in the Ivorian defense.",
-      "Both teams enter with 3 points: Germany won their opener 7-1 against Curaçao, while Côte d'Ivoire defeated Ecuador 1-0.",
-      "Germany traveled ~1,200 miles from Houston to Toronto, whereas Côte d'Ivoire traveled only ~350 miles from Philadelphia.",
+      "Germany is ranked 9th in the world, while C\u00f4te d'Ivoire is ranked 33rd.",
+      "C\u00f4te d'Ivoire starting center back Evan Ndicka is officially ruled out due to a hamstring/thigh injury, forcing a rotation in the Ivorian defense.",
+      "Both teams enter with 3 points: Germany won their opener 7-1 against Cura\u00e7ao, while C\u00f4te d'Ivoire defeated Ecuador 1-0.",
+      "Germany traveled ~1,200 miles from Houston to Toronto, whereas C\u00f4te d'Ivoire traveled only ~350 miles from Philadelphia.",
       "The teams have never played a competitive match against each other in their senior history, with their only prior meeting being a 2-2 friendly draw in 2009."
     ],
     "unverified_or_unknown": [],
@@ -109,15 +126,36 @@
       "neutral_pct": 25.0,
       "excluded_joke_or_bot_count": 4,
       "bias_note": "100% of the sample came from r/soccer, introducing a neutral to slightly Euro-centric bias.",
-      "max_allowed_probability_shift": "±0 points",
+      "max_allowed_probability_shift": "\u00b10 points",
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer Germany vs Cote d'Ivoire prediction"
       ]
-    }
+    },
+    "actual_result": "Germany 2-1 C\u00f4te d'Ivoire",
+    "actual_winner": "teamA",
+    "graded_correct": true,
+    "graded_at": "2026-06-20",
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Khalid Al-Turais",
+      "teamA_cards_per_match": null,
+      "teamB_cards_per_match": null,
+      "teamA_red_card_or_second_yellow_rate": null,
+      "teamB_red_card_or_second_yellow_rate": null,
+      "referee_dismissal_rate_this_tournament": null,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null
   },
   {
     "date": "2026-06-20",
-    "match": "Ecuador vs. Curaçao",
+    "match": "Ecuador vs. Cura\u00e7ao",
     "market_baseline": {
       "teamA_win": "86%",
       "draw": "10%",
@@ -131,9 +169,9 @@
     "predicted_outcome": "Ecuador Win (Likely)",
     "confidence": "high",
     "key_factors": [
-      "Ecuador is ranked 23rd in the world, while Curaçao is ranked 82nd.",
-      "Both teams enter desperate for points after opening losses: Ecuador fell 1-0 to Côte d'Ivoire, and Curaçao lost 7-1 to Germany.",
-      "Ecuador and Curaçao have never faced each other in an official competitive match in their history.",
+      "Ecuador is ranked 23rd in the world, while Cura\u00e7ao is ranked 82nd.",
+      "Both teams enter desperate for points after opening losses: Ecuador fell 1-0 to C\u00f4te d'Ivoire, and Cura\u00e7ao lost 7-1 to Germany.",
+      "Ecuador and Cura\u00e7ao have never faced each other in an official competitive match in their history.",
       "Both teams have had 5 full days of rest since their opening games on June 14.",
       "The match is held at GEHA Field at Arrowhead Stadium in Kansas City, situated at a low elevation of ~840-880 feet with no altitude or weather advantages for either side."
     ],
@@ -165,10 +203,27 @@
       "neutral_pct": 15.0,
       "excluded_joke_or_bot_count": 3,
       "bias_note": "100% of the sample came from r/soccer, showing a strong global expectation for a comfortable Ecuador victory.",
-      "max_allowed_probability_shift": "±0 points",
+      "max_allowed_probability_shift": "\u00b10 points",
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer Ecuador vs Curacao match thread"
       ]
-    }
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Ma Ning",
+      "teamA_cards_per_match": null,
+      "teamB_cards_per_match": null,
+      "teamA_red_card_or_second_yellow_rate": null,
+      "teamB_red_card_or_second_yellow_rate": null,
+      "referee_dismissal_rate_this_tournament": null,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": true,
+      "notable_absences": [],
+      "checked_at": "2026-06-20T19:54:00-04:00"
+    },
+    "late_adjustment": null
   }
 ]
