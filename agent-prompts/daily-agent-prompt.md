@@ -56,12 +56,15 @@ Add these fields to the match object, nothing else:
   "actual_result": "Team A 2-1 Team B"
   "actual_winner": "teamA" | "teamB" | "draw"
   "graded_correct": true/false — true only if the highest single value 
-    among "adjusted_probability"'s three fields matches the actual winner.
+    among "adjusted_probability"'s three fields matches the actual winner. 
+    This is always computed from "adjusted_probability" alone — never from 
+    "late_adjustment," even if that field exists for the match.
   "graded_at": "{today's date}"
 Every other field in the match object — market_baseline, 
 adjusted_probability, predicted_outcome, confidence, key_factors, 
 unverified_or_unknown, sources, weather_check, altitude_check, 
-social_sentiment_signal — must remain exactly as it was, byte for byte.
+referee_check, lineup_check, late_adjustment, social_sentiment_signal — 
+must remain exactly as it was, byte for byte.
 
 STEP A3 — HOLD FOR WRITING
 Keep each modified date's full file in memory. Do not write or commit 
@@ -87,7 +90,8 @@ hasn't kicked off yet, AND (b) it doesn't already have a non-null
 every other match — whether Part A already graded it, or an earlier run 
 today already predicted it. A prediction is generated exactly once per 
 match per day and is never regenerated, even if this prompt runs again 
-later the same day before that match kicks off.
+later the same day before that match kicks off. The one narrow exception 
+to this lock is described in Step B4.6 below.
 
 If your search confirms there are genuinely no World Cup matches 
 scheduled today (a rest day between rounds), that's normal — skip Part B 
@@ -113,6 +117,32 @@ Search for and retrieve, with a cited source for each:
     injury in passing.
   - Head-to-head record, last 10 years
   - Venue, rest days since last match, travel distance since last match
+  - Each squad's average age (full squad, or starting eleven if already 
+    confirmed at the time of this search). This is descriptive context 
+    only — there is no established rule that a younger or older squad 
+    reliably wins, so it belongs in "key_factors" as color, never as a 
+    reason to shift the probability.
+  - Referee assignment for the match, if officially confirmed, plus that 
+    referee's card-issuance rate in this tournament specifically (not 
+    domestic league career stats, which don't transfer reliably to World 
+    Cup officiating standards). Also retrieve each team's own cards/fouls 
+    per match so far this tournament. Record general findings in 
+    "referee_check" regardless of outcome. General card/foul volume is 
+    informational only and must never move adjusted_probability on its 
+    own — it belongs in "key_factors" as context on match-day style 
+    (free kicks, stoppages, foul-heavy pace), never as a reason to adjust 
+    the probability.
+
+    The one narrow exception: if a specific team has a notably elevated 
+    red-card or second-yellow-card rate this tournament AND the assigned 
+    referee has a notably elevated dismissal rate this tournament, that 
+    combination is a real, citable risk that one team specifically faces 
+    an elevated chance of playing a portion of the match a man down. 
+    Record this in "referee_check.red_card_risk_asymmetry_found" and 
+    treat it the same as a weather or altitude asymmetry below: a 
+    legitimate, narrow reason to move the probability — but ONLY for this 
+    specific red-card/dismissal risk, never for general card or foul 
+    volume alone.
   - Forecast weather at the match venue for kickoff time (temperature, 
     heat index, precipitation). Record what you found in "weather_check" 
     regardless of whether it ends up mattering. Only treat weather as a 
@@ -191,6 +221,23 @@ STEP B4 — OUTPUT SCHEMA (one JSON array, one object per match)
     "asymmetric_factor_found": true/false,
     "details": "string describing any acclimatization asymmetry found, or null if none"
   },
+  "referee_check": {
+    "checked": true,
+    "referee_name": "string, or null if not yet officially assigned",
+    "teamA_cards_per_match": null,
+    "teamB_cards_per_match": null,
+    "teamA_red_card_or_second_yellow_rate": null,
+    "teamB_red_card_or_second_yellow_rate": null,
+    "referee_dismissal_rate_this_tournament": null,
+    "red_card_risk_asymmetry_found": true/false,
+    "details": "string describing any specific red-card risk asymmetry found, or null if none"
+  },
+  "lineup_check": {
+    "confirmed": false,
+    "notable_absences": [],
+    "checked_at": null
+  },
+  "late_adjustment": null,
   "social_sentiment_signal": {
     "data_accessible": true/false,
     "sample_size": 0,
@@ -205,22 +252,53 @@ STEP B4 — OUTPUT SCHEMA (one JSON array, one object per match)
   }
 }
 confidence = "high" only if "unverified_or_unknown" is empty for that match. 
-Otherwise cap at "medium" or "low."
+Otherwise cap at "medium" or "low." At the time of initial generation, 
+"lineup_check" and "late_adjustment" are always written with the default 
+values shown above — they only get populated later, by Step B4.6.
 
 STEP B4.5 — PRESERVE ALREADY-PREDICTED AND ALREADY-GRADED MATCHES
 If today's date already has a file, copy any match that already has a 
 non-null "predicted_outcome" into the new output completely unchanged — 
 whether or not it has been graded yet. A prediction is generated exactly 
 once per match and locked in permanently; never regenerate odds, 
-key_factors, weather_check, altitude_check, or any other Step B1-B4 field 
-for a match that already has a prediction, even on a later run the same 
-day. Only generate fresh data for a match that doesn't yet have a 
+key_factors, weather_check, altitude_check, referee_check, or any other 
+Step B1-B4 field for a match that already has a prediction, even on a 
+later run the same day. The one exception is "lineup_check" and 
+"late_adjustment," which Step B4.6 below may still update on a later run. 
+Only generate fresh data for a match that doesn't yet have a 
 predicted_outcome in today's file.
+
+STEP B4.6 — OPPORTUNISTIC LINEUP CHECK (the one exception to the lock)
+For any match in today's file that already has a locked predicted_outcome 
+but "lineup_check.confirmed" is still false, check whether kickoff is 
+within roughly 90 minutes. If not, leave it alone — this is the normal, 
+expected state for most runs and is never an error.
+
+If kickoff is within that window, search for the officially confirmed 
+starting lineups for both teams. If found, set "lineup_check.confirmed" to 
+true, "checked_at" to the current time, and list in "notable_absences" any 
+genuinely new, previously-unknown absence of a key starter — one that was 
+NOT already flagged in "unverified_or_unknown" or "key_factors" at 
+original prediction time. A confirmed lineup that matches expectations is 
+not itself notable and doesn't need an entry here.
+
+Only if a genuinely new absence is found, also populate "late_adjustment" 
+with:
+  "checked_at": the same timestamp as above
+  "informed_probability": a recalculated {"teamA_win","draw","teamB_win"} 
+    reflecting only this specific new absence
+  "reasoning": the specific named absence driving this number
+This is the ONE exception to the prediction lock. Every other field — 
+including "adjusted_probability" itself — remains exactly as originally 
+locked and is never touched. "late_adjustment" exists for transparency 
+only; it is never used for grading, which always runs off the original 
+"adjusted_probability" per Step A2. If no genuinely new absence is found, 
+leave "late_adjustment" as null.
 
 STEP B5 — VALIDATE BEFORE WRITING
 Build the full array fresh from this run's data for today's date — never 
 edit, append to, or merge with a previous run's output file, except for 
-the preservation rule above. Before writing anything, verify ALL of the 
+the preservation rules above. Before writing anything, verify ALL of the 
 following, and do not proceed to the Final Step until every check passes:
   - The result is syntactically valid JSON: no duplicate keys, no missing 
     commas, no two array elements or object key-value pairs placed next to 
@@ -240,6 +318,12 @@ following, and do not proceed to the Final Step until every check passes:
     until it is.
   - "altitude_check.checked" must be true for every match, same as 
     weather_check.
+  - "referee_check.checked" must be true for every match, same as 
+    weather_check — this means the search was attempted, not necessarily 
+    that a referee has been officially assigned yet.
+  - "lineup_check.confirmed" being false is expected and fine for most 
+    matches at most run times — this is NOT a validation failure, unlike 
+    the checks above.
   - Re-read your own "key_factors" for each match and confirm each point 
     is a genuinely distinct fact, not the same point restated twice.
 If any check fails, go back and complete the missing step before writing 
@@ -253,8 +337,9 @@ silently.
 FINAL STEP — WRITE EVERYTHING AND PUSH ONCE
 ═══════════════════════════════════════
 Before doing anything else in this step, check whether this run actually 
-changed anything: did Part A grade at least one match, or did Part B 
-generate at least one new prediction? If neither happened, that's a 
+changed anything: did Part A grade at least one match, did Part B generate 
+at least one new prediction, or did Step B4.6 update any match's 
+lineup_check or late_adjustment? If none of these happened, that's a 
 normal, expected outcome on a run with nothing new to do — skip the rest 
 of this step entirely. Do not attempt to write files, update the 
 manifest, or run any git commands, and do not treat this as an error.
@@ -288,7 +373,13 @@ GUARDRAILS
 - Never modify any prediction-related field while grading — only add the 
   four result fields listed in Step A2.
 - Never regenerate a prediction for a match that already has one from 
-  earlier today, even on a later run.
+  earlier today, even on a later run. The only field allowed to update 
+  after the lock is described in Step B4.6.
+- "graded_correct" is always computed from "adjusted_probability," never 
+  from "late_adjustment," even when "late_adjustment" exists for a match.
+- Referee data may only move the probability through the specific, named 
+  red-card/dismissal risk exception in Step B1 — general card or foul 
+  volume is never grounds to adjust the probability.
 - If you cannot determine today's fixture list due to a search failure — 
   not because there are simply no matches scheduled today — write a file 
   stating that explicitly rather than guessing matches.
