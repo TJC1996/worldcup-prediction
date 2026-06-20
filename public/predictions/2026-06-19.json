@@ -51,7 +51,11 @@
         "site:reddit.com/r/soccer USA vs Australia match thread",
         "site:reddit.com/r/ussoccer USA vs Australia discussion"
       ]
-    }
+    },
+    "actual_result": "USA 2-0 Australia",
+    "actual_winner": "teamA",
+    "graded_correct": true,
+    "graded_at": "2026-06-20"
   },
   {
     "date": "2026-06-19",
@@ -103,7 +107,11 @@
         "site:reddit.com/r/soccer Scotland vs Morocco match thread",
         "site:reddit.com/r/soccer Scotland vs Morocco prediction"
       ]
-    }
+    },
+    "actual_result": "Scotland 0-1 Morocco",
+    "actual_winner": "teamB",
+    "graded_correct": true,
+    "graded_at": "2026-06-20"
   },
   {
     "date": "2026-06-19",
@@ -122,7 +130,7 @@
     "confidence": "medium",
     "key_factors": [
       "Brazil is a massive favorite (ranked 6th in the world) against Haiti (ranked 83rd).",
-      "Brazil superstar forward Neymar is ruled out for this match with a calf injury, and coach Carlo Ancelotti has confirmed he will rotate the starting lineup.",
+      "Brazil superstar forward forward Neymar is ruled out for this match with a calf injury, and coach Carlo Ancelotti has confirmed he will rotate the starting lineup.",
       "Brazil has a travel advantage (0 miles) since they played their opener in Philadelphia, compared to Haiti traveling ~300 miles from Boston to Philadelphia.",
       "Both teams have had 5 full days of rest since their opening matches on June 13 (Brazil drew 1-1 with Morocco, Haiti lost 0-1 to Scotland).",
       "In their last 10 years, the teams have never met (their last meeting was a 7-1 win for Brazil on June 8, 2016, which falls outside the 10-year window by 11 days)."
@@ -157,7 +165,11 @@
         "site:reddit.com/r/soccer Brazil vs Haiti match thread",
         "site:reddit.com/r/soccer Brazil vs Haiti discussion"
       ]
-    }
+    },
+    "actual_result": "Brazil 3-0 Haiti",
+    "actual_winner": "teamA",
+    "graded_correct": true,
+    "graded_at": "2026-06-20"
   },
   {
     "date": "2026-06-19",

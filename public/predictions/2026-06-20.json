@@ -1,0 +1,170 @@
+[
+  {
+    "date": "2026-06-20",
+    "match": "Netherlands vs. Sweden",
+    "market_baseline": {
+      "teamA_win": "56%",
+      "draw": "24%",
+      "teamB_win": "20%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "56%",
+      "draw": "24%",
+      "teamB_win": "20%"
+    },
+    "predicted_outcome": "Netherlands Win (Probable) or Draw",
+    "confidence": "high",
+    "key_factors": [
+      "Netherlands is ranked 8th in the world (as of June 2026), while Sweden is ranked 34th.",
+      "Both teams played their openers on June 14, 2026, giving each side 5 full rest days heading into this match.",
+      "The match is held at Houston's NRG Stadium, where the retractable roof is confirmed to be closed and climate-controlled, neutralizing any potential weather impact.",
+      "Both teams enter with positive momentum: Sweden won their opener 5-1 against Tunisia, while the Netherlands drew 2-2 with Japan.",
+      "In the last 10 years, the teams have met twice in competitive matches (2018 World Cup qualifiers), with the Netherlands winning 2-0 at home and drawing 1-1 away."
+    ],
+    "unverified_or_unknown": [],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Odds)",
+      "https://sportsbook.fanduel.com (FanDuel Odds)",
+      "https://www.fifa.com (FIFA World Rankings and Official Match Schedule)",
+      "https://www.rotowire.com (Betting Analysis and Squad News)",
+      "https://www.reddit.com/r/soccer (Reddit Discussions)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Upper 70s, sunny, dry",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 50,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 35,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 45.0,
+      "teamB_favor_pct": 30.0,
+      "neutral_pct": 25.0,
+      "excluded_joke_or_bot_count": 3,
+      "bias_note": "100% of the sample came from r/soccer, representing a neutral to slightly Euro-centric global fan community.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer Netherlands vs Sweden World Cup 2026"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-20",
+    "match": "Germany vs. Côte d'Ivoire",
+    "market_baseline": {
+      "teamA_win": "61%",
+      "draw": "22%",
+      "teamB_win": "17%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "61%",
+      "draw": "22%",
+      "teamB_win": "17%"
+    },
+    "predicted_outcome": "Germany Win (Probable)",
+    "confidence": "high",
+    "key_factors": [
+      "Germany is ranked 9th in the world, while Côte d'Ivoire is ranked 33rd.",
+      "Côte d'Ivoire starting center back Evan Ndicka is officially ruled out due to a hamstring/thigh injury, forcing a rotation in the Ivorian defense.",
+      "Both teams enter with 3 points: Germany won their opener 7-1 against Curaçao, while Côte d'Ivoire defeated Ecuador 1-0.",
+      "Germany traveled ~1,200 miles from Houston to Toronto, whereas Côte d'Ivoire traveled only ~350 miles from Philadelphia.",
+      "The teams have never played a competitive match against each other in their senior history, with their only prior meeting being a 2-2 friendly draw in 2009."
+    ],
+    "unverified_or_unknown": [],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Odds)",
+      "https://sportsbook.fanduel.com (FanDuel Odds)",
+      "https://www.fifa.com (FIFA World Rankings and Official Match Schedule)",
+      "https://www.rotowire.com (Betting Analysis and Squad News)",
+      "https://www.reddit.com/r/soccer (Reddit Discussions)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Mid 70s, mix of sun and clouds, 30%-40% chance of showers",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 246,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 38,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 60.0,
+      "teamB_favor_pct": 15.0,
+      "neutral_pct": 25.0,
+      "excluded_joke_or_bot_count": 4,
+      "bias_note": "100% of the sample came from r/soccer, introducing a neutral to slightly Euro-centric bias.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer Germany vs Cote d'Ivoire prediction"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-20",
+    "match": "Ecuador vs. Curaçao",
+    "market_baseline": {
+      "teamA_win": "86%",
+      "draw": "10%",
+      "teamB_win": "4%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "86%",
+      "draw": "10%",
+      "teamB_win": "4%"
+    },
+    "predicted_outcome": "Ecuador Win (Likely)",
+    "confidence": "high",
+    "key_factors": [
+      "Ecuador is ranked 23rd in the world, while Curaçao is ranked 82nd.",
+      "Both teams enter desperate for points after opening losses: Ecuador fell 1-0 to Côte d'Ivoire, and Curaçao lost 7-1 to Germany.",
+      "Ecuador and Curaçao have never faced each other in an official competitive match in their history.",
+      "Both teams have had 5 full days of rest since their opening games on June 14.",
+      "The match is held at GEHA Field at Arrowhead Stadium in Kansas City, situated at a low elevation of ~840-880 feet with no altitude or weather advantages for either side."
+    ],
+    "unverified_or_unknown": [],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Odds)",
+      "https://sportsbook.fanduel.com (FanDuel Odds)",
+      "https://www.fifa.com (FIFA World Rankings and Official Match Schedule)",
+      "https://www.rotowire.com (Betting Analysis and Match Previews)",
+      "https://www.reddit.com/r/soccer (Reddit Discussions)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Mid 70s, mostly sunny/clearing, chance of rain late evening",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 880,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 32,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 75.0,
+      "teamB_favor_pct": 10.0,
+      "neutral_pct": 15.0,
+      "excluded_joke_or_bot_count": 3,
+      "bias_note": "100% of the sample came from r/soccer, showing a strong global expectation for a comfortable Ecuador victory.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer Ecuador vs Curacao match thread"
+      ]
+    }
+  }
+]
