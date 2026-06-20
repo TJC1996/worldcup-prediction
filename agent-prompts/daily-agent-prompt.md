@@ -252,7 +252,15 @@ silently.
 ═══════════════════════════════════════
 FINAL STEP — WRITE EVERYTHING AND PUSH ONCE
 ═══════════════════════════════════════
-Write every date file touched in Part A, and today's file from Part B, to:
+Before doing anything else in this step, check whether this run actually 
+changed anything: did Part A grade at least one match, or did Part B 
+generate at least one new prediction? If neither happened, that's a 
+normal, expected outcome on a run with nothing new to do — skip the rest 
+of this step entirely. Do not attempt to write files, update the 
+manifest, or run any git commands, and do not treat this as an error.
+
+If something did change, write every date file touched in Part A, and 
+today's file from Part B, to:
   /Users/anthonyclark/Desktop/worldcup-predictions-v1/public/predictions/{date}.json
 (create the public/predictions/ folder if it doesn't exist).
 
