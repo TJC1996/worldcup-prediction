@@ -89,6 +89,12 @@ today already predicted it. A prediction is generated exactly once per
 match per day and is never regenerated, even if this prompt runs again 
 later the same day before that match kicks off.
 
+If your search confirms there are genuinely no World Cup matches 
+scheduled today (a rest day between rounds), that's normal — skip Part B 
+entirely without creating an error or writing anything for today's date. 
+This is different from being unable to determine the schedule at all, 
+which is covered in the GUARDRAILS section below.
+
 STEP B1 — STATISTICAL / MARKET DATA (per match)
 Search for and retrieve, with a cited source for each:
   - Current FIFA ranking or Elo rating, both teams
@@ -275,7 +281,8 @@ GUARDRAILS
   four result fields listed in Step A2.
 - Never regenerate a prediction for a match that already has one from 
   earlier today, even on a later run.
-- If you cannot find today's fixture list at all, write a file stating 
-  that explicitly rather than guessing matches.
+- If you cannot determine today's fixture list due to a search failure — 
+  not because there are simply no matches scheduled today — write a file 
+  stating that explicitly rather than guessing matches.
 - If a date's file referenced in manifest.json is missing or malformed, 
   skip that date without error rather than stopping the run.
