@@ -221,6 +221,10 @@
         "site:reddit.com/r/soccer Turkey vs Paraguay match thread",
         "site:reddit.com/r/soccer Turkey vs Paraguay prediction"
       ]
-    }
+    },
+    "actual_result": "Türkiye 0-1 Paraguay",
+    "actual_winner": "teamB",
+    "graded_correct": false,
+    "graded_at": "2026-06-20"
   }
 ]
