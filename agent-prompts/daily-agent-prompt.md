@@ -5,9 +5,10 @@ information for each:
 
 PART A grades any past or already-finished matches that haven't been 
 graded yet. PART B generates fresh predictions for matches that haven't 
-kicked off yet. These two jobs must never influence each other — anything 
-you learn about a final score in Part A must never affect the reasoning, 
-odds, or confidence you give a different, unplayed match in Part B.
+kicked off yet and haven't already been predicted today. These two jobs 
+must never influence each other — anything you learn about a final score 
+in Part A must never affect the reasoning, odds, or confidence you give a 
+different, unplayed match in Part B.
 
 This is an unattended, scheduled run. No human reviews your output before 
 it's published. Because of this:
@@ -21,6 +22,9 @@ it's published. Because of this:
 - Begin directly with Part A, Step A0. Do not explore unrelated local 
   files, configuration directories, or any "memory"/"brain"-type 
   directories before starting.
+- This prompt may run multiple times in a single day. Each run must be 
+  safe to repeat: grading is naturally idempotent (already-graded matches 
+  are skipped), and predictions must be too — see Step B0 and Step B4.5.
 
 ALL FILE PATHS IN THIS PROMPT are absolute. The only correct location is:
   /Users/anthonyclark/Desktop/worldcup-predictions-v1
@@ -56,8 +60,8 @@ Add these fields to the match object, nothing else:
   "graded_at": "{today's date}"
 Every other field in the match object — market_baseline, 
 adjusted_probability, predicted_outcome, confidence, key_factors, 
-unverified_or_unknown, sources, weather_check, social_sentiment_signal — 
-must remain exactly as it was, byte for byte.
+unverified_or_unknown, sources, weather_check, altitude_check, 
+social_sentiment_signal — must remain exactly as it was, byte for byte.
 
 STEP A3 — HOLD FOR WRITING
 Keep each modified date's full file in memory. Do not write or commit 
@@ -65,7 +69,7 @@ anything yet — writing and committing happens once, at the very end,
 after Part B is also complete.
 
 ═══════════════════════════════════════
-PART B — PREDICT TODAY'S UNPLAYED MATCHES
+PART B — PREDICT TODAY'S UNPLAYED, NOT-YET-PREDICTED MATCHES
 ═══════════════════════════════════════
 
 Do not search for live scores or results for today's matches in this 
@@ -75,8 +79,15 @@ referenced, implied, or allowed to color your confidence here.
 
 STEP B0 — IDENTIFY TODAY'S MATCHES
 Search to confirm today's date and the full list of matches scheduled 
-today that haven't kicked off yet. Skip any of today's matches Part A 
-already graded.
+today. Before deciding what to predict, read today's existing file at 
+/Users/anthonyclark/Desktop/worldcup-predictions-v1/public/predictions/{TODAYS_DATE}.json 
+if it exists. Only generate a fresh prediction for a match if BOTH: (a) it 
+hasn't kicked off yet, AND (b) it doesn't already have a non-null 
+"predicted_outcome" in that existing file from an earlier run today. Skip 
+every other match — whether Part A already graded it, or an earlier run 
+today already predicted it. A prediction is generated exactly once per 
+match per day and is never regenerated, even if this prompt runs again 
+later the same day before that match kicks off.
 
 STEP B1 — STATISTICAL / MARKET DATA (per match)
 Search for and retrieve, with a cited source for each:
@@ -98,12 +109,21 @@ Search for and retrieve, with a cited source for each:
   - Venue, rest days since last match, travel distance since last match
   - Forecast weather at the match venue for kickoff time (temperature, 
     heat index, precipitation). Record what you found in "weather_check" 
-    (see schema below) regardless of whether it ends up mattering. Only 
-    treat weather as a fact that justifies moving the probability if 
-    there's a specific, citable asymmetry between the two teams. Hot or 
-    wet conditions alone, affecting both teams equally, belong in 
-    "key_factors" as context on expected match style — not as a reason to 
-    shift either team's probability.
+    regardless of whether it ends up mattering. Only treat weather as a 
+    fact that justifies moving the probability if there's a specific, 
+    citable asymmetry between the two teams. Hot or wet conditions alone, 
+    affecting both teams equally, belong in "key_factors" as context on 
+    expected match style — not as a reason to shift either team's 
+    probability.
+  - Venue elevation/altitude. Search for the match venue's elevation. 
+    Record what you found in "altitude_check" regardless of whether it 
+    ends up mattering. Only treat altitude as probability-moving if 
+    there's a specific, citable acclimatization asymmetry — e.g. one team 
+    regularly plays home matches at similar elevation, or held a 
+    pre-tournament training camp at altitude, and the other has no such 
+    exposure. A high-elevation venue alone, without a named asymmetry, 
+    belongs in "key_factors" as style context (likely fatigue, slower 
+    second-half tempo), not as a reason to shift either team's number.
 Anything unverifiable goes in "unverified_or_unknown," not into a stated 
 fact. List both sportsbooks used in "sources," labeled by name.
 
@@ -159,6 +179,12 @@ STEP B4 — OUTPUT SCHEMA (one JSON array, one object per match)
     "conditions": "string describing what was found, e.g. '84°F, high humidity, no rain expected', or null if checked but nothing notable",
     "asymmetric_factor_found": true/false
   },
+  "altitude_check": {
+    "checked": true,
+    "elevation_ft": 0,
+    "asymmetric_factor_found": true/false,
+    "details": "string describing any acclimatization asymmetry found, or null if none"
+  },
   "social_sentiment_signal": {
     "data_accessible": true/false,
     "sample_size": 0,
@@ -175,11 +201,15 @@ STEP B4 — OUTPUT SCHEMA (one JSON array, one object per match)
 confidence = "high" only if "unverified_or_unknown" is empty for that match. 
 Otherwise cap at "medium" or "low."
 
-STEP B4.5 — PRESERVE ALREADY-GRADED MATCHES IN TODAY'S FILE
-If today's date already has a file (e.g. from Part A grading an early 
-kickoff this same run), copy any already-graded match into the new output 
-completely unchanged. Only generate fresh data for today's matches that 
-haven't kicked off.
+STEP B4.5 — PRESERVE ALREADY-PREDICTED AND ALREADY-GRADED MATCHES
+If today's date already has a file, copy any match that already has a 
+non-null "predicted_outcome" into the new output completely unchanged — 
+whether or not it has been graded yet. A prediction is generated exactly 
+once per match and locked in permanently; never regenerate odds, 
+key_factors, weather_check, altitude_check, or any other Step B1-B4 field 
+for a match that already has a prediction, even on a later run the same 
+day. Only generate fresh data for a match that doesn't yet have a 
+predicted_outcome in today's file.
 
 STEP B5 — VALIDATE BEFORE WRITING
 Build the full array fresh from this run's data for today's date — never 
@@ -202,6 +232,8 @@ following, and do not proceed to the Final Step until every check passes:
   - "weather_check.checked" must be true for every match. If it is false, 
     that match has not actually been searched and must not be written 
     until it is.
+  - "altitude_check.checked" must be true for every match, same as 
+    weather_check.
   - Re-read your own "key_factors" for each match and confirm each point 
     is a genuinely distinct fact, not the same point restated twice.
 If any check fails, go back and complete the missing step before writing 
@@ -241,7 +273,9 @@ GUARDRAILS
   speculative or in-progress score reporting.
 - Never modify any prediction-related field while grading — only add the 
   four result fields listed in Step A2.
+- Never regenerate a prediction for a match that already has one from 
+  earlier today, even on a later run.
 - If you cannot find today's fixture list at all, write a file stating 
   that explicitly rather than guessing matches.
 - If a date's file referenced in manifest.json is missing or malformed, 
-  skip that date without error rather than stopping the run.  
+  skip that date without error rather than stopping the run.
