@@ -239,7 +239,11 @@
       ],
       "checked_at": null
     },
-    "late_adjustment": null
+    "late_adjustment": null,
+    "actual_result": "Belgium 0-0 Iran",
+    "actual_winner": "draw",
+    "graded_correct": false,
+    "graded_at": "2026-06-21"
   },
   {
     "date": "2026-06-21",
