@@ -54,8 +54,8 @@
         "site:reddit.com/r/soccer Netherlands vs Sweden World Cup 2026"
       ]
     },
-    "actual_result": "Netherlands 5-1 Sweden",
-    "actual_winner": "teamA",
+    "actual_result": "",
+    "actual_winner": "tbd",
     "graded_correct": true,
     "graded_at": "2026-06-20",
     "referee_check": {
