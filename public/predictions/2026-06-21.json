@@ -66,11 +66,9 @@
       "details": null
     },
     "lineup_check": {
-      "confirmed": false,
-      "notable_absences": [
-        "Rodri (Spain) - Suspended due to yellow card accumulation."
-      ],
-      "checked_at": null
+      "confirmed": true,
+      "notable_absences": [],
+      "checked_at": "2026-06-21T11:33:41-04:00"
     },
     "late_adjustment": null
   },
@@ -158,7 +156,11 @@
         "teamB_win": "59%"
       },
       "reasoning": "Starting midfielder and captain Wataru Endo is confirmed sidelined due to injury, reducing Japan's midfield stability."
-    }
+    },
+    "actual_result": "Tunisia 0-4 Japan",
+    "actual_winner": "teamB",
+    "graded_correct": true,
+    "graded_at": "2026-06-21"
   },
   {
     "date": "2026-06-21",
