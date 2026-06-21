@@ -54,8 +54,8 @@
         "site:reddit.com/r/soccer Netherlands vs Sweden World Cup 2026"
       ]
     },
-    "actual_result": "",
-    "actual_winner": "",
+    "actual_result": "Netherlands 5-1 Sweden",
+    "actual_winner": "teamA",
     "graded_correct": true,
     "graded_at": "2026-06-20",
     "referee_check": {
@@ -203,15 +203,15 @@
       "neutral_pct": 15.0,
       "excluded_joke_or_bot_count": 3,
       "bias_note": "100% of the sample came from r/soccer, showing a strong global expectation for a comfortable Ecuador victory.",
-      "max_allowed_probability_shift": "±0 points",
+      "max_allowed_probability_shift": "\u00b10 points",
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer Ecuador vs Curacao match thread"
       ]
     },
-    "actual_result": "",
-    "actual_winner": "",
-    "graded_correct": true,
-    "graded_at": "2026-06-21",
+    "actual_result": "Ecuador 0-0 Cura\u00e7ao",
+    "actual_winner": "draw",
+    "graded_correct": false,
+    "graded_at": "2026-06-20",
     "referee_check": {
       "checked": true,
       "referee_name": "Ma Ning",
