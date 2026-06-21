@@ -7,6 +7,7 @@ export default function MatchCard({ match }) {
   const unconfirmed = match.unverified_or_unknown || [];
   const sources = match.sources || [];
   const weather = match.weather_check;
+  const referee = match.referee_check;
 
   return (
     <div className="card">
@@ -47,6 +48,13 @@ export default function MatchCard({ match }) {
           <div className="weather-flag">
             <strong>Weather factor</strong>
             {weather.conditions}
+          </div>
+        )}
+
+        {referee && referee.red_card_risk_asymmetry_found && (
+          <div className="referee-flag">
+            <strong>Red-card risk</strong>
+            {referee.details}
           </div>
         )}
 
