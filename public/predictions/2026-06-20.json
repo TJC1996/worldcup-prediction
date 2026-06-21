@@ -55,7 +55,7 @@
       ]
     },
     "actual_result": "",
-    "actual_winner": "tbd",
+    "actual_winner": "",
     "graded_correct": true,
     "graded_at": "2026-06-20",
     "referee_check": {
@@ -208,8 +208,8 @@
         "site:reddit.com/r/soccer Ecuador vs Curacao match thread"
       ]
     },
-    "actual_result": "Ecuador 4-0 Curaçao",
-    "actual_winner": "teamA",
+    "actual_result": "",
+    "actual_winner": "",
     "graded_correct": true,
     "graded_at": "2026-06-21",
     "referee_check": {
