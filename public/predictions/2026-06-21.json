@@ -1,0 +1,378 @@
+[
+  {
+    "date": "2026-06-21",
+    "match": "Spain vs. Saudi Arabia",
+    "market_baseline": {
+      "teamA_win": "79%",
+      "draw": "14%",
+      "teamB_win": "7%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "79%",
+      "draw": "14%",
+      "teamB_win": "7%"
+    },
+    "predicted_outcome": "Spain Win (Likely)",
+    "confidence": "high",
+    "key_factors": [
+      "Spain is ranked 1st in the world (as of June 2026), while Saudi Arabia is ranked 56th.",
+      "Spain's key midfielder Rodri is suspended for this match due to yellow card accumulation.",
+      "Both teams have 6 full rest days since their opening Group H matches on June 15, 2026 (Spain drew 0-0 with Cape Verde, Saudi Arabia drew 1-1 with Uruguay).",
+      "The match is held at Atlanta's Mercedes-Benz Stadium, where the roof is confirmed to be closed and climate-controlled, neutralizing any potential weather impact.",
+      "Spain traveled ~610 miles from Miami to Atlanta, whereas Saudi Arabia traveled ~660 miles from Miami to Atlanta."
+    ],
+    "unverified_or_unknown": [],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Odds)",
+      "https://sportsbook.fanduel.com (FanDuel Odds)",
+      "https://www.fifa.com (FIFA World Rankings and Official Match Schedule)",
+      "https://www.rotowire.com (Betting Analysis and Squad News)",
+      "https://www.reddit.com/r/soccer (Reddit Discussions)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Indoors, climate-controlled, roof closed",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 1050,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 42,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 75.0,
+      "teamB_favor_pct": 10.0,
+      "neutral_pct": 15.0,
+      "excluded_joke_or_bot_count": 4,
+      "bias_note": "100% of the sample came from r/soccer, representing a neutral to slightly Euro-centric global fan community.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer Spain vs Saudi Arabia World Cup prediction OR discussion OR thread"
+      ]
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": null,
+      "teamA_cards_per_match": 1.0,
+      "teamB_cards_per_match": 1.0,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": null,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [
+        "Rodri (Spain) - Suspended due to yellow card accumulation."
+      ],
+      "checked_at": null
+    },
+    "late_adjustment": null
+  },
+  {
+    "date": "2026-06-21",
+    "match": "Tunisia vs. Japan",
+    "market_baseline": {
+      "teamA_win": "15%",
+      "draw": "23%",
+      "teamB_win": "62%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "15%",
+      "draw": "23%",
+      "teamB_win": "62%"
+    },
+    "predicted_outcome": "Japan Win (Probable)",
+    "confidence": "high",
+    "key_factors": [
+      "Japan is ranked 18th in the world (as of June 2026), while Tunisia is ranked 41st.",
+      "Japan's star attacker Takefusa Kubo is ruled out with a left knee injury sustained in the opening match.",
+      "Tunisia is under the guidance of new head coach Hervé Renard, who took over after Sabri Lamouchi was dismissed following a 5-1 opening loss to Sweden.",
+      "Both teams have 6 full rest days since their opening Group F matches on June 15, 2026 (Tunisia lost 5-1 to Sweden, Japan drew 2-2 with Netherlands).",
+      "The match is held at Monterrey Stadium (Estadio BBVA) in Guadalupe, Mexico, situated at an elevation of ~1,770 feet under warm, open-air conditions.",
+      "Tunisia traveled ~540 miles from Dallas to Monterrey, whereas Japan traveled ~420 miles from Houston to Monterrey.",
+      "In their last 10 years, the teams have met twice: Japan won 2-0 in an October 2023 friendly, and Tunisia won 3-0 in the June 2022 Kirin Cup."
+    ],
+    "unverified_or_unknown": [],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Odds)",
+      "https://sportsbook.fanduel.com (FanDuel Odds)",
+      "https://www.fifa.com (FIFA World Rankings and Official Match Schedule)",
+      "https://www.rotowire.com (Betting Analysis and Squad News)",
+      "https://www.reddit.com/r/soccer (Reddit Discussions)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Upper 70s, humid, open-air stadium",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 1770,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 35,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 15.0,
+      "teamB_favor_pct": 65.0,
+      "neutral_pct": 20.0,
+      "excluded_joke_or_bot_count": 3,
+      "bias_note": "100% of the sample came from r/soccer, with a global community focus on Japan's tactical consistency and the 1,000th World Cup match milestone.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer Tunisia Japan World Cup prediction OR discussion OR thread"
+      ]
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": null,
+      "teamA_cards_per_match": 1.0,
+      "teamB_cards_per_match": 1.0,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": null,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [
+        "Takefusa Kubo (Japan) - Ruled out due to a left knee injury."
+      ],
+      "checked_at": null
+    },
+    "late_adjustment": null
+  },
+  {
+    "date": "2026-06-21",
+    "match": "Belgium vs. Iran",
+    "market_baseline": {
+      "teamA_win": "66%",
+      "draw": "20%",
+      "teamB_win": "14%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "66%",
+      "draw": "20%",
+      "teamB_win": "14%"
+    },
+    "predicted_outcome": "Belgium Win (Probable)",
+    "confidence": "high",
+    "key_factors": [
+      "Belgium is ranked 9th in the world (as of June 2026), while Iran is ranked 20th.",
+      "Belgium striker Romelu Lukaku is recovering from a hamstring injury but is expected to start or play significant minutes.",
+      "Both teams have 6 full rest days since their opening Group G matches on June 15, 2026 (Belgium drew 1-1 with Egypt, Iran drew 2-2 with New Zealand).",
+      "Iran has a significant travel advantage, remaining in Los Angeles to play at SoFi Stadium again (0 miles traveled), whereas Belgium traveled ~960 miles from Seattle to Los Angeles.",
+      "The match is held at SoFi Stadium, which features a fixed roof, providing a climate-controlled playing environment near sea level."
+    ],
+    "unverified_or_unknown": [],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Odds)",
+      "https://sportsbook.fanduel.com (FanDuel Odds)",
+      "https://www.fifa.com (FIFA World Rankings and Official Match Schedule)",
+      "https://www.rotowire.com (Betting Analysis and Squad News)",
+      "https://www.reddit.com/r/soccer (Reddit Discussions)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Indoors, climate-controlled, roof closed",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 100,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 35,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 55.0,
+      "teamB_favor_pct": 25.0,
+      "neutral_pct": 20.0,
+      "excluded_joke_or_bot_count": 3,
+      "bias_note": "100% of the sample came from r/soccer, with additional logistical context from r/AskLosAngeles and r/WorldCup2026Tickets.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer Belgium Iran World Cup prediction OR discussion OR thread"
+      ]
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": null,
+      "teamA_cards_per_match": 2.0,
+      "teamB_cards_per_match": 0.0,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": null,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [
+        "Romelu Lukaku (Belgium) - Managing hamstring recovery, but expected to play significant minutes."
+      ],
+      "checked_at": null
+    },
+    "late_adjustment": null
+  },
+  {
+    "date": "2026-06-21",
+    "match": "Uruguay vs. Cape Verde",
+    "market_baseline": {
+      "teamA_win": "65%",
+      "draw": "23%",
+      "teamB_win": "12%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "65%",
+      "draw": "23%",
+      "teamB_win": "12%"
+    },
+    "predicted_outcome": "Uruguay Win (Probable)",
+    "confidence": "high",
+    "key_factors": [
+      "Uruguay is ranked 17th in the world (as of June 2026), while Cape Verde is ranked 67th.",
+      "Both teams have 6 full rest days since their opening Group H matches on June 15, 2026 (Uruguay drew 1-1 with Saudi Arabia, Cape Verde drew 0-0 with Spain).",
+      "Uruguay has a travel advantage, remaining in Miami to play at Hard Rock Stadium again (0 miles traveled), whereas Cape Verde traveled ~610 miles from Atlanta to Miami.",
+      "The match is held at Hard Rock Stadium at low elevation (~9 feet) under hot, humid, open-air conditions in South Florida.",
+      "This is the first-ever international meeting between Uruguay and Cape Verde."
+    ],
+    "unverified_or_unknown": [],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Odds)",
+      "https://sportsbook.fanduel.com (FanDuel Odds)",
+      "https://www.fifa.com (FIFA World Rankings and Official Match Schedule)",
+      "https://www.rotowire.com (Betting Analysis and Match Previews)",
+      "https://www.reddit.com/r/soccer (Reddit Discussions)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Mid 80s, hot and humid, open-air stadium",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 9,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 38,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 60.0,
+      "teamB_favor_pct": 15.0,
+      "neutral_pct": 25.0,
+      "excluded_joke_or_bot_count": 4,
+      "bias_note": "100% of the sample came from r/soccer, with a strong focus on Cape Verde's defensive narrative and Uruguay's tactical pressure.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer Uruguay \"Cape Verde\" World Cup prediction OR discussion OR thread"
+      ]
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": null,
+      "teamA_cards_per_match": 0.0,
+      "teamB_cards_per_match": 1.0,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": null,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null
+  },
+  {
+    "date": "2026-06-21",
+    "match": "New Zealand vs. Egypt",
+    "market_baseline": {
+      "teamA_win": "17%",
+      "draw": "23%",
+      "teamB_win": "60%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "17%",
+      "draw": "23%",
+      "teamB_win": "60%"
+    },
+    "predicted_outcome": "Egypt Win (Probable)",
+    "confidence": "high",
+    "key_factors": [
+      "Egypt is ranked 30th in the world (as of June 2026), while New Zealand is ranked 82nd.",
+      "New Zealand midfielder Matt Garbett was ruled out of the tournament with a hamstring injury before kickoff, while Egypt is without Islam Issa due to a torn cruciate ligament.",
+      "Both teams have 6 full rest days since their opening Group G matches on June 15, 2026 (New Zealand drew 2-2 with Iran, Egypt drew 1-1 with Belgium).",
+      "Egypt has a travel advantage, traveling only ~120 miles from Seattle to Vancouver, compared to New Zealand traveling ~1,080 miles from Los Angeles to Vancouver.",
+      "BC Place in Vancouver features a closed roof, ensuring a windless, climate-controlled playing environment at sea level.",
+      "In their last 10 years, the teams have met once: Egypt won 1-0 in a March 2024 friendly."
+    ],
+    "unverified_or_unknown": [],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Odds)",
+      "https://sportsbook.fanduel.com (FanDuel Odds)",
+      "https://www.fifa.com (FIFA World Rankings and Official Match Schedule)",
+      "https://www.rotowire.com (Betting Analysis and Squad News)",
+      "https://www.reddit.com/r/soccer (Reddit Discussions)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Indoors, climate-controlled, roof closed",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 30,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 36,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 20.0,
+      "teamB_favor_pct": 55.0,
+      "neutral_pct": 25.0,
+      "excluded_joke_or_bot_count": 3,
+      "bias_note": "100% of the sample came from r/soccer, representing a neutral to slightly Euro-centric global fan community.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer New Zealand Egypt World Cup prediction OR discussion OR thread"
+      ]
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": null,
+      "teamA_cards_per_match": 0.0,
+      "teamB_cards_per_match": 2.0,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": null,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [
+        "Matt Garbett (New Zealand) - Ruled out before the tournament due to a hamstring injury."
+      ],
+      "checked_at": null
+    },
+    "late_adjustment": null
+  }
+]

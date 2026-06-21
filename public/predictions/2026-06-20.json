@@ -203,11 +203,15 @@
       "neutral_pct": 15.0,
       "excluded_joke_or_bot_count": 3,
       "bias_note": "100% of the sample came from r/soccer, showing a strong global expectation for a comfortable Ecuador victory.",
-      "max_allowed_probability_shift": "\u00b10 points",
+      "max_allowed_probability_shift": "±0 points",
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer Ecuador vs Curacao match thread"
       ]
     },
+    "actual_result": "Ecuador 4-0 Curaçao",
+    "actual_winner": "teamA",
+    "graded_correct": true,
+    "graded_at": "2026-06-21",
     "referee_check": {
       "checked": true,
       "referee_name": "Ma Ning",
