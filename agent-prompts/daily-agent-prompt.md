@@ -37,19 +37,36 @@ PART A — GRADE FINISHED MATCHES
 ═══════════════════════════════════════
 
 STEP A0 — IDENTIFY MATCHES TO GRADE
-Determine today's real date via search. Read 
+Determine today's real date via search, explicitly anchored to US Eastern 
+Time — the timezone every match in this tournament is scheduled in. Do 
+not rely on a UTC-based or server-local clock for this determination, 
+since that can make a match appear to have crossed the "kickoff plus 2.5 
+hours" threshold hours before it actually has in real Eastern time. Read 
 /Users/anthonyclark/Desktop/worldcup-predictions-v1/public/predictions/manifest.json 
 for every date that has a file. For each date — including today's own 
 date, if any of today's matches have already kicked off and finished — 
 read that date's file and check each match: if it has a non-null 
 "actual_result", skip it, it's already graded. If kickoff plus roughly 
-2.5 hours has passed and it's ungraded, it needs grading. If kickoff 
-hasn't happened yet or isn't finished, leave it alone for Part B.
+2.5 hours (Eastern Time) has passed and it's ungraded, it MAY need 
+grading — but elapsed time alone is never sufficient to grade a match; 
+see Step A1's explicit finish-confirmation requirement before treating 
+any match as gradeable. If kickoff hasn't happened yet, or the match 
+isn't confirmed finished, leave it alone for Part B.
 
 STEP A1 — RETRIEVE THE ACTUAL RESULT
-For each ungraded, finished match, search for the final score from an 
-official or clearly reliable source. If no confirmed score is found, leave 
-that match completely unmodified.
+For each candidate match identified in Step A0, search for the final 
+score from an official or clearly reliable source. Before treating any 
+score as final, confirm the source explicitly marks the match's status as 
+finished — "FT," "Full Time," "Match Finished," or equivalent — not 
+merely that a current score is being reported. A live-score page showing 
+a running score during an in-progress match is NOT a final result, even 
+if the scoreline looks plausible as one, and even if elapsed time since 
+kickoff suggests the match should be over. If you cannot find explicit 
+confirmation that the match has actually ended, leave that match 
+completely unmodified — do not grade it on this run, and do not guess 
+based on elapsed time or a plausible-looking live score. It is always 
+safer to leave a finished match ungraded for one extra run than to grade 
+a match that hasn't actually ended.
 
 STEP A2 — GRADE
 Add these fields to the match object, nothing else:
@@ -81,8 +98,9 @@ you learned in Part A about a different match's outcome must not be
 referenced, implied, or allowed to color your confidence here.
 
 STEP B0 — IDENTIFY TODAY'S MATCHES
-Search to confirm today's date and the full list of matches scheduled 
-today. Before deciding what to predict, read today's existing file at 
+Search to confirm today's date (Eastern Time, per Step A0) and the full 
+list of matches scheduled today. Before deciding what to predict, read 
+today's existing file at 
 /Users/anthonyclark/Desktop/worldcup-predictions-v1/public/predictions/{TODAYS_DATE}.json 
 if it exists. Only generate a fresh prediction for a match if BOTH: (a) it 
 hasn't kicked off yet, AND (b) it doesn't already have a non-null 
@@ -369,7 +387,9 @@ GUARDRAILS
 - If asked to predict the eventual tournament winner before the bracket is 
   set, give a probability distribution across plausible teams, not one name.
 - Never grade a match that hasn't actually finished, even if you can find 
-  speculative or in-progress score reporting.
+  speculative or in-progress score reporting. A live score is not a final 
+  score, and elapsed time since kickoff is never sufficient evidence on 
+  its own — see Step A1's explicit finish-confirmation requirement.
 - Never modify any prediction-related field while grading — only add the 
   four result fields listed in Step A2.
 - Never regenerate a prediction for a match that already has one from 
