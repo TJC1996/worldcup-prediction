@@ -70,7 +70,11 @@
       "notable_absences": [],
       "checked_at": "2026-06-21T11:33:41-04:00"
     },
-    "late_adjustment": null
+    "late_adjustment": null,
+    "actual_result": "Spain 4-0 Saudi Arabia",
+    "actual_winner": "teamA",
+    "graded_correct": true,
+    "graded_at": "2026-06-21"
   },
   {
     "date": "2026-06-21",
