@@ -49,7 +49,7 @@
       "neutral_pct": 15.0,
       "excluded_joke_or_bot_count": 4,
       "bias_note": "100% of the sample came from r/soccer, representing a neutral to slightly Euro-centric global fan community.",
-      "max_allowed_probability_shift": "\u00b10 points",
+      "max_allowed_probability_shift": "±0 points",
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer Spain vs Saudi Arabia World Cup prediction OR discussion OR thread"
       ]
@@ -94,7 +94,7 @@
     "key_factors": [
       "Japan is ranked 18th in the world (as of June 2026), while Tunisia is ranked 41st.",
       "Japan's star attacker Takefusa Kubo is ruled out with a left knee injury sustained in the opening match.",
-      "Tunisia is under the guidance of new head coach Herv\u00e9 Renard, who took over after Sabri Lamouchi was dismissed following a 5-1 opening loss to Sweden.",
+      "Tunisia is under the guidance of new head coach Hervé Renard, who took over after Sabri Lamouchi was dismissed following a 5-1 opening loss to Sweden.",
       "Both teams have 6 full rest days since their opening Group F matches on June 15, 2026 (Tunisia lost 5-1 to Sweden, Japan drew 2-2 with Netherlands).",
       "The match is held at Monterrey Stadium (Estadio BBVA) in Guadalupe, Mexico, situated at an elevation of ~1,770 feet under warm, open-air conditions.",
       "Tunisia traveled ~540 miles from Dallas to Monterrey, whereas Japan traveled ~420 miles from Houston to Monterrey.",
@@ -128,7 +128,7 @@
       "neutral_pct": 20.0,
       "excluded_joke_or_bot_count": 3,
       "bias_note": "100% of the sample came from r/soccer, with a global community focus on Japan's tactical consistency and the 1,000th World Cup match milestone.",
-      "max_allowed_probability_shift": "\u00b10 points",
+      "max_allowed_probability_shift": "±0 points",
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer Tunisia Japan World Cup prediction OR discussion OR thread"
       ]
@@ -216,14 +216,14 @@
       "neutral_pct": 20.0,
       "excluded_joke_or_bot_count": 3,
       "bias_note": "100% of the sample came from r/soccer, with additional logistical context from r/AskLosAngeles and r/WorldCup2026Tickets.",
-      "max_allowed_probability_shift": "\u00b10 points",
+      "max_allowed_probability_shift": "±0 points",
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer Belgium Iran World Cup prediction OR discussion OR thread"
       ]
     },
     "referee_check": {
       "checked": true,
-      "referee_name": "Dar\u00edo Herrera",
+      "referee_name": "Darío Herrera",
       "teamA_cards_per_match": 2.0,
       "teamB_cards_per_match": 0.0,
       "teamA_red_card_or_second_yellow_rate": 0.0,
@@ -295,14 +295,14 @@
       "neutral_pct": 25.0,
       "excluded_joke_or_bot_count": 4,
       "bias_note": "100% of the sample came from r/soccer, with a strong focus on Cape Verde's defensive narrative and Uruguay's tactical pressure.",
-      "max_allowed_probability_shift": "\u00b10 points",
+      "max_allowed_probability_shift": "±0 points",
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer Uruguay \"Cape Verde\" World Cup prediction OR discussion OR thread"
       ]
     },
     "referee_check": {
       "checked": true,
-      "referee_name": "Espen Esk\u00e5s",
+      "referee_name": "Espen Eskås",
       "teamA_cards_per_match": 0.0,
       "teamB_cards_per_match": 1.0,
       "teamA_red_card_or_second_yellow_rate": 0.0,
@@ -316,7 +316,11 @@
       "notable_absences": [],
       "checked_at": null
     },
-    "late_adjustment": null
+    "late_adjustment": null,
+    "actual_result": "Uruguay 2-2 Cape Verde",
+    "actual_winner": "draw",
+    "graded_correct": false,
+    "graded_at": "2026-06-21"
   },
   {
     "date": "2026-06-21",
@@ -369,7 +373,7 @@
       "neutral_pct": 25.0,
       "excluded_joke_or_bot_count": 3,
       "bias_note": "100% of the sample came from r/soccer, representing a neutral to slightly Euro-centric global fan community.",
-      "max_allowed_probability_shift": "\u00b10 points",
+      "max_allowed_probability_shift": "±0 points",
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer New Zealand Egypt World Cup prediction OR discussion OR thread"
       ]
@@ -386,11 +390,11 @@
       "details": null
     },
     "lineup_check": {
-      "confirmed": false,
+      "confirmed": true,
       "notable_absences": [
         "Matt Garbett (New Zealand) - Ruled out before the tournament due to a hamstring injury."
       ],
-      "checked_at": null
+      "checked_at": "2026-06-21T20:28:59-04:00"
     },
     "late_adjustment": null
   }
