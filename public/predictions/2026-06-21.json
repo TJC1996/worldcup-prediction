@@ -396,6 +396,10 @@
       ],
       "checked_at": "2026-06-21T20:28:59-04:00"
     },
-    "late_adjustment": null
+    "late_adjustment": null,
+    "actual_result": "New Zealand 1-3 Egypt",
+    "actual_winner": "teamB",
+    "graded_correct": true,
+    "graded_at": "2026-06-22"
   }
 ]

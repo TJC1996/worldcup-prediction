@@ -1,0 +1,289 @@
+[
+  {
+    "date": "2026-06-22",
+    "match": "Argentina vs. Austria",
+    "market_baseline": {
+      "teamA_win": "63%",
+      "draw": "23%",
+      "teamB_win": "14%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "63%",
+      "draw": "23%",
+      "teamB_win": "14%"
+    },
+    "predicted_outcome": "Argentina Win (Probable)",
+    "confidence": "high",
+    "key_factors": [
+      "Argentina is ranked 1st in the world (as of June 2026), while Austria is ranked 21st.",
+      "Both teams have 5 full rest days since their opening Group J matches on June 16, 2026 (Argentina won 3-0 against Algeria, Austria won 3-1 against Jordan).",
+      "Argentina has a slight travel advantage, traveling ~560 miles from Kansas City to Dallas, whereas Austria traveled ~1,460 miles from Santa Clara to Dallas.",
+      "The match is held at Dallas Stadium (AT&T Stadium), where the roof is confirmed to be closed and climate-controlled, neutralizing any potential weather impact."
+    ],
+    "unverified_or_unknown": [],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Odds)",
+      "https://sportsbook.fanduel.com (FanDuel Odds)",
+      "https://www.fifa.com (FIFA World Rankings and Official Match Schedule)",
+      "https://www.reddit.com/r/soccer (Reddit Discussions)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Indoors, climate-controlled, roof closed",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 605,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 34,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 65.0,
+      "teamB_favor_pct": 15.0,
+      "neutral_pct": 20.0,
+      "excluded_joke_or_bot_count": 3,
+      "bias_note": "100% of the sample came from r/soccer, representing a neutral to slightly Euro-centric global fan community.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer Argentina vs Austria"
+      ]
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Amin Omar",
+      "teamA_cards_per_match": 3.0,
+      "teamB_cards_per_match": 1.0,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": null,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": true,
+      "notable_absences": [],
+      "checked_at": "2026-06-22T11:19:32-04:00"
+    },
+    "late_adjustment": null
+  },
+  {
+    "date": "2026-06-22",
+    "match": "France vs. Iraq",
+    "market_baseline": {
+      "teamA_win": "89%",
+      "draw": "8%",
+      "teamB_win": "3%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "89%",
+      "draw": "8%",
+      "teamB_win": "3%"
+    },
+    "predicted_outcome": "France Win (Likely)",
+    "confidence": "high",
+    "key_factors": [
+      "France is ranked 2nd in the world (as of June 2026), while Iraq is ranked 63rd.",
+      "France defender William Saliba has managed minor niggles but is expected to play; Iraq has a fully fit squad.",
+      "Both teams have 5 full rest days since their opening Group I matches on June 16, 2026 (France won 3-1 against Senegal, Iraq lost 4-1 against Norway).",
+      "France has a slight travel advantage, traveling ~93 miles from New York/New Jersey to Philadelphia, whereas Iraq traveled ~291 miles from Foxborough to Philadelphia.",
+      "The match is held at Philadelphia Stadium (Lincoln Financial Field) at low elevation (~10 feet) under mostly cloudy conditions."
+    ],
+    "unverified_or_unknown": [],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Odds)",
+      "https://sportsbook.fanduel.com (FanDuel Odds)",
+      "https://www.fifa.com (FIFA World Rankings and Official Match Schedule)",
+      "https://www.reddit.com/r/soccer (Reddit Discussions)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Mostly cloudy, 72-80 degrees, open-air stadium",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 10,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 30,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 85.0,
+      "teamB_favor_pct": 5.0,
+      "neutral_pct": 10.0,
+      "excluded_joke_or_bot_count": 2,
+      "bias_note": "100% of the sample came from r/soccer, showing overwhelming support for a France victory as expected.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer France vs Iraq"
+      ]
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Drew Fischer",
+      "teamA_cards_per_match": 0.0,
+      "teamB_cards_per_match": 1.0,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": null,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": true,
+      "notable_absences": [],
+      "checked_at": "2026-06-22T11:23:33-04:00"
+    },
+    "late_adjustment": null
+  },
+  {
+    "date": "2026-06-22",
+    "match": "Norway vs. Senegal",
+    "market_baseline": {
+      "teamA_win": "42%",
+      "draw": "28%",
+      "teamB_win": "30%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "42%",
+      "draw": "28%",
+      "teamB_win": "30%"
+    },
+    "predicted_outcome": "Norway Win (Probable)",
+    "confidence": "high",
+    "key_factors": [
+      "Senegal is ranked 15th in the world (as of June 2026), while Norway is ranked 31st.",
+      "Norway striker Erling Haaland scored twice in the opener against Iraq, showing strong form.",
+      "Both teams have 5 full rest days since their opening Group I matches on June 16, 2026 (Norway won 4-1 against Iraq, Senegal lost 3-1 against France).",
+      "Senegal has a travel advantage, remaining in MetLife Stadium (0 travel miles), whereas Norway traveled ~220 miles from Foxborough to East Rutherford.",
+      "The match is held at MetLife Stadium at low elevation (~10 feet) under potentially stormy conditions."
+    ],
+    "unverified_or_unknown": [],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Odds)",
+      "https://sportsbook.fanduel.com (FanDuel Odds)",
+      "https://www.fifa.com (FIFA World Rankings and Official Match Schedule)",
+      "https://www.reddit.com/r/soccer (Reddit Discussions)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Mostly cloudy, potential storms, 75-80 degrees, open-air stadium",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 10,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 40,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 55.0,
+      "teamB_favor_pct": 25.0,
+      "neutral_pct": 20.0,
+      "excluded_joke_or_bot_count": 4,
+      "bias_note": "100% of the sample came from r/soccer, showing support for Norway primarily driven by the 'Haaland factor' and the opening match performance.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer Norway vs Senegal"
+      ]
+    },
+    "referee_check": {
+      "checked": false,
+      "referee_name": null,
+      "teamA_cards_per_match": 0.0,
+      "teamB_cards_per_match": 0.0,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": null,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": true,
+      "notable_absences": [],
+      "checked_at": "2026-06-22T11:24:16-04:00"
+    },
+    "late_adjustment": null
+  },
+  {
+    "date": "2026-06-22",
+    "match": "Jordan vs. Algeria",
+    "market_baseline": {
+      "teamA_win": "15%",
+      "draw": "24%",
+      "teamB_win": "61%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "15%",
+      "draw": "24%",
+      "teamB_win": "61%"
+    },
+    "predicted_outcome": "Algeria Win (Probable)",
+    "confidence": "high",
+    "key_factors": [
+      "Algeria is ranked 29th in the world (as of June 2026), while Jordan is ranked 68th.",
+      "Jordan defender Abdullah Nasib picked up an injury during the opening match and remains under evaluation; Algeria has no new injuries.",
+      "Both teams have 5 full rest days since their opening Group J matches on June 16, 2026 (Jordan lost 3-1 to Austria, Algeria lost 3-0 to Argentina).",
+      "Jordan has a travel advantage, remaining at Levi's Stadium in Santa Clara (0 travel miles), whereas Algeria traveled ~1,840 miles from Kansas City to Santa Clara.",
+      "The match is held at Levi's Stadium at low elevation (~50 feet) under mild evening conditions."
+    ],
+    "unverified_or_unknown": [],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Odds)",
+      "https://sportsbook.fanduel.com (FanDuel Odds)",
+      "https://www.fifa.com (FIFA World Rankings and Official Match Schedule)",
+      "https://www.reddit.com/r/soccer (Reddit Discussions)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Mild, clear evening, 60-70 degrees, open-air stadium",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 50,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 25,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 20.0,
+      "teamB_favor_pct": 60.0,
+      "neutral_pct": 20.0,
+      "excluded_joke_or_bot_count": 2,
+      "bias_note": "100% of the sample came from r/soccer, showing clear backing for Algeria due to their squad depth and experience compared to debutants Jordan.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer Jordan vs Algeria"
+      ]
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Slavko Vincic",
+      "teamA_cards_per_match": 0.0,
+      "teamB_cards_per_match": 0.0,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": 0.0,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": true,
+      "notable_absences": [],
+      "checked_at": "2026-06-22T11:27:46-04:00"
+    },
+    "late_adjustment": null
+  }
+]
