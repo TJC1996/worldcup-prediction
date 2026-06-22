@@ -68,7 +68,11 @@
       "notable_absences": [],
       "checked_at": "2026-06-22T11:19:32-04:00"
     },
-    "late_adjustment": null
+    "late_adjustment": null,
+    "actual_result": "Argentina 2-0 Austria",
+    "actual_winner": "teamA",
+    "graded_correct": true,
+    "graded_at": "2026-06-22"
   },
   {
     "date": "2026-06-22",
@@ -197,13 +201,13 @@
       ]
     },
     "referee_check": {
-      "checked": false,
-      "referee_name": null,
+      "checked": true,
+      "referee_name": "Wilton Sampaio",
       "teamA_cards_per_match": 0.0,
       "teamB_cards_per_match": 0.0,
       "teamA_red_card_or_second_yellow_rate": 0.0,
       "teamB_red_card_or_second_yellow_rate": 0.0,
-      "referee_dismissal_rate_this_tournament": null,
+      "referee_dismissal_rate_this_tournament": 3.0,
       "red_card_risk_asymmetry_found": false,
       "details": null
     },
