@@ -47,7 +47,7 @@
       "neutral_pct": 20.0,
       "excluded_joke_or_bot_count": 3,
       "bias_note": "100% of the sample came from r/soccer, representing a neutral to slightly Euro-centric global fan community.",
-      "max_allowed_probability_shift": "±0 points",
+      "max_allowed_probability_shift": "\u00b10 points",
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer Argentina vs Austria"
       ]
@@ -123,7 +123,7 @@
       "neutral_pct": 10.0,
       "excluded_joke_or_bot_count": 2,
       "bias_note": "100% of the sample came from r/soccer, showing overwhelming support for a France victory as expected.",
-      "max_allowed_probability_shift": "±0 points",
+      "max_allowed_probability_shift": "\u00b10 points",
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer France vs Iraq"
       ]
@@ -199,7 +199,7 @@
       "neutral_pct": 20.0,
       "excluded_joke_or_bot_count": 4,
       "bias_note": "100% of the sample came from r/soccer, showing support for Norway primarily driven by the 'Haaland factor' and the opening match performance.",
-      "max_allowed_probability_shift": "±0 points",
+      "max_allowed_probability_shift": "\u00b10 points",
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer Norway vs Senegal"
       ]
@@ -275,7 +275,7 @@
       "neutral_pct": 20.0,
       "excluded_joke_or_bot_count": 2,
       "bias_note": "100% of the sample came from r/soccer, showing clear backing for Algeria due to their squad depth and experience compared to debutants Jordan.",
-      "max_allowed_probability_shift": "±0 points",
+      "max_allowed_probability_shift": "\u00b10 points",
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer Jordan vs Algeria"
       ]
@@ -296,6 +296,10 @@
       "notable_absences": [],
       "checked_at": "2026-06-22T11:27:46-04:00"
     },
-    "late_adjustment": null
+    "late_adjustment": null,
+    "actual_result": "Jordan 1-2 Algeria",
+    "actual_winner": "teamB",
+    "graded_correct": true,
+    "graded_at": "2026-06-23"
   }
 ]

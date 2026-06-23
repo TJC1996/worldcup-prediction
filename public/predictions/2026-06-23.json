@@ -1,0 +1,279 @@
+[
+  {
+    "date": "2026-06-23",
+    "match": "Portugal vs. Uzbekistan",
+    "market_baseline": {
+      "teamA_win": "80%",
+      "draw": "14%",
+      "teamB_win": "6%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "80%",
+      "draw": "14%",
+      "teamB_win": "6%"
+    },
+    "predicted_outcome": "Portugal Win (Likely)",
+    "confidence": "high",
+    "key_factors": [
+      "Portugal is ranked 7th in the world (as of June 2026), while Uzbekistan is ranked 50th.",
+      "Both teams have 4 full rest days since their opening Group K matches on June 18, 2026 (Portugal drew 1-1 with DR Congo, Uzbekistan lost 3-1 to Colombia).",
+      "Both teams traveled approximately 800 miles to the Houston venue (Portugal from Atlanta, Uzbekistan from Guadalajara).",
+      "The match is held at Houston's NRG Stadium, where the retractable roof is closed and climate-controlled, neutralizing any potential weather impact.",
+      "Portugal and Uzbekistan have never faced each other in an official international fixture."
+    ],
+    "unverified_or_unknown": [],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Odds)",
+      "https://sportsbook.fanduel.com (FanDuel Odds)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Indoors, climate-controlled, roof closed",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 50,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Jalal Jayed",
+      "teamA_cards_per_match": null,
+      "teamB_cards_per_match": null,
+      "teamA_red_card_or_second_yellow_rate": null,
+      "teamB_red_card_or_second_yellow_rate": null,
+      "referee_dismissal_rate_this_tournament": null,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 32,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 75.0,
+      "teamB_favor_pct": 10.0,
+      "neutral_pct": 15.0,
+      "excluded_joke_or_bot_count": 3,
+      "bias_note": "100% of the sample came from r/soccer, which skews global and slightly Euro-centric, leaning heavily in favor of Portugal's superior squad quality.",
+      "max_allowed_probability_shift": "\u00b10 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer Portugal vs Uzbekistan prediction OR thread OR discussion June 2026"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-23",
+    "match": "England vs. Ghana",
+    "market_baseline": {
+      "teamA_win": "79%",
+      "draw": "15%",
+      "teamB_win": "6%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "79%",
+      "draw": "15%",
+      "teamB_win": "6%"
+    },
+    "predicted_outcome": "England Win (Likely)",
+    "confidence": "high",
+    "key_factors": [
+      "England is ranked 4th in the world (as of June 2026), while Ghana is ranked 64th.",
+      "Both teams won their opening Group L matches (England 4-2 vs Croatia, Ghana 1-0 vs Panama) giving each side 3 points.",
+      "England and Ghana have never met in a competitive match in their history, with their only prior meeting being a 1-1 friendly draw in 2011.",
+      "The match is held at Gillette Stadium in Foxborough, Massachusetts, at a low elevation near sea level with mild temperature conditions expected."
+    ],
+    "unverified_or_unknown": [],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Odds)",
+      "https://sportsbook.fanduel.com (FanDuel Odds)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Moderate temperatures around 68-72\u00b0F, open-air stadium",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 140,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "H\u00e9ctor Sa\u00edd Mart\u00ednez Sorto",
+      "teamA_cards_per_match": null,
+      "teamB_cards_per_match": null,
+      "teamA_red_card_or_second_yellow_rate": null,
+      "teamB_red_card_or_second_yellow_rate": null,
+      "referee_dismissal_rate_this_tournament": null,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 36,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 72.0,
+      "teamB_favor_pct": 11.0,
+      "neutral_pct": 17.0,
+      "excluded_joke_or_bot_count": 4,
+      "bias_note": "100% of the sample came from r/soccer, leaning heavily in favor of England's superior squad quality.",
+      "max_allowed_probability_shift": "\u00b10 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer England vs Ghana prediction OR thread OR discussion June 2026"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-23",
+    "match": "Panama vs. Croatia",
+    "market_baseline": {
+      "teamA_win": "15%",
+      "draw": "22%",
+      "teamB_win": "63%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "15%",
+      "draw": "22%",
+      "teamB_win": "63%"
+    },
+    "predicted_outcome": "Croatia Win (Probable)",
+    "confidence": "high",
+    "key_factors": [
+      "Croatia is ranked 11th in the world (as of June 2026), while Panama is ranked 34th.",
+      "Both teams are searching for their first points of the tournament after opening Group L defeats (Croatia 2-4 vs England, Panama 0-1 vs Ghana).",
+      "Panama and Croatia have never played each other in an official international fixture.",
+      "The match is held at Toronto Stadium (BMO Field) in Toronto, Canada, at a low elevation with cool, open-air conditions expected."
+    ],
+    "unverified_or_unknown": [],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Odds)",
+      "https://sportsbook.fanduel.com (FanDuel Odds)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Misty, temperatures around 57-71\u00b0F, open-air stadium",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 246,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Pierre Ghislain Atcho",
+      "teamA_cards_per_match": null,
+      "teamB_cards_per_match": null,
+      "teamA_red_card_or_second_yellow_rate": null,
+      "teamB_red_card_or_second_yellow_rate": null,
+      "referee_dismissal_rate_this_tournament": null,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 34,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 20.0,
+      "teamB_favor_pct": 60.0,
+      "neutral_pct": 20.0,
+      "excluded_joke_or_bot_count": 3,
+      "bias_note": "100% of the sample came from r/soccer, showing clear backing for Croatia due to their squad quality and tournament experience.",
+      "max_allowed_probability_shift": "\u00b10 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer Panama vs Croatia prediction OR thread OR discussion June 2026"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-23",
+    "match": "Colombia vs. Democratic Republic of Congo",
+    "market_baseline": {
+      "teamA_win": "63%",
+      "draw": "23%",
+      "teamB_win": "14%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "63%",
+      "draw": "23%",
+      "teamB_win": "14%"
+    },
+    "predicted_outcome": "Colombia Win (Probable)",
+    "confidence": "high",
+    "key_factors": [
+      "Colombia leads Group K with 3 points following their 3-1 victory over Uzbekistan, while DR Congo has 1 point from a 1-1 draw with Portugal.",
+      "This is the first-ever competitive international meeting between Colombia and DR Congo.",
+      "The match is held at Estadio Akron in Zapopan, Guadalajara, Mexico, situated at a moderate elevation of ~5,000 feet.",
+      "Colombia has lost only two of their last 14 competitive matches, showing very strong form."
+    ],
+    "unverified_or_unknown": [],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Odds)",
+      "https://sportsbook.fanduel.com (FanDuel Odds)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Mostly cloudy, temperatures around 65-77\u00b0F, open-air stadium",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 5000,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Maurizio Mariani",
+      "teamA_cards_per_match": null,
+      "teamB_cards_per_match": null,
+      "teamA_red_card_or_second_yellow_rate": null,
+      "teamB_red_card_or_second_yellow_rate": null,
+      "referee_dismissal_rate_this_tournament": null,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 30,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 70.0,
+      "teamB_favor_pct": 10.0,
+      "neutral_pct": 20.0,
+      "excluded_joke_or_bot_count": 2,
+      "bias_note": "100% of the sample came from r/soccer, leaning heavily in favor of Colombia due to their strong Group K start and superior squad quality.",
+      "max_allowed_probability_shift": "\u00b10 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer Colombia vs DR Congo prediction OR thread OR discussion June 2026"
+      ]
+    }
+  }
+]
