@@ -317,10 +317,26 @@ STEP B4 — OUTPUT SCHEMA (one JSON array, one object per match)
     "sources_or_queries_used": []
   }
 }
-confidence = "high" only if "unverified_or_unknown" is empty for that match. 
-Otherwise cap at "medium" or "low." At the time of initial generation, 
-"lineup_check" and "late_adjustment" are always written with the default 
-values shown above — they only get populated later, by Step B4.6.
+confidence = "high" only if "unverified_or_unknown" is genuinely empty — 
+meaning every single fact in key_factors was officially confirmed from a 
+primary source this run, with nothing merely assumed, expected, or 
+reported without official confirmation. Otherwise cap at "medium" or 
+"low." The following types of information must go in "unverified_or_unknown" 
+rather than key_factors, and automatically cap confidence at "medium":
+- Any injury described as "expected to play," "doubtful," "managing a 
+  knock," "under evaluation," or similar — not officially confirmed out
+- Any lineup detail not from an official team or federation announcement
+- Any statistic sourced from a general preview article rather than a 
+  primary source
+- Squad depth or rotation risk that is speculative rather than confirmed
+An empty "unverified_or_unknown" array should be genuinely rare — most 
+matches have at least one uncertain element. If this array is empty, 
+double-check that nothing in key_factors was assumed rather than 
+confirmed before proceeding.
+
+At the time of initial generation, "lineup_check" and "late_adjustment" 
+are always written with the default values shown above — they only get 
+populated later, by Step B4.6.
 
 STEP B4.5 — PRESERVE ALREADY-PREDICTED AND ALREADY-GRADED MATCHES
 If today's date already has a file, copy any match that already has a 
@@ -392,6 +408,11 @@ following, and do not proceed to the Final Step until every check passes:
     the checks above.
   - Re-read your own "key_factors" for each match and confirm each point 
     is a genuinely distinct fact, not the same point restated twice.
+  - Re-read "unverified_or_unknown" and confirm it contains anything from 
+    key_factors that was reported but not officially confirmed. If 
+    key_factors mentions any injury status, expected lineups, or 
+    speculative travel impact that wasn't from an official source, it 
+    must appear here too.
 If any check fails, go back and complete the missing step before writing 
 — do not write a file that passes the JSON-syntax check but fails a 
 content check above. If you cannot produce complete output after a 
@@ -448,6 +469,11 @@ GUARDRAILS
 - Referee data may only move the probability through the specific, named 
   red-card/dismissal risk exception in Step B1 — general card or foul 
   volume is never grounds to adjust the probability.
+- confidence = "high" requires that "unverified_or_unknown" is genuinely 
+  empty after honest auditing — not just left empty by default. Any 
+  injury described as "expected" rather than confirmed, any lineup detail 
+  not from an official source, or any speculative claim must appear in 
+  "unverified_or_unknown" and caps confidence at "medium" or lower.
 - If you cannot determine today's fixture list due to a search failure — 
   not because there are simply no matches scheduled today — write a file 
   stating that explicitly rather than guessing matches.
