@@ -210,12 +210,60 @@ disclaimer. State which single subreddit (if any) the sample leaned on and
 roughly what share it represented.
 
 STEP B3 — REASONING
-Start from the market-implied probability as baseline. Only move away from 
-it using a specific, cited, verified fact from Step B1. Never adjust on 
-narrative, reputation, or sentiment of any kind. The Step B2 sentiment 
-snapshot is informational only and must never change adjusted_probability. 
-Any shift over 10 points from baseline requires naming the specific fact 
-behind it.
+Start from the market-implied probability as baseline. Work through each 
+verified fact from Step B1 in order and explicitly ask: does this fact 
+give one team a meaningful, asymmetric edge the market may not have fully 
+priced in?
+
+The following are confirmed reasons to move adjusted_probability away 
+from market_baseline, with suggested magnitude ranges:
+
+CONFIRMED STARTER ABSENCE (3-7 points toward the opponent):
+If one team has a confirmed absence of a key starter — starting 
+goalkeeper, center back, central midfielder, #10, or striker — and the 
+other team does not, that is a real asymmetry. Move the probability 
+toward the team with the full squad by 3-7 points depending on the 
+player's importance. A suspension (like a yellow card accumulation ban) 
+counts the same as an injury for this purpose. Only use this if the 
+absence is officially confirmed per Step B1's sourcing standard — not 
+rumored, not "doubtful," not "managing a niggle." If both teams have 
+confirmed absences, assess whether one is more impactful than the other; 
+if roughly equal, leave the baseline unchanged.
+
+TRAVEL ASYMMETRY OVER 800 MILES DIFFERENCE (2-3 points toward the 
+team that traveled less):
+If one team traveled more than 800 miles more than the other since their 
+last match, that is a citable physical edge. Apply a 2-3 point shift 
+toward the team with the travel advantage. If the difference is under 
+800 miles, treat it as context only in "key_factors."
+
+WEATHER OR ALTITUDE ASYMMETRY (variable, per existing rules):
+Apply exactly as described in Step B1 — only when there is a specific, 
+citable acclimatization asymmetry between the two teams, not merely 
+because conditions are notable.
+
+RED-CARD RISK ASYMMETRY (per existing rules):
+Apply exactly as described in Step B1's referee exception — only when 
+both the team's dismissal rate AND the referee's dismissal rate are 
+notably elevated this tournament.
+
+WHAT NEVER MOVES THE PROBABILITY:
+- Fan sentiment (locked at ±0 always)
+- General card or foul volume
+- Narrative, reputation, or "form" described in vague terms
+- Rankings alone (already priced into the market)
+- Rest days under 2 days difference
+- Travel under 800 miles difference
+- Head-to-head record alone
+- Weather or altitude affecting both teams equally
+
+After working through every applicable fact, if no confirmed asymmetric 
+edge exists, set adjusted_probability equal to market_baseline and state 
+explicitly in key_factors that no adjustment was warranted and why. This 
+is a valid, expected outcome — not a failure.
+
+Any single shift over 10 points from baseline requires naming the 
+specific fact and citing the source directly in key_factors.
 
 STEP B4 — OUTPUT SCHEMA (one JSON array, one object per match)
 {
