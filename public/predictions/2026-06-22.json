@@ -144,7 +144,11 @@
       "notable_absences": [],
       "checked_at": "2026-06-22T11:23:33-04:00"
     },
-    "late_adjustment": null
+    "late_adjustment": null,
+    "actual_result": "France 2-0 Iraq",
+    "actual_winner": "teamA",
+    "graded_correct": true,
+    "graded_at": "2026-06-22"
   },
   {
     "date": "2026-06-22",
