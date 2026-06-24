@@ -1,0 +1,429 @@
+[
+  {
+    "date": "2026-06-24",
+    "match": "Switzerland vs. Canada",
+    "market_baseline": {
+      "teamA_win": "41%",
+      "draw": "31%",
+      "teamB_win": "28%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "42%",
+      "draw": "31%",
+      "teamB_win": "27%"
+    },
+    "predicted_outcome": "Switzerland Win (Probable)",
+    "confidence": "medium",
+    "key_factors": [
+      "Switzerland is ranked 19th in the FIFA World Rankings (as of June 2026), while Canada is ranked 30th.",
+      "Canada midfielder Isma\u00ebl Kon\u00e9 is officially ruled out of the tournament after sustaining a fractured tibia and fibula against Qatar.",
+      "Canada captain Alphonso Davies is recovering from a hamstring injury and is expected to start on the bench rather than in the starting eleven.",
+      "Switzerland has a rest and travel advantage: Canada has stayed in Vancouver since their June 18 match, while Switzerland traveled ~1,080 miles from Los Angeles to Vancouver, creating a travel distance difference of over 800 miles."
+    ],
+    "unverified_or_unknown": [
+      "Canada midfielder Stephen Eust\u00e1quio missed a training session recently and his starting status is not officially confirmed.",
+      "Canada captain Alphonso Davies's exact hamstring recovery progress and ability to play significant substitute minutes remains unconfirmed."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Odds)",
+      "https://sportsbook.fanduel.com (FanDuel Odds)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Indoors, retractable roof closed, climate-controlled",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 7,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Ramon Abatti",
+      "teamA_cards_per_match": 1.0,
+      "teamB_cards_per_match": 1.5,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": 0.0,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 34,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 35.0,
+      "teamB_favor_pct": 45.0,
+      "neutral_pct": 20.0,
+      "excluded_joke_or_bot_count": 3,
+      "bias_note": "100% of the sample came from r/soccer, which slightly favors Canada due to their strong tournament start and home-field advantage in Vancouver.",
+      "max_allowed_probability_shift": "\u00b10 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer Switzerland vs Canada prediction OR thread OR discussion June 2026"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-24",
+    "match": "Bosnia and Herzegovina vs. Qatar",
+    "market_baseline": {
+      "teamA_win": "69%",
+      "draw": "18%",
+      "teamB_win": "13%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "67%",
+      "draw": "18%",
+      "teamB_win": "15%"
+    },
+    "predicted_outcome": "Bosnia and Herzegovina Win (Likely)",
+    "confidence": "medium",
+    "key_factors": [
+      "Bosnia and Herzegovina is ranked 64th in the world (as of June 2026), while Qatar is ranked 56th.",
+      "Qatar has two key defensive starters suspended: left back Homam Ahmed and defensive midfielder Assim Madibo, both following red cards against Canada.",
+      "Bosnia and Herzegovina starting center back Tarik Muharemovic is suspended due to a red card against Switzerland.",
+      "Qatar benefits from a travel advantage: Qatar traveled ~120 miles from Vancouver to Seattle, while Bosnia and Herzegovina traveled ~960 miles from Los Angeles to Seattle, representing a travel difference of over 800 miles."
+    ],
+    "unverified_or_unknown": [
+      "Speculative squad replacements for suspended players on both teams are not officially announced at prediction time."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Odds)",
+      "https://sportsbook.fanduel.com (FanDuel Odds)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Mild, open-air stadium, 68\u00b0F, no rain expected",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 15,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Jes\u00fas Valenzuela",
+      "teamA_cards_per_match": 1.5,
+      "teamB_cards_per_match": 2.0,
+      "teamA_red_card_or_second_yellow_rate": 0.5,
+      "teamB_red_card_or_second_yellow_rate": 1.0,
+      "referee_dismissal_rate_this_tournament": 0.0,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 28,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 60.0,
+      "teamB_favor_pct": 20.0,
+      "neutral_pct": 20.0,
+      "excluded_joke_or_bot_count": 2,
+      "bias_note": "100% of the sample came from r/soccer, leaning heavily in favor of Bosnia and Herzegovina due to Qatar's poor defensive performances in earlier rounds.",
+      "max_allowed_probability_shift": "\u00b10 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer Bosnia vs Qatar prediction OR thread OR discussion June 2026"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-24",
+    "match": "Scotland vs. Brazil",
+    "market_baseline": {
+      "teamA_win": "12%",
+      "draw": "18%",
+      "teamB_win": "70%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "12%",
+      "draw": "18%",
+      "teamB_win": "70%"
+    },
+    "predicted_outcome": "Brazil Win (Likely)",
+    "confidence": "medium",
+    "key_factors": [
+      "Brazil is ranked 6th in the world (as of June 2026), while Scotland is ranked 42nd.",
+      "Brazil forward Raphinha is confirmed out with a hamstring injury, but star attacker Neymar has returned to training and is expected to be available.",
+      "Scotland defender Scott McKenna has returned to training after a calf injury, but Aaron Hickey remains a significant doubt.",
+      "The match is held at Hard Rock Stadium in Miami Gardens, Florida, under hot and humid conditions (~91\u00b0F, feels like 100\u00b0F+) which affects both teams equally.",
+      "No probability adjustment was warranted as there are no citable physical or squad asymmetries between the two sides."
+    ],
+    "unverified_or_unknown": [
+      "Scotland defender Aaron Hickey's starting status remains unconfirmed due to an ongoing injury recovery.",
+      "Scotland defender Scott McKenna's match fitness after a calf injury is not officially confirmed."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Odds)",
+      "https://sportsbook.fanduel.com (FanDuel Odds)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Hot and humid, 91\u00b0F, feels like 100\u00b0F+, light southeast winds, possible afternoon showers",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 5,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "C\u00e9sar Ramos",
+      "teamA_cards_per_match": 2.0,
+      "teamB_cards_per_match": 1.2,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": 0.0,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 42,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 25.0,
+      "teamB_favor_pct": 55.0,
+      "neutral_pct": 20.0,
+      "excluded_joke_or_bot_count": 4,
+      "bias_note": "100% of the sample came from r/soccer, which leans heavily in favor of Brazil due to their superior squad quality and historic World Cup record.",
+      "max_allowed_probability_shift": "\u00b10 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer Scotland vs Brazil prediction OR thread OR discussion June 2026"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-24",
+    "match": "Morocco vs. Haiti",
+    "market_baseline": {
+      "teamA_win": "81%",
+      "draw": "13%",
+      "teamB_win": "6%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "81%",
+      "draw": "13%",
+      "teamB_win": "6%"
+    },
+    "predicted_outcome": "Morocco Win (Likely)",
+    "confidence": "medium",
+    "key_factors": [
+      "Morocco is ranked 7th in the world (as of June 2026), while Haiti is ranked 83rd.",
+      "Haiti has already been eliminated from the tournament, whereas Morocco needs a result to secure top spot in Group C.",
+      "Morocco has a fully fit squad, though coach Mohamed Ouahbi has indicated he may rotate some players.",
+      "No probability adjustment was warranted as no citable travel, weather, or starter absence asymmetries exist."
+    ],
+    "unverified_or_unknown": [
+      "Morocco's potential starting lineup rotations are not officially confirmed at prediction time.",
+      "DraftKings moneyline odds could not be located for this match at prediction time."
+    ],
+    "sources": [
+      "https://sportsbook.fanduel.com (FanDuel Odds)",
+      "https://sportsbook.betmgm.com (BetMGM Odds)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Indoors, retractable roof closed, climate-controlled",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 1050,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Danny Makkelie",
+      "teamA_cards_per_match": 1.0,
+      "teamB_cards_per_match": 2.0,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": 0.0,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 26,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 80.0,
+      "teamB_favor_pct": 5.0,
+      "neutral_pct": 15.0,
+      "excluded_joke_or_bot_count": 2,
+      "bias_note": "100% of the sample came from r/soccer, showing overwhelming backing for Morocco due to the massive gap in ranking and squad quality.",
+      "max_allowed_probability_shift": "\u00b10 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer Morocco vs Haiti prediction OR thread OR discussion June 2026"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-24",
+    "match": "Czechia vs. Mexico",
+    "market_baseline": {
+      "teamA_win": "26%",
+      "draw": "25%",
+      "teamB_win": "49%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "21%",
+      "draw": "25%",
+      "teamB_win": "54%"
+    },
+    "predicted_outcome": "Mexico Win (Probable)",
+    "confidence": "medium",
+    "key_factors": [
+      "Mexico is ranked 14th in the world (as of June 2026), while Czechia is ranked 40th.",
+      "Mexico benefits from a massive altitude acclimatization advantage: Estadio Azteca sits at 7,220 feet, and while Mexico is fully acclimated, Czechia is based in Mansfield, Texas (low elevation) and has struggled with altitude transitions.",
+      "Mexico has a travel and rest advantage: Mexico played in Guadalajara (June 18) and traveled ~300 miles, whereas Czechia played in Atlanta (June 18) and traveled ~1,400 miles, creating a travel difference of over 800 miles."
+    ],
+    "unverified_or_unknown": [
+      "Mexico's potential starting lineup rotations and resting of key players are not officially confirmed at prediction time."
+    ],
+    "sources": [
+      "https://sportsbook.fanduel.com (FanDuel Odds)",
+      "https://sportsbook.betmgm.com (BetMGM Odds)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Cooler evening conditions, 68\u00b0F, no rain expected, high altitude",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 7220,
+      "asymmetric_factor_found": true,
+      "details": "Mexico is fully acclimated to high-altitude home fixtures at Estadio Azteca (~7,220 ft), while Czechia has been based in low-elevation Texas and Atlanta and is not acclimated."
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Yael Falc\u00f3n P\u00e9rez",
+      "teamA_cards_per_match": 1.5,
+      "teamB_cards_per_match": 1.0,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": 0.0,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 38,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 30.0,
+      "teamB_favor_pct": 50.0,
+      "neutral_pct": 20.0,
+      "excluded_joke_or_bot_count": 3,
+      "bias_note": "100% of the sample came from r/soccer, reflecting strong support for Mexico due to home-field advantage and Czechia's weak tournament form.",
+      "max_allowed_probability_shift": "\u00b10 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer Czechia vs Mexico prediction OR thread OR discussion June 2026"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-24",
+    "match": "South Africa vs. South Korea",
+    "market_baseline": {
+      "teamA_win": "18%",
+      "draw": "24%",
+      "teamB_win": "58%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "13%",
+      "draw": "24%",
+      "teamB_win": "63%"
+    },
+    "predicted_outcome": "South Korea Win (Probable)",
+    "confidence": "medium",
+    "key_factors": [
+      "South Korea is ranked 25th in the world (as of June 2026), while South Africa is ranked 60th.",
+      "South Africa is missing two crucial starting players due to suspensions: star striker Themba Zwane (red card ban) and starting midfielder Teboho Mokoena (yellow card accumulation)."
+    ],
+    "unverified_or_unknown": [
+      "South Africa's tactical adjustments and specific replacement starters for Zwane and Mokoena are not officially confirmed."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Odds)",
+      "https://sportsbook.fanduel.com (FanDuel Odds)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Warm, clear evening, 78\u00b0F, no precipitation expected",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 1740,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Facundo Tello",
+      "teamA_cards_per_match": 2.0,
+      "teamB_cards_per_match": 1.0,
+      "teamA_red_card_or_second_yellow_rate": 1.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": 0.0,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 32,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 20.0,
+      "teamB_favor_pct": 60.0,
+      "neutral_pct": 20.0,
+      "excluded_joke_or_bot_count": 2,
+      "bias_note": "100% of the sample came from r/soccer, which skews in favor of South Korea due to South Africa's critical squad suspensions.",
+      "max_allowed_probability_shift": "\u00b10 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer South Africa vs South Korea prediction OR thread OR discussion June 2026"
+      ]
+    }
+  }
+]

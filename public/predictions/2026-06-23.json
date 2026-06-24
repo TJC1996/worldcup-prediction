@@ -67,7 +67,11 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer Portugal vs Uzbekistan prediction OR thread OR discussion June 2026"
       ]
-    }
+    },
+    "actual_result": "Portugal 5-0 Uzbekistan",
+    "actual_winner": "teamA",
+    "graded_correct": true,
+    "graded_at": "2026-06-24"
   },
   {
     "date": "2026-06-23",
@@ -136,7 +140,11 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer England vs Ghana prediction OR thread OR discussion June 2026"
       ]
-    }
+    },
+    "actual_result": "England 0-0 Ghana",
+    "actual_winner": "draw",
+    "graded_correct": false,
+    "graded_at": "2026-06-24"
   },
   {
     "date": "2026-06-23",
@@ -205,7 +213,11 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer Panama vs Croatia prediction OR thread OR discussion June 2026"
       ]
-    }
+    },
+    "actual_result": "Panama 0-1 Croatia",
+    "actual_winner": "teamB",
+    "graded_correct": true,
+    "graded_at": "2026-06-24"
   },
   {
     "date": "2026-06-23",
@@ -274,6 +286,10 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer Colombia vs DR Congo prediction OR thread OR discussion June 2026"
       ]
-    }
+    },
+    "actual_result": "Colombia 1-0 Democratic Republic of Congo",
+    "actual_winner": "teamA",
+    "graded_correct": true,
+    "graded_at": "2026-06-24"
   }
 ]
