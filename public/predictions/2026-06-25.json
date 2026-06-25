@@ -1,6 +1,7 @@
 [
   {
     "date": "2026-06-25",
+    "kickoff_time": "4:00 PM ET",
     "match": "Cura\u00e7ao vs. C\u00f4te d'Ivoire",
     "market_baseline": {
       "teamA_win": "6%",
@@ -74,6 +75,7 @@
   },
   {
     "date": "2026-06-25",
+    "kickoff_time": "4:00 PM ET",
     "match": "Ecuador vs. Germany",
     "market_baseline": {
       "teamA_win": "25%",
@@ -147,6 +149,7 @@
   },
   {
     "date": "2026-06-25",
+    "kickoff_time": "7:00 PM ET",
     "match": "Japan vs. Sweden",
     "market_baseline": {
       "teamA_win": "51%",
@@ -219,6 +222,7 @@
   },
   {
     "date": "2026-06-25",
+    "kickoff_time": "7:00 PM ET",
     "match": "Tunisia vs. Netherlands",
     "market_baseline": {
       "teamA_win": "4%",
@@ -290,6 +294,7 @@
   },
   {
     "date": "2026-06-25",
+    "kickoff_time": "10:00 PM ET",
     "match": "T\u00fcrkiye vs. USA",
     "market_baseline": {
       "teamA_win": "27%",
@@ -362,6 +367,7 @@
   },
   {
     "date": "2026-06-25",
+    "kickoff_time": "10:00 PM ET",
     "match": "Paraguay vs. Australia",
     "market_baseline": {
       "teamA_win": "32%",
