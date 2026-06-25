@@ -70,6 +70,11 @@ h1{
 nav.dates{
   max-width:920px; margin:28px auto 0; padding:0 24px;
   display:flex; gap:8px; overflow-x:auto; padding-bottom:4px;
+  -ms-overflow-style:none;
+  scrollbar-width:none;
+}
+nav.dates::-webkit-scrollbar{
+  display:none;
 }
 .tab{
   font-family:'JetBrains Mono',monospace; font-size:13px; color:var(--chalk-dim);
