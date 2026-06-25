@@ -69,7 +69,11 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer Switzerland vs Canada prediction OR thread OR discussion June 2026"
       ]
-    }
+    },
+    "actual_result": "Switzerland 2-1 Canada",
+    "actual_winner": "teamA",
+    "graded_correct": true,
+    "graded_at": "2026-06-25"
   },
   {
     "date": "2026-06-24",
@@ -140,7 +144,11 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer Bosnia vs Qatar prediction OR thread OR discussion June 2026"
       ]
-    }
+    },
+    "actual_result": "Bosnia and Herzegovina 3-1 Qatar",
+    "actual_winner": "teamA",
+    "graded_correct": true,
+    "graded_at": "2026-06-25"
   },
   {
     "date": "2026-06-24",
@@ -213,7 +221,11 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer Scotland vs Brazil prediction OR thread OR discussion June 2026"
       ]
-    }
+    },
+    "actual_result": "Scotland 0-3 Brazil",
+    "actual_winner": "teamB",
+    "graded_correct": true,
+    "graded_at": "2026-06-25"
   },
   {
     "date": "2026-06-24",
@@ -285,7 +297,11 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer Morocco vs Haiti prediction OR thread OR discussion June 2026"
       ]
-    }
+    },
+    "actual_result": "Morocco 4-2 Haiti",
+    "actual_winner": "teamA",
+    "graded_correct": true,
+    "graded_at": "2026-06-25"
   },
   {
     "date": "2026-06-24",
@@ -355,7 +371,11 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer Czechia vs Mexico prediction OR thread OR discussion June 2026"
       ]
-    }
+    },
+    "actual_result": "Czechia 0-3 Mexico",
+    "actual_winner": "teamB",
+    "graded_correct": true,
+    "graded_at": "2026-06-25"
   },
   {
     "date": "2026-06-24",
@@ -424,6 +444,10 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer South Africa vs South Korea prediction OR thread OR discussion June 2026"
       ]
-    }
+    },
+    "actual_result": "South Africa 1-0 South Korea",
+    "actual_winner": "teamA",
+    "graded_correct": false,
+    "graded_at": "2026-06-25"
   }
 ]
