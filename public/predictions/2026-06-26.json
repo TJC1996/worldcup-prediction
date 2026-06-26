@@ -72,7 +72,11 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer \"Norway vs. France\" OR \"Norway vs France\" June 2026"
       ]
-    }
+    },
+    "actual_result": "Norway 1-4 France",
+    "actual_winner": "teamB",
+    "graded_correct": true,
+    "graded_at": "2026-06-26"
   },
   {
     "date": "2026-06-26",
@@ -147,7 +151,11 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer \"Senegal vs. Iraq\" OR \"Senegal vs Iraq\" June 2026"
       ]
-    }
+    },
+    "actual_result": "Senegal 5-0 Iraq",
+    "actual_winner": "teamA",
+    "graded_correct": true,
+    "graded_at": "2026-06-26"
   },
   {
     "date": "2026-06-26",
