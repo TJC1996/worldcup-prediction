@@ -1,0 +1,451 @@
+[
+  {
+    "date": "2026-06-26",
+    "kickoff_time": "3:00 PM ET",
+    "match": "Norway vs. France",
+    "market_baseline": {
+      "teamA_win": "19%",
+      "draw": "22%",
+      "teamB_win": "59%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "19%",
+      "draw": "22%",
+      "teamB_win": "59%"
+    },
+    "predicted_outcome": "France Win (Probable) or Draw",
+    "confidence": "medium",
+    "key_factors": [
+      "France is ranked 3rd in the FIFA World Rankings (as of June 2026), while Norway is ranked 31st.",
+      "Both teams have already qualified for the Round of 32, having won their first two group stage matches.",
+      "Norway has scored 7 goals and conceded 3 in this tournament, while France has scored 6 and conceded 1.",
+      "Historically, France holds a 7-4-4 head-to-head advantage over Norway, with their last meeting being a 4-0 friendly win for France in 2014.",
+      "Both teams have had 4 full rest days since their last match on June 22, and the travel distance difference is under 100 miles (below the 800-mile threshold).",
+      "Norway's squad has an average age of 26.35 years, while France's squad has an average age of 26.58 years.",
+      "No probability adjustment was warranted as there are no confirmed key starter absences or physical asymmetries between the sides."
+    ],
+    "unverified_or_unknown": [
+      "The exact starting lineups and potential rotation strategies for both teams are not officially confirmed at prediction time."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Sportsbook)",
+      "https://sportsbook.fanduel.com (FanDuel Sportsbook)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "77°F, overcast skies, slight chance of passing showers",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 270,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Michael Oliver",
+      "teamA_cards_per_match": 0.0,
+      "teamB_cards_per_match": 0.5,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": 0.0,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 30,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 23.3,
+      "teamB_favor_pct": 46.7,
+      "neutral_pct": 30.0,
+      "excluded_joke_or_bot_count": 0,
+      "bias_note": "100% of the sample came from r/soccer, which leans toward France due to their depth, though some discuss rotation.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer \"Norway vs. France\" OR \"Norway vs France\" June 2026"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-26",
+    "kickoff_time": "3:00 PM ET",
+    "match": "Senegal vs. Iraq",
+    "market_baseline": {
+      "teamA_win": "77%",
+      "draw": "15%",
+      "teamB_win": "8%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "77%",
+      "draw": "15%",
+      "teamB_win": "8%"
+    },
+    "predicted_outcome": "Senegal Win (Likely)",
+    "confidence": "medium",
+    "key_factors": [
+      "Senegal is ranked 15th in the FIFA World Rankings (as of June 2026), while Iraq is ranked 57th.",
+      "Both teams have lost their first two group stage matches to France and Norway and have zero points.",
+      "This match is a must-win for both sides to compete for a potential best third-place finish to advance.",
+      "There are no prior head-to-head meetings between Senegal and Iraq in the last 10 years.",
+      "Both teams have 4 full rest days since their last match on June 22, and both traveled around 480 miles to Toronto (no travel asymmetry).",
+      "Senegal's squad has an average age of 26.62 years, while Iraq's squad has an average age of 26.65 years.",
+      "No probability adjustment was warranted as there are no confirmed key starter absences or physical asymmetries between the sides."
+    ],
+    "unverified_or_unknown": [
+      "The exact starting lineups and squad adjustments are not officially confirmed at prediction time."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Sportsbook)",
+      "https://sportsbook.fanduel.com (FanDuel Sportsbook)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "77°F, warm with a mix of sun and clouds, humid and breezy",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 250,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Anthony Taylor",
+      "teamA_cards_per_match": 0.0,
+      "teamB_cards_per_match": 0.5,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": 0.0,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 22,
+      "confidence_tier": "weak_signal",
+      "teamA_favor_pct": 63.6,
+      "teamB_favor_pct": 9.1,
+      "neutral_pct": 27.3,
+      "excluded_joke_or_bot_count": 0,
+      "bias_note": "100% of the sample came from r/soccer, which leans heavily in favor of Senegal due to their higher status and the presence of stars like Sadio Mane.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer \"Senegal vs. Iraq\" OR \"Senegal vs Iraq\" June 2026"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-26",
+    "kickoff_time": "8:00 PM ET",
+    "match": "Uruguay vs. Spain",
+    "market_baseline": {
+      "teamA_win": "15%",
+      "draw": "22%",
+      "teamB_win": "63%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "15%",
+      "draw": "22%",
+      "teamB_win": "63%"
+    },
+    "predicted_outcome": "Spain Win (Likely)",
+    "confidence": "medium",
+    "key_factors": [
+      "Spain is ranked 2nd in the FIFA World Rankings (as of June 2026), while Uruguay is ranked 16th.",
+      "Spain leads the group with 4 points, while Uruguay has 2 points after two draws.",
+      "Spain has been bolstered by the return of Lamine Yamal, while Uruguay's Maxi Araujo has scored in both opening matches.",
+      "Historically, Spain has not lost to Uruguay since their first meeting in 1950, and this is their first major tournament meeting.",
+      "Both teams have 4 full rest days, and their travel distances from Miami and Atlanta to Guadalajara differ by only 50 miles.",
+      "Spain's squad has an average age of 26.12 years, while Uruguay's squad has an average age of 26.53 years.",
+      "No probability adjustment was warranted as there are no confirmed key starter absences or physical asymmetries between the sides."
+    ],
+    "unverified_or_unknown": [
+      "The exact starting lineups and potential rotation strategies are not officially confirmed at prediction time.",
+      "Uruguay starting selection adjustments by Marcelo Bielsa following squad tactical concerns are unconfirmed."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Sportsbook)",
+      "https://sportsbook.fanduel.com (FanDuel Sportsbook)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "66°F, open-air stadium, typical afternoon/evening showers and thunderstorms expected",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 5150,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Ismail Elfath",
+      "teamA_cards_per_match": 0.0,
+      "teamB_cards_per_match": 0.5,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": 0.0,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 35,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 22.9,
+      "teamB_favor_pct": 54.3,
+      "neutral_pct": 22.9,
+      "excluded_joke_or_bot_count": 0,
+      "bias_note": "100% of the sample came from r/soccer, which leans toward Spain due to their strong form and Uruguay's struggles under Marcelo Bielsa's training regime.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer \"Uruguay vs. Spain\" OR \"Uruguay vs Spain\" June 2026"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-26",
+    "kickoff_time": "8:00 PM ET",
+    "match": "Cape Verde vs. Saudi Arabia",
+    "market_baseline": {
+      "teamA_win": "37%",
+      "draw": "27%",
+      "teamB_win": "36%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "37%",
+      "draw": "27%",
+      "teamB_win": "36%"
+    },
+    "predicted_outcome": "Cape Verde Win (Slight Favorites) or Draw",
+    "confidence": "medium",
+    "key_factors": [
+      "Saudi Arabia is ranked 61st in the FIFA World Rankings (as of June 2026), while Cape Verde is ranked 67th.",
+      "Cape Verde enters the match unbeaten with two draws, while Saudi Arabia has one point (draw vs. Uruguay, loss vs. Spain).",
+      "This is the first-ever international meeting between Cape Verde and Saudi Arabia.",
+      "Both teams have 4 full rest days since their last match on June 22, and their travel distances to Houston differ by 260 miles.",
+      "Cape Verde's squad has an average age of 29.7 years (one of the oldest in the tournament), while Saudi Arabia's squad has an average age of 27.96 years.",
+      "No probability adjustment was warranted as there are no confirmed key starter absences or physical asymmetries between the sides."
+    ],
+    "unverified_or_unknown": [
+      "The exact starting lineups and squad adjustments are not officially confirmed at prediction time."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Sportsbook)",
+      "https://sportsbook.fanduel.com (FanDuel Sportsbook)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Indoors, climate-controlled roof closed, temperature around 70°F-72°F",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 50,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "François Letexier",
+      "teamA_cards_per_match": 1.0,
+      "teamB_cards_per_match": 1.0,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": 0.0,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 25,
+      "confidence_tier": "weak_signal",
+      "teamA_favor_pct": 44.0,
+      "teamB_favor_pct": 32.0,
+      "neutral_pct": 24.0,
+      "excluded_joke_or_bot_count": 0,
+      "bias_note": "100% of the sample came from r/soccer, which slightly favors Cape Verde as a neutral-favorite 'Cinderella story' after their draws against Spain and Uruguay.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer \"Cabo Verde vs. Saudi Arabia\" OR \"Cape Verde vs Saudi Arabia\" June 2026"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-26",
+    "kickoff_time": "11:00 PM ET",
+    "match": "New Zealand vs. Belgium",
+    "market_baseline": {
+      "teamA_win": "7%",
+      "draw": "13%",
+      "teamB_win": "80%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "13%",
+      "draw": "13%",
+      "teamB_win": "74%"
+    },
+    "predicted_outcome": "Belgium Win (Likely)",
+    "confidence": "medium",
+    "key_factors": [
+      "Belgium is ranked 9th in the FIFA World Rankings (as of June 2026), while New Zealand is ranked 85th.",
+      "Belgium enters the match with 2 points after two draws, while New Zealand has 1 point after a draw with Iran and a loss to Egypt.",
+      "Belgium starting center back Nathan Ngoy is officially suspended for this match due to a red card ban.",
+      "Belgium winger Jeremy Doku is also unavailable for this match, having returned to London due to the birth of his son.",
+      "New Zealand has a significant travel advantage, remaining in Vancouver since their last match, while Belgium traveled 1,080 miles from Los Angeles (exceeding the 800-mile asymmetry threshold).",
+      "New Zealand's squad has an average age of 27.58 years, while Belgium's squad has an average age of 26.58 years.",
+      "A 4-point probability shift was applied in favor of New Zealand due to Belgium's confirmed starting center back suspension (Nathan Ngoy), and a 2-point shift was applied due to travel asymmetry, resulting in a total 6-point shift."
+    ],
+    "unverified_or_unknown": [
+      "Belgium's starting center back replacements to fill Nathan Ngoy's suspended position are unconfirmed."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Sportsbook)",
+      "https://sportsbook.fanduel.com (FanDuel Sportsbook)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Indoors, retractable roof closed, cool and damp outside",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 10,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Adham Makhadmeh",
+      "teamA_cards_per_match": 0.0,
+      "teamB_cards_per_match": 1.0,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.5,
+      "referee_dismissal_rate_this_tournament": 0.0,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 18,
+      "confidence_tier": "weak_signal",
+      "teamA_favor_pct": 16.7,
+      "teamB_favor_pct": 55.6,
+      "neutral_pct": 27.8,
+      "excluded_joke_or_bot_count": 0,
+      "bias_note": "100% of the sample came from r/soccer, which leans heavily in favor of Belgium despite their poor start, due to squad quality.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer \"New Zealand vs. Belgium\" OR \"New Zealand vs Belgium\" June 2026"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-26",
+    "kickoff_time": "11:00 PM ET",
+    "match": "Egypt vs. Iran",
+    "market_baseline": {
+      "teamA_win": "38%",
+      "draw": "36%",
+      "teamB_win": "26%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "40%",
+      "draw": "36%",
+      "teamB_win": "24%"
+    },
+    "predicted_outcome": "Egypt Win (Slight Favorites) or Draw",
+    "confidence": "medium",
+    "key_factors": [
+      "Iran is ranked 20th in the FIFA World Rankings (as of June 2026), while Egypt is ranked 29th.",
+      "Egypt leads the group with 4 points (draw vs. Belgium, win vs. New Zealand), while Iran has 2 points (two draws).",
+      "This marks the first-ever meeting between Egypt and Iran at the FIFA World Cup stage.",
+      "Egypt has a travel advantage, traveling only 120 miles from Vancouver to Seattle, while Iran traveled 960 miles from Los Angeles (exceeding the 800-mile asymmetry threshold).",
+      "Iran's squad has an average age of 30.4 years (one of the oldest in the tournament), while Egypt's squad has an average age of 29.1 years.",
+      "A 2-point probability shift was applied in favor of Egypt due to the confirmed travel asymmetry (exceeding 800 miles of difference since their last match)."
+    ],
+    "unverified_or_unknown": [
+      "The exact starting lineups and tactical adjustments are unconfirmed at prediction time."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Sportsbook)",
+      "https://sportsbook.fanduel.com (FanDuel Sportsbook)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "65°F, cool and overcast evening",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 15,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Szymon Marciniak",
+      "teamA_cards_per_match": 0.5,
+      "teamB_cards_per_match": 0.5,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": 0.0,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 32,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 37.5,
+      "teamB_favor_pct": 25.0,
+      "neutral_pct": 37.5,
+      "excluded_joke_or_bot_count": 0,
+      "bias_note": "100% of the sample came from r/soccer, focusing on political and pride match controversies surrounding the game, alongside tactical discussion of Egypt's status as favorites.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer \"Egypt vs. Iran\" OR \"Egypt vs Iran\" June 2026"
+      ]
+    }
+  }
+]
