@@ -71,7 +71,11 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer \"Cura\u00e7ao vs. C\u00f4te d'Ivoire\" OR \"Cura\u00e7ao vs Ivory Coast\" June 2026"
       ]
-    }
+    },
+    "actual_result": "Cura\u00e7ao 0-2 C\u00f4te d'Ivoire",
+    "actual_winner": "teamB",
+    "graded_correct": true,
+    "graded_at": "2026-06-25"
   },
   {
     "date": "2026-06-25",
@@ -145,7 +149,11 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer \"Ecuador vs. Germany\" June 2026 OR \"Ecuador vs Germany\" OR \"Ecuador\" \"Germany\" prediction OR discussion"
       ]
-    }
+    },
+    "actual_result": "Ecuador 2-1 Germany",
+    "actual_winner": "teamA",
+    "graded_correct": false,
+    "graded_at": "2026-06-25"
   },
   {
     "date": "2026-06-25",
@@ -218,7 +226,11 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer \"Japan vs. Sweden\" June 2026 OR \"Japan vs Sweden\" prediction OR discussion"
       ]
-    }
+    },
+    "actual_result": "Japan 1-1 Sweden",
+    "actual_winner": "draw",
+    "graded_correct": false,
+    "graded_at": "2026-06-25"
   },
   {
     "date": "2026-06-25",
@@ -290,7 +302,11 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer \"Tunisia vs. Netherlands\" June 2026 OR \"Tunisia vs Netherlands\" prediction OR discussion"
       ]
-    }
+    },
+    "actual_result": "Tunisia 1-3 Netherlands",
+    "actual_winner": "teamB",
+    "graded_correct": true,
+    "graded_at": "2026-06-25"
   },
   {
     "date": "2026-06-25",
@@ -363,7 +379,11 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer \"Turkey vs. USA\" June 2026 OR \"Turkey vs USA\" OR \"USA vs Turkey\" prediction OR discussion"
       ]
-    }
+    },
+    "actual_result": "T\u00fcrkiye 3-2 USA",
+    "actual_winner": "teamA",
+    "graded_correct": false,
+    "graded_at": "2026-06-25"
   },
   {
     "date": "2026-06-25",
@@ -437,6 +457,10 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer \"Paraguay vs. Australia\" June 2026 OR \"Paraguay vs Australia\" OR \"Australia vs Paraguay\" prediction OR discussion"
       ]
-    }
+    },
+    "actual_result": "Paraguay 0-0 Australia",
+    "actual_winner": "draw",
+    "graded_correct": true,
+    "graded_at": "2026-06-25"
   }
 ]
