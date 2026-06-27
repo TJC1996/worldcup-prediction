@@ -231,7 +231,11 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer \"Uruguay vs. Spain\" OR \"Uruguay vs Spain\" June 2026"
       ]
-    }
+    },
+    "actual_result": "Uruguay 0-1 Spain",
+    "actual_winner": "teamB",
+    "graded_correct": true,
+    "graded_at": "2026-06-26"
   },
   {
     "date": "2026-06-26",
@@ -305,7 +309,11 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer \"Cabo Verde vs. Saudi Arabia\" OR \"Cape Verde vs Saudi Arabia\" June 2026"
       ]
-    }
+    },
+    "actual_result": "Cape Verde 0-0 Saudi Arabia",
+    "actual_winner": "draw",
+    "graded_correct": false,
+    "graded_at": "2026-06-26"
   },
   {
     "date": "2026-06-26",
@@ -362,11 +370,21 @@
       "details": null
     },
     "lineup_check": {
-      "confirmed": false,
-      "notable_absences": [],
-      "checked_at": null
+      "confirmed": true,
+      "notable_absences": [
+        "Romelu Lukaku"
+      ],
+      "checked_at": "10:12 PM EDT"
     },
-    "late_adjustment": null,
+    "late_adjustment": {
+      "checked_at": "10:12 PM EDT",
+      "informed_probability": {
+        "teamA_win": "17%",
+        "draw": "13%",
+        "teamB_win": "70%"
+      },
+      "reasoning": "Confirmed starting lineup reveals key striker Romelu Lukaku is rested and starts on the bench, prompting a 4-point probability shift toward New Zealand."
+    },
     "social_sentiment_signal": {
       "data_accessible": true,
       "sample_size": 18,
@@ -436,11 +454,22 @@
       "details": null
     },
     "lineup_check": {
-      "confirmed": false,
-      "notable_absences": [],
-      "checked_at": null
+      "confirmed": true,
+      "notable_absences": [
+        "Hamdy Fathy",
+        "Omar Marmoush"
+      ],
+      "checked_at": "10:12 PM EDT"
     },
-    "late_adjustment": null,
+    "late_adjustment": {
+      "checked_at": "10:12 PM EDT",
+      "informed_probability": {
+        "teamA_win": "35%",
+        "draw": "36%",
+        "teamB_win": "29%"
+      },
+      "reasoning": "Confirmed starting lineup reveals the absence of key midfielder Hamdy Fathy due to injury and key forward Omar Marmoush who starts on the bench, prompting a 5-point probability shift toward Iran."
+    },
     "social_sentiment_signal": {
       "data_accessible": true,
       "sample_size": 32,
