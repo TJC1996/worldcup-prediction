@@ -79,9 +79,9 @@ Add these fields to the match object, nothing else:
   "graded_at": "{today's date}"
 Every other field in the match object — market_baseline, 
 adjusted_probability, predicted_outcome, confidence, key_factors, 
-unverified_or_unknown, sources, weather_check, altitude_check, 
-referee_check, lineup_check, late_adjustment, social_sentiment_signal — 
-must remain exactly as it was, byte for byte.
+unverified_or_unknown, sources, kickoff_time, weather_check, 
+altitude_check, referee_check, lineup_check, late_adjustment, 
+social_sentiment_signal — must remain exactly as it was, byte for byte.
 
 STEP A3 — HOLD FOR WRITING
 Keep each modified date's full file in memory. Do not write or commit 
@@ -135,6 +135,10 @@ Search for and retrieve, with a cited source for each:
     injury in passing.
   - Head-to-head record, last 10 years
   - Venue, rest days since last match, travel distance since last match
+  - Confirmed kickoff time for the match, in US Eastern Time. Write this 
+    as a human-readable string, e.g. "3:00 PM ET" or "9:00 PM ET". This 
+    is always knowable from the official schedule — if you cannot confirm 
+    it, write null rather than guessing.
   - Each squad's average age (full squad, or starting eleven if already 
     confirmed at the time of this search). This is descriptive context 
     only — there is no established rule that a younger or older squad 
@@ -268,6 +272,7 @@ specific fact and citing the source directly in key_factors.
 STEP B4 — OUTPUT SCHEMA (one JSON array, one object per match)
 {
   "date": "",
+  "kickoff_time": "3:00 PM ET",
   "match": "Team A vs Team B",
   "market_baseline": {"teamA_win": "%", "draw": "%", "teamB_win": "%"},
   "adjusted_probability": {"teamA_win": "%", "draw": "%", "teamB_win": "%"},
@@ -343,9 +348,9 @@ If today's date already has a file, copy any match that already has a
 non-null "predicted_outcome" into the new output completely unchanged — 
 whether or not it has been graded yet. A prediction is generated exactly 
 once per match and locked in permanently; never regenerate odds, 
-key_factors, weather_check, altitude_check, referee_check, or any other 
-Step B1-B4 field for a match that already has a prediction, even on a 
-later run the same day. The one exception is "lineup_check" and 
+key_factors, kickoff_time, weather_check, altitude_check, referee_check, 
+or any other Step B1-B4 field for a match that already has a prediction, 
+even on a later run the same day. The one exception is "lineup_check" and 
 "late_adjustment," which Step B4.6 below may still update on a later run. 
 Only generate fresh data for a match that doesn't yet have a 
 predicted_outcome in today's file.
@@ -406,6 +411,9 @@ following, and do not proceed to the Final Step until every check passes:
   - "lineup_check.confirmed" being false is expected and fine for most 
     matches at most run times — this is NOT a validation failure, unlike 
     the checks above.
+  - "kickoff_time" must be present for every match — either a confirmed 
+    ET time string or null if genuinely unconfirmable. It must never be 
+    omitted entirely.
   - Re-read your own "key_factors" for each match and confirm each point 
     is a genuinely distinct fact, not the same point restated twice.
   - Re-read "unverified_or_unknown" and confirm it contains anything from 
@@ -474,6 +482,8 @@ GUARDRAILS
   injury described as "expected" rather than confirmed, any lineup detail 
   not from an official source, or any speculative claim must appear in 
   "unverified_or_unknown" and caps confidence at "medium" or lower.
+- "kickoff_time" must be written for every new prediction — confirmed ET 
+  time string or null, never omitted.
 - If you cannot determine today's fixture list due to a search failure — 
   not because there are simply no matches scheduled today — write a file 
   stating that explicitly rather than guessing matches.

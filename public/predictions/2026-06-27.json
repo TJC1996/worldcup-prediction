@@ -1,0 +1,450 @@
+[
+  {
+    "date": "2026-06-27",
+    "kickoff_time": "5:00 PM ET",
+    "match": "Panama vs. England",
+    "market_baseline": {
+      "teamA_win": "6%",
+      "draw": "13%",
+      "teamB_win": "81%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "6%",
+      "draw": "13%",
+      "teamB_win": "81%"
+    },
+    "predicted_outcome": "England Win (Likely)",
+    "confidence": "medium",
+    "key_factors": [
+      "England is ranked 4th in the FIFA World Rankings (as of June 2026), while Panama is ranked 34th.",
+      "Panama has been mathematically eliminated from the tournament following 1-0 losses to both Ghana and Croatia.",
+      "England has 4 points and seeks a win to secure the top spot in Group L.",
+      "Historically, their only competitive meeting in the last 10 years was a 6-1 win for England in the 2018 World Cup.",
+      "Both teams have had 3 full rest days since their last match on June 23, and travel distance difference is under the 800-mile threshold.",
+      "Panama's squad average age is 30.4 years (one of the oldest in the tournament), whereas England's average age is approximately 27.0 years.",
+      "No probability adjustment was warranted as there are no confirmed key starter absences or physical asymmetries between the sides."
+    ],
+    "unverified_or_unknown": [
+      "The exact starting lineups and potential rotation strategies for England are not officially confirmed at prediction time.",
+      "The physical fitness of marginal squad players for both teams remains unconfirmed."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Sportsbook)",
+      "https://sportsbook.fanduel.com (FanDuel Sportsbook)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "80°F, mostly cloudy and humid, with showers tapering off by kickoff",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 7,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": null,
+      "teamA_cards_per_match": null,
+      "teamB_cards_per_match": null,
+      "teamA_red_card_or_second_yellow_rate": null,
+      "teamB_red_card_or_second_yellow_rate": null,
+      "referee_dismissal_rate_this_tournament": null,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 24,
+      "confidence_tier": "weak_signal",
+      "teamA_favor_pct": 8.3,
+      "teamB_favor_pct": 62.5,
+      "neutral_pct": 29.2,
+      "excluded_joke_or_bot_count": 2,
+      "bias_note": "100% of the sample came from r/ThreeLions and r/soccer, which naturally leans in favor of England as the heavy favorite, with discussion focused on England resting key players.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer OR site:reddit.com/r/ThreeLions \"Panama vs. England\" OR \"Panama vs England\" June 2026"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-27",
+    "kickoff_time": "5:00 PM ET",
+    "match": "Croatia vs. Ghana",
+    "market_baseline": {
+      "teamA_win": "54%",
+      "draw": "29%",
+      "teamB_win": "17%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "54%",
+      "draw": "29%",
+      "teamB_win": "17%"
+    },
+    "predicted_outcome": "Croatia Win (Probable) or Draw",
+    "confidence": "medium",
+    "key_factors": [
+      "Croatia is ranked 11th in the FIFA World Rankings (as of June 2026), while Ghana is ranked in the 65th-73rd range.",
+      "Croatia needs at least a draw to guarantee their qualification to the Round of 32, whereas Ghana has already qualified.",
+      "There are no competitive head-to-head meetings between Croatia and Ghana in the last 10 years.",
+      "Both teams have 3 full rest days since their last match on June 23, and travel distance difference is under the 800-mile threshold.",
+      "Croatia's squad has an average age of approximately 28.0 years, while Ghana has a younger squad with an average age of approximately 25.2 years.",
+      "No probability adjustment was warranted as there are no confirmed key starter absences or physical asymmetries between the sides."
+    ],
+    "unverified_or_unknown": [
+      "Ghana starting goalkeeper Lawrence Ati-Zigi is recovering from a groin injury and remains doubtful at prediction time.",
+      "The exact starting lineups and tactical rotation strategies for both teams are not officially confirmed."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Sportsbook)",
+      "https://sportsbook.fanduel.com (FanDuel Sportsbook)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "80°F, humid with a high chance of rain and possible thunderstorms",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 39,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Drew Fischer",
+      "teamA_cards_per_match": null,
+      "teamB_cards_per_match": null,
+      "teamA_red_card_or_second_yellow_rate": null,
+      "teamB_red_card_or_second_yellow_rate": null,
+      "referee_dismissal_rate_this_tournament": null,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 35,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 57.1,
+      "teamB_favor_pct": 14.3,
+      "neutral_pct": 28.6,
+      "excluded_joke_or_bot_count": 3,
+      "bias_note": "100% of the sample came from r/soccer, which leans toward Croatia due to their qualification stakes (needing a result) and the fact that Ghana has already qualified and might rotate squad members.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer \"Croatia vs. Ghana\" OR \"Croatia vs Ghana\" June 2026"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-27",
+    "kickoff_time": "7:30 PM ET",
+    "match": "Colombia vs. Portugal",
+    "market_baseline": {
+      "teamA_win": "26%",
+      "draw": "26%",
+      "teamB_win": "48%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "26%",
+      "draw": "26%",
+      "teamB_win": "48%"
+    },
+    "predicted_outcome": "Portugal Win (Probable) or Draw",
+    "confidence": "medium",
+    "key_factors": [
+      "Portugal is ranked 5th in the FIFA World Rankings (as of June 2026), while Colombia is ranked 13th.",
+      "Both teams have already secured their spots in the Round of 32, with Colombia on 6 points and Portugal on 4 points; they play to determine who wins Group K.",
+      "There are no competitive head-to-head meetings between Colombia and Portugal in the last 10 years.",
+      "Both teams have 3 full rest days since their last match on June 23, and travel distance difference is under the 800-mile threshold.",
+      "Colombia's squad has an average age of approximately 27.2 years, while Portugal has an average age of approximately 27.5 years.",
+      "No probability adjustment was warranted as there are no confirmed key starter absences or physical asymmetries between the sides."
+    ],
+    "unverified_or_unknown": [
+      "Potential starting lineup rotations for both teams due to having already qualified are unconfirmed at prediction time."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Sportsbook)",
+      "https://sportsbook.fanduel.com (FanDuel Sportsbook)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "84°F, warm and humid summer evening, hazy skies",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 7,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": null,
+      "teamA_cards_per_match": null,
+      "teamB_cards_per_match": null,
+      "teamA_red_card_or_second_yellow_rate": null,
+      "teamB_red_card_or_second_yellow_rate": null,
+      "referee_dismissal_rate_this_tournament": null,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 42,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 35.7,
+      "teamB_favor_pct": 42.9,
+      "neutral_pct": 21.4,
+      "excluded_joke_or_bot_count": 4,
+      "bias_note": "100% of the sample came from r/soccer, which leans slightly toward Portugal due to their squad depth and Cristiano Ronaldo's recent form, though many recognize Colombia's unbeaten strength.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer \"Colombia vs. Portugal\" OR \"Colombia vs Portugal\" June 2026"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-27",
+    "kickoff_time": "7:30 PM ET",
+    "match": "DR Congo vs. Uzbekistan",
+    "market_baseline": {
+      "teamA_win": "54%",
+      "draw": "24%",
+      "teamB_win": "22%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "54%",
+      "draw": "24%",
+      "teamB_win": "22%"
+    },
+    "predicted_outcome": "DR Congo Win (Probable) or Draw",
+    "confidence": "medium",
+    "key_factors": [
+      "DR Congo is ranked 46th in the FIFA World Rankings (as of June 2026), while Uzbekistan is ranked 50th.",
+      "DR Congo has 1 point and needs a win to compete for qualification to the Round of 32, whereas Uzbekistan has 0 points after two losses.",
+      "There are no competitive head-to-head meetings between the two teams in the last 10 years.",
+      "Both teams have 3 full rest days since their last match on June 23, and travel distance difference is under the 800-mile threshold.",
+      "DR Congo's squad has an average age of approximately 26.8 years, while Uzbekistan's squad has an average age of approximately 25.5 years.",
+      "No probability adjustment was warranted as there are no confirmed key starter absences or physical asymmetries between the sides."
+    ],
+    "unverified_or_unknown": [
+      "Exact starting lineups and tactical rotation strategies for both teams are not officially confirmed at prediction time."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Sportsbook)",
+      "https://sportsbook.fanduel.com (FanDuel Sportsbook)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Indoors, retractable roof closed, climate-controlled",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 1050,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Felix Zwayer",
+      "teamA_cards_per_match": null,
+      "teamB_cards_per_match": null,
+      "teamA_red_card_or_second_yellow_rate": null,
+      "teamB_red_card_or_second_yellow_rate": null,
+      "referee_dismissal_rate_this_tournament": null,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 28,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 57.1,
+      "teamB_favor_pct": 10.7,
+      "neutral_pct": 32.2,
+      "excluded_joke_or_bot_count": 2,
+      "bias_note": "100% of the sample came from r/soccer, which favors DR Congo because they have a competitive path to qualification (they have 1 point) whereas Uzbekistan has 0 points and has conceded 8 goals.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer \"DR Congo vs. Uzbekistan\" OR \"DR Congo vs Uzbekistan\" June 2026"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-27",
+    "kickoff_time": "10:00 PM ET",
+    "match": "Jordan vs. Argentina",
+    "market_baseline": {
+      "teamA_win": "6%",
+      "draw": "12%",
+      "teamB_win": "82%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "4%",
+      "draw": "12%",
+      "teamB_win": "84%"
+    },
+    "predicted_outcome": "Argentina Win (Likely)",
+    "confidence": "high",
+    "key_factors": [
+      "Argentina is ranked #1 in the FIFA World Rankings (as of June 2026), while Jordan is ranked #63.",
+      "Argentina has already secured the top spot in Group J, whereas Jordan is mathematically eliminated.",
+      "Travel Asymmetry: Jordan traveled approximately 1,450 miles from Santa Clara, CA, to Dallas, TX, whereas Argentina remained in Dallas, enjoying a travel distance of 0 miles and a rest period of 4 full days.",
+      "There are no competitive head-to-head meetings between Jordan and Argentina in the last 10 years.",
+      "Argentina's squad is more experienced (average age ~28.5 years) than Jordan's (~26.5 years).",
+      "A 2-point probability shift was applied in favor of Argentina due to the travel asymmetry exceeding the 800-mile difference threshold."
+    ],
+    "unverified_or_unknown": [
+      "Lionel Messi is confirmed to start on the bench, but his potential minutes or late appearance remain unconfirmed.",
+      "The exact starting lineup and rotation choices for Scaloni are not officially confirmed at prediction time."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Sportsbook)",
+      "https://sportsbook.fanduel.com (FanDuel Sportsbook)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Indoors, retractable roof closed, climate-controlled",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 600,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "István Kovács",
+      "teamA_cards_per_match": null,
+      "teamB_cards_per_match": null,
+      "teamA_red_card_or_second_yellow_rate": null,
+      "teamB_red_card_or_second_yellow_rate": null,
+      "referee_dismissal_rate_this_tournament": null,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 45,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 6.7,
+      "teamB_favor_pct": 77.8,
+      "neutral_pct": 15.5,
+      "excluded_joke_or_bot_count": 5,
+      "bias_note": "100% of the sample came from r/soccer, which is heavily biased in favor of Argentina as the reigning world champions, focusing on their squad rotation and Messi starting on the bench.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer \"Jordan vs. Argentina\" OR \"Jordan vs Argentina\" June 2026"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-27",
+    "kickoff_time": "10:00 PM ET",
+    "match": "Algeria vs. Austria",
+    "market_baseline": {
+      "teamA_win": "23%",
+      "draw": "45%",
+      "teamB_win": "32%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "21%",
+      "draw": "45%",
+      "teamB_win": "34%"
+    },
+    "predicted_outcome": "Draw or Austria Win",
+    "confidence": "medium",
+    "key_factors": [
+      "Austria is ranked #24 in the FIFA World Rankings, while Algeria is ranked #28.",
+      "Both teams are on 3 points in Group J and playing for qualification behind Argentina. A draw is heavily favored in betting markets because it could mathematically benefit both teams depending on goal differences and third-place rankings.",
+      "Travel Asymmetry: Algeria traveled 1,500 miles since June 22, while Austria traveled only 500 miles, giving Austria a physical recovery edge.",
+      "There are no competitive head-to-head meetings between Algeria and Austria in the last 10 years.",
+      "Algeria's squad has a slightly higher average age (~28.2 years) compared to Austria's (~26.4 years).",
+      "A 2-point probability shift was applied in favor of Austria due to the travel asymmetry exceeding the 800-mile difference threshold."
+    ],
+    "unverified_or_unknown": [
+      "Exact starting lineups and potential late tactical modifications are not officially confirmed at prediction time."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Sportsbook)",
+      "https://sportsbook.fanduel.com (FanDuel Sportsbook)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "75°F, mostly cloudy, slight chance of early rain/thunderstorms tapering off by kickoff",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 800,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Ilgiz Tantashev",
+      "teamA_cards_per_match": null,
+      "teamB_cards_per_match": null,
+      "teamA_red_card_or_second_yellow_rate": null,
+      "teamB_red_card_or_second_yellow_rate": null,
+      "referee_dismissal_rate_this_tournament": null,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 38,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 21.1,
+      "teamB_favor_pct": 31.6,
+      "neutral_pct": 47.3,
+      "excluded_joke_or_bot_count": 4,
+      "bias_note": "100% of the sample came from r/soccer, which is highly focused on the historical 1982 narrative and analytical scenarios where a draw might see both teams advance.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer \"Algeria vs. Austria\" OR \"Algeria vs Austria\" June 2026"
+      ]
+    }
+  }
+]

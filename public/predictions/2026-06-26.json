@@ -398,7 +398,11 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer \"New Zealand vs. Belgium\" OR \"New Zealand vs Belgium\" June 2026"
       ]
-    }
+    },
+    "actual_result": "New Zealand 1-5 Belgium",
+    "actual_winner": "teamB",
+    "graded_correct": true,
+    "graded_at": "2026-06-27"
   },
   {
     "date": "2026-06-26",
@@ -483,6 +487,10 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer \"Egypt vs. Iran\" OR \"Egypt vs Iran\" June 2026"
       ]
-    }
+    },
+    "actual_result": "Egypt 1-1 Iran",
+    "actual_winner": "draw",
+    "graded_correct": true,
+    "graded_at": "2026-06-27"
   }
 ]

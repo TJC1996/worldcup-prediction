@@ -20,6 +20,10 @@ export default function MatchCard({ match }) {
         <ConfidenceBadge confidence={match.confidence} />
       </div>
 
+      {match.kickoff_time && !match.actual_result && (
+        <p className="kickoff-time">Kickoff {match.kickoff_time}</p>
+      )}
+
       <ProbabilityBars
         teamA={teamA}
         teamB={teamB}

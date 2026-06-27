@@ -148,6 +148,10 @@ main{ max-width:920px; margin:0 auto; padding:20px 24px 80px; }
 .result.correct{ color:var(--sky); }
 .result.incorrect{ color:var(--rust); }
 .result-icon{ font-size:13px; }
+.kickoff-time{
+  font-family:'JetBrains Mono',monospace; font-size:11px; letter-spacing:.08em;
+  text-transform:uppercase; color:var(--chalk-dim); margin:6px 0 0;
+}
 
 details{ border-top:1px solid var(--line); padding:14px 0; }
 summary{
