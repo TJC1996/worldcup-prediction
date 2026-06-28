@@ -34,7 +34,7 @@
     ],
     "weather_check": {
       "checked": true,
-      "conditions": "80°F, mostly cloudy and humid, with showers tapering off by kickoff",
+      "conditions": "80\u00b0F, mostly cloudy and humid, with showers tapering off by kickoff",
       "asymmetric_factor_found": false
     },
     "altitude_check": {
@@ -69,11 +69,15 @@
       "neutral_pct": 29.2,
       "excluded_joke_or_bot_count": 2,
       "bias_note": "100% of the sample came from r/ThreeLions and r/soccer, which naturally leans in favor of England as the heavy favorite, with discussion focused on England resting key players.",
-      "max_allowed_probability_shift": "±0 points",
+      "max_allowed_probability_shift": "\u00b10 points",
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer OR site:reddit.com/r/ThreeLions \"Panama vs. England\" OR \"Panama vs England\" June 2026"
       ]
-    }
+    },
+    "actual_result": "Panama 0-2 England",
+    "actual_winner": "teamB",
+    "graded_correct": true,
+    "graded_at": "2026-06-28"
   },
   {
     "date": "2026-06-27",
@@ -109,7 +113,7 @@
     ],
     "weather_check": {
       "checked": true,
-      "conditions": "80°F, humid with a high chance of rain and possible thunderstorms",
+      "conditions": "80\u00b0F, humid with a high chance of rain and possible thunderstorms",
       "asymmetric_factor_found": false
     },
     "altitude_check": {
@@ -144,11 +148,15 @@
       "neutral_pct": 28.6,
       "excluded_joke_or_bot_count": 3,
       "bias_note": "100% of the sample came from r/soccer, which leans toward Croatia due to their qualification stakes (needing a result) and the fact that Ghana has already qualified and might rotate squad members.",
-      "max_allowed_probability_shift": "±0 points",
+      "max_allowed_probability_shift": "\u00b10 points",
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer \"Croatia vs. Ghana\" OR \"Croatia vs Ghana\" June 2026"
       ]
-    }
+    },
+    "actual_result": "Croatia 2-1 Ghana",
+    "actual_winner": "teamA",
+    "graded_correct": true,
+    "graded_at": "2026-06-28"
   },
   {
     "date": "2026-06-27",
@@ -183,7 +191,7 @@
     ],
     "weather_check": {
       "checked": true,
-      "conditions": "84°F, warm and humid summer evening, hazy skies",
+      "conditions": "84\u00b0F, warm and humid summer evening, hazy skies",
       "asymmetric_factor_found": false
     },
     "altitude_check": {
@@ -218,11 +226,15 @@
       "neutral_pct": 21.4,
       "excluded_joke_or_bot_count": 4,
       "bias_note": "100% of the sample came from r/soccer, which leans slightly toward Portugal due to their squad depth and Cristiano Ronaldo's recent form, though many recognize Colombia's unbeaten strength.",
-      "max_allowed_probability_shift": "±0 points",
+      "max_allowed_probability_shift": "\u00b10 points",
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer \"Colombia vs. Portugal\" OR \"Colombia vs Portugal\" June 2026"
       ]
-    }
+    },
+    "actual_result": "Colombia 0-0 Portugal",
+    "actual_winner": "draw",
+    "graded_correct": false,
+    "graded_at": "2026-06-28"
   },
   {
     "date": "2026-06-27",
@@ -292,11 +304,15 @@
       "neutral_pct": 32.2,
       "excluded_joke_or_bot_count": 2,
       "bias_note": "100% of the sample came from r/soccer, which favors DR Congo because they have a competitive path to qualification (they have 1 point) whereas Uzbekistan has 0 points and has conceded 8 goals.",
-      "max_allowed_probability_shift": "±0 points",
+      "max_allowed_probability_shift": "\u00b10 points",
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer \"DR Congo vs. Uzbekistan\" OR \"DR Congo vs Uzbekistan\" June 2026"
       ]
-    }
+    },
+    "actual_result": "DR Congo 3-1 Uzbekistan",
+    "actual_winner": "teamA",
+    "graded_correct": true,
+    "graded_at": "2026-06-28"
   },
   {
     "date": "2026-06-27",
@@ -343,7 +359,7 @@
     },
     "referee_check": {
       "checked": true,
-      "referee_name": "István Kovács",
+      "referee_name": "Istv\u00e1n Kov\u00e1cs",
       "teamA_cards_per_match": null,
       "teamB_cards_per_match": null,
       "teamA_red_card_or_second_yellow_rate": null,
@@ -367,11 +383,15 @@
       "neutral_pct": 15.5,
       "excluded_joke_or_bot_count": 5,
       "bias_note": "100% of the sample came from r/soccer, which is heavily biased in favor of Argentina as the reigning world champions, focusing on their squad rotation and Messi starting on the bench.",
-      "max_allowed_probability_shift": "±0 points",
+      "max_allowed_probability_shift": "\u00b10 points",
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer \"Jordan vs. Argentina\" OR \"Jordan vs Argentina\" June 2026"
       ]
-    }
+    },
+    "actual_result": "Jordan 1-3 Argentina",
+    "actual_winner": "teamB",
+    "graded_correct": true,
+    "graded_at": "2026-06-28"
   },
   {
     "date": "2026-06-27",
@@ -406,7 +426,7 @@
     ],
     "weather_check": {
       "checked": true,
-      "conditions": "75°F, mostly cloudy, slight chance of early rain/thunderstorms tapering off by kickoff",
+      "conditions": "75\u00b0F, mostly cloudy, slight chance of early rain/thunderstorms tapering off by kickoff",
       "asymmetric_factor_found": false
     },
     "altitude_check": {
@@ -441,10 +461,14 @@
       "neutral_pct": 47.3,
       "excluded_joke_or_bot_count": 4,
       "bias_note": "100% of the sample came from r/soccer, which is highly focused on the historical 1982 narrative and analytical scenarios where a draw might see both teams advance.",
-      "max_allowed_probability_shift": "±0 points",
+      "max_allowed_probability_shift": "\u00b10 points",
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer \"Algeria vs. Austria\" OR \"Algeria vs Austria\" June 2026"
       ]
-    }
+    },
+    "actual_result": "Algeria 3-3 Austria",
+    "actual_winner": "draw",
+    "graded_correct": true,
+    "graded_at": "2026-06-28"
   }
 ]

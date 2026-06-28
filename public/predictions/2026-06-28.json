@@ -1,0 +1,78 @@
+[
+  {
+    "date": "2026-06-28",
+    "kickoff_time": "3:00 PM ET",
+    "match": "South Africa vs. Canada",
+    "market_baseline": {
+      "teamA_win": "17%",
+      "draw": "27%",
+      "teamB_win": "56%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "14%",
+      "draw": "27%",
+      "teamB_win": "59%"
+    },
+    "predicted_outcome": "Canada Win (Likely)",
+    "confidence": "medium",
+    "key_factors": [
+      "Canada is ranked 32nd in the FIFA World Rankings (as of June 2026), while South Africa is ranked 56th.",
+      "This is a historic Round of 32 knockout stage debut for both nations, with neither having reached this stage before.",
+      "South Africa key veteran playmaker Themba Zwane remains suspended (serving the final of his 3-match ban), while Canada key midfielder Ismaël Koné is ruled out with a fractured tibia.",
+      "Canada captain Alphonso Davies is declared fit and confirmed to start, providing a significant boost to the host nation.",
+      "Both teams have 3 full rest days since their last group stage match on June 24, and both traveled around 1,100\u20131,200 miles to Los Angeles (no travel asymmetry).",
+      "South Africa's squad has an average age of 26.81 years, while Canada's squad has an average age of 25.81 years.",
+      "A 3-point probability shift was applied in favor of Canada due to the red card risk asymmetry, with South Africa having a high dismissal rate (2 red cards in 3 matches) and the assigned referee Jo\u00e3o Pinheiro also showing a high dismissal rate (1 red card in 1 match refereed)."
+    ],
+    "unverified_or_unknown": [
+      "The physical fitness of Stephen Eust\u00e1quio and Alfie Jones for Canada is unconfirmed, as both are managing knocks and undergo late fitness tests.",
+      "The exact starting lineups and tactical approaches are not officially confirmed at prediction time."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Sportsbook)",
+      "https://sportsbook.fanduel.com (FanDuel Sportsbook)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "72\u00b0F, mostly cloudy, low chance of precipitation; indoor/covered canopy stadium",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 25,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Jo\u00e3o Pedro da Silva Pinheiro",
+      "teamA_cards_per_match": 2.0,
+      "teamB_cards_per_match": 1.67,
+      "teamA_red_card_or_second_yellow_rate": 0.67,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": 1.0,
+      "red_card_risk_asymmetry_found": true,
+      "details": "South Africa's high tournament dismissal rate (2 red cards in 3 matches) combined with referee Jo\u00e3o Pinheiro's high dismissal rate (1 red card in 1 match) creates an elevated risk for South Africa."
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 26,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 19.2,
+      "teamB_favor_pct": 57.7,
+      "neutral_pct": 23.1,
+      "excluded_joke_or_bot_count": 0,
+      "bias_note": "58% of the sample came from r/CanadaSoccer, showing a strong bias towards Canada's tactical setup and expectations for the host nation.",
+      "max_allowed_probability_shift": "\u00b10 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/CanadaSoccer OR site:reddit.com/r/soccer \"South Africa\" OR \"Bafana Bafana\" OR \"Canada vs. South Africa\""
+      ]
+    }
+  }
+]
