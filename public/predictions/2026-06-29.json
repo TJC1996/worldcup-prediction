@@ -1,0 +1,242 @@
+[
+  {
+    "date": "2026-06-29",
+    "kickoff_time": "1:00 PM ET",
+    "match": "Brazil vs. Japan",
+    "market_baseline": {
+      "teamA_win": "56%",
+      "draw": "25%",
+      "teamB_win": "19%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "56%",
+      "draw": "25%",
+      "teamB_win": "19%"
+    },
+    "predicted_outcome": "Brazil Win (Likely)",
+    "confidence": "medium",
+    "key_factors": [
+      "Brazil is ranked 5th in the FIFA World Rankings (as of June 2026), while Japan is ranked 17th.",
+      "Brazil forward Raphinha is officially ruled out of this match due to a hamstring injury.",
+      "Japan star playmaker Takefusa Kubo is officially ruled out of this match due to a knee injury.",
+      "Both teams have 4 full rest days since their last group stage match on June 24 (Brazil) and June 25 (Japan), and the travel distance difference is under 800 miles.",
+      "In head-to-head history, Brazil won their last World Cup meeting 4-1 in 2006, but Japan defeated Brazil 3-2 in a late 2025 international friendly.",
+      "Brazil's squad has an average age of 26.5 years, while Japan's squad has an average age of 25.8 years.",
+      "No significant red-card risk asymmetry was found; Brazil averaged 1.33 yellow cards in the group stage while Japan received 0.0 cards. Referee Maurizio Mariani has issued 2 yellow cards per match and 0.0 red cards in this tournament."
+    ],
+    "unverified_or_unknown": [
+      "The exact starting lineups and tactical approaches are not officially confirmed at prediction time.",
+      "The recovery status and potential minutes for other players carrying minor knocks are unconfirmed."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Sportsbook)",
+      "https://sportsbook.fanduel.com (FanDuel Sportsbook)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "95°F, partly cloudy, maximum heat index up to 109°F; retractable roof stadium expected to be closed/air-conditioned",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 52,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Maurizio Mariani",
+      "teamA_cards_per_match": 1.33,
+      "teamB_cards_per_match": 0.0,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": 0.0,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 35,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 34.3,
+      "teamB_favor_pct": 42.9,
+      "neutral_pct": 22.8,
+      "excluded_joke_or_bot_count": 3,
+      "bias_note": "54% of the sample was retrieved from r/JLeague threads, showing a slight bias towards discussing Japan's tactical setups and underdog chances.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer OR site:reddit.com/r/JLeague OR site:reddit.com/r/worldcup \"Brazil vs. Japan\" OR \"Brazil vs Japan\" June 2026"
+      ]
+    },
+    "actual_result": null,
+    "actual_winner": null,
+    "graded_correct": null,
+    "graded_at": null
+  },
+  {
+    "date": "2026-06-29",
+    "kickoff_time": "4:30 PM ET",
+    "match": "Germany vs. Paraguay",
+    "market_baseline": {
+      "teamA_win": "71%",
+      "draw": "18%",
+      "teamB_win": "11%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "73%",
+      "draw": "18%",
+      "teamB_win": "9%"
+    },
+    "predicted_outcome": "Germany Win (Likely)",
+    "confidence": "medium",
+    "key_factors": [
+      "Germany is ranked 9th in the FIFA World Rankings (as of June 2026), while Paraguay is ranked 37th.",
+      "Germany starting center back Nico Schlotterbeck is officially ruled out of the rest of the World Cup with a left ankle medial ligament injury.",
+      "Paraguay key starting midfielder Diego Gomez is officially ruled out of this match due to a yellow card accumulation suspension.",
+      "Germany has a significant travel advantage, traveling ~220 miles from New Jersey to Boston, while Paraguay traveled ~2,700 miles from San Francisco to Boston. This 2,480-mile difference exceeds the 800-mile threshold and warrants a 2-point probability adjustment in favor of Germany.",
+      "Both teams have exactly 3 full rest days since their last group stage matches on June 25.",
+      "There have been no head-to-head matches between the two nations in the last 10 years; their last meeting was a 3-3 draw in a 2013 friendly.",
+      "No significant red-card risk asymmetry was found; Germany averaged 0.0 cards in the group stage while Paraguay averaged 1.33 yellow cards and had 1 red card. Referee Jalal Jayed has issued 1.0 yellow cards per match and 0.0 red cards in this tournament."
+    ],
+    "unverified_or_unknown": [
+      "The physical fitness of Nathaniel Brown (Germany), Omar Alderete (Paraguay), and Ramon Sosa (Paraguay) is unconfirmed, as they are managing knocks.",
+      "The exact starting lineups and tactical adjustments are not officially confirmed at prediction time."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Sportsbook)",
+      "https://sportsbook.fanduel.com (FanDuel Sportsbook)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "84°F, mostly sunny",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 260,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Jalal Jayed",
+      "teamA_cards_per_match": 0.0,
+      "teamB_cards_per_match": 1.33,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.33,
+      "referee_dismissal_rate_this_tournament": 0.0,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 38,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 65.8,
+      "teamB_favor_pct": 15.8,
+      "neutral_pct": 18.4,
+      "excluded_joke_or_bot_count": 5,
+      "bias_note": "100% of the sample was retrieved from r/soccer, which historically skews in favor of major European nations like Germany, especially given Paraguay's status as a third-placed qualifier.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer \"Germany\" \"Paraguay\" OR \"Germany vs. Paraguay\" June 2026"
+      ]
+    },
+    "actual_result": null,
+    "actual_winner": null,
+    "graded_correct": null,
+    "graded_at": null
+  },
+  {
+    "date": "2026-06-29",
+    "kickoff_time": "9:00 PM ET",
+    "match": "Netherlands vs. Morocco",
+    "market_baseline": {
+      "teamA_win": "43%",
+      "draw": "31%",
+      "teamB_win": "26%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "43%",
+      "draw": "31%",
+      "teamB_win": "26%"
+    },
+    "predicted_outcome": "Netherlands Win (Slight Favorites) or Draw",
+    "confidence": "medium",
+    "key_factors": [
+      "Morocco is ranked 7th in the FIFA World Rankings (as of June 2026), while the Netherlands is ranked 8th.",
+      "Both teams enter this Round of 32 match with a fully fit squad and no reported injuries or suspensions.",
+      "Morocco has a slight rest advantage of 1 day (last played June 24 vs. Netherlands playing June 25), which is under the 2-day threshold and is treated as context only.",
+      "Both teams traveled approximately 950–980 miles to Monterrey, Mexico (no travel asymmetry).",
+      "In their only head-to-head meeting in the last 10 years, the Netherlands defeated Morocco 2-1 in a 2017 international friendly.",
+      "Netherlands' squad has an average age of 26.2 years, while Morocco's squad has an average age of 26.9 years.",
+      "No significant red-card risk asymmetry was found; Netherlands averaged 1.0 yellow cards in the group stage while Morocco averaged 0.33 yellow cards. Referee Wilton Sampaio has issued 1.5 yellow cards per match and 1.5 red cards in this tournament."
+    ],
+    "unverified_or_unknown": [
+      "The exact starting lineups and tactical approaches are not officially confirmed at prediction time.",
+      "The late fitness levels and tactical selections under referee Wilton Sampaio's historically high-card profile are unconfirmed."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Sportsbook)",
+      "https://sportsbook.fanduel.com (FanDuel Sportsbook)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "74°F, warm and dry",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 1740,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Wilton Sampaio",
+      "teamA_cards_per_match": 1.0,
+      "teamB_cards_per_match": 0.33,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": 1.5,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 34,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 44.1,
+      "teamB_favor_pct": 35.3,
+      "neutral_pct": 20.6,
+      "excluded_joke_or_bot_count": 3,
+      "bias_note": "100% of the sample was retrieved from r/soccer, which includes a lot of comments focusing on the cultural overlap and the historical significance of the date.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer \"Netherlands\" \"Morocco\" OR \"Netherlands vs. Morocco\" June 2026"
+      ]
+    },
+    "actual_result": null,
+    "actual_winner": null,
+    "graded_correct": null,
+    "graded_at": null
+  }
+]
