@@ -83,6 +83,10 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/CanadaSoccer OR site:reddit.com/r/soccer \"South Africa\" OR \"Bafana Bafana\" OR \"Canada vs. South Africa\""
       ]
-    }
+    },
+    "actual_result": "South Africa 0-1 Canada",
+    "actual_winner": "teamB",
+    "graded_correct": true,
+    "graded_at": "2026-06-28"
   }
 ]
