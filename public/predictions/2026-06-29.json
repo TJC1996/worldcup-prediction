@@ -74,10 +74,10 @@
         "site:reddit.com/r/soccer OR site:reddit.com/r/JLeague OR site:reddit.com/r/worldcup \"Brazil vs. Japan\" OR \"Brazil vs Japan\" June 2026"
       ]
     },
-    "actual_result": null,
-    "actual_winner": null,
-    "graded_correct": null,
-    "graded_at": null
+    "actual_result": "Brazil 2-1 Japan",
+    "actual_winner": "teamA",
+    "graded_correct": true,
+    "graded_at": "2026-06-29"
   },
   {
     "date": "2026-06-29",
@@ -154,10 +154,10 @@
         "site:reddit.com/r/soccer \"Germany\" \"Paraguay\" OR \"Germany vs. Paraguay\" June 2026"
       ]
     },
-    "actual_result": null,
-    "actual_winner": null,
-    "graded_correct": null,
-    "graded_at": null
+    "actual_result": "Germany 1-1 Paraguay (3-4 pen)",
+    "actual_winner": "draw",
+    "graded_correct": false,
+    "graded_at": "2026-06-29"
   },
   {
     "date": "2026-06-29",
@@ -234,9 +234,9 @@
         "site:reddit.com/r/soccer \"Netherlands\" \"Morocco\" OR \"Netherlands vs. Morocco\" June 2026"
       ]
     },
-    "actual_result": null,
-    "actual_winner": null,
-    "graded_correct": null,
-    "graded_at": null
+    "actual_result": "Netherlands 1-0 Morocco",
+    "actual_winner": "teamA",
+    "graded_correct": true,
+    "graded_at": "2026-06-29"
   }
 ]
