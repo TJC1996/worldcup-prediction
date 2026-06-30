@@ -1,0 +1,230 @@
+[
+  {
+    "date": "2026-06-30",
+    "kickoff_time": "1:00 PM ET",
+    "match": "Ivory Coast vs. Norway",
+    "market_baseline": {
+      "teamA_win": "26%",
+      "draw": "28%",
+      "teamB_win": "46%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "26%",
+      "draw": "28%",
+      "teamB_win": "46%"
+    },
+    "predicted_outcome": "Norway Win (Slight Favorites) or Draw",
+    "confidence": "medium",
+    "key_factors": [
+      "Norway is ranked 23rd in the FIFA World Rankings, while Ivory Coast is ranked 31st.",
+      "This is the first-ever meeting between Ivory Coast and Norway in both competitive and friendly fixtures.",
+      "Norway starting right-back Julian Ryerson is officially ruled out of this match due to a thigh injury.",
+      "Norway rested key players Martin Ødegaard and Erling Haaland in their final group stage match against France, entering this match with a rest advantage.",
+      "No travel or weather asymmetry is present; the match is held under closed-roof, air-conditioned conditions at Dallas Stadium.",
+      "Norway's squad has an average age of 26.6 years, while Ivory Coast's squad has an average age of 25.6 years."
+    ],
+    "unverified_or_unknown": [
+      "The exact starting lineups and tactical approaches are not officially confirmed at prediction time.",
+      "The official referee assignment and card-issuance rates for this tournament are unconfirmed."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Sportsbook)",
+      "https://sportsbook.fanduel.com (FanDuel Sportsbook)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Closed roof, air-conditioned indoor environment; outdoor forecast around 95°F, heat index up to 109°F",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 605,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": null,
+      "teamA_cards_per_match": null,
+      "teamB_cards_per_match": null,
+      "teamA_red_card_or_second_yellow_rate": null,
+      "teamB_red_card_or_second_yellow_rate": null,
+      "referee_dismissal_rate_this_tournament": null,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 35,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 34.3,
+      "teamB_favor_pct": 42.9,
+      "neutral_pct": 22.8,
+      "excluded_joke_or_bot_count": 2,
+      "bias_note": "55% of the sample leaned towards r/soccer discussion, with users discussing Erling Haaland's impact and the rest advantage for Norway's key players.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer OR site:reddit.com/r/worldcup OR site:reddit.com/r/Norway \"Ivory Coast\" \"Norway\" OR \"Norway vs Ivory Coast\" OR \"Ivory Coast vs Norway\" June 2026"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-30",
+    "kickoff_time": "5:00 PM ET",
+    "match": "France vs. Sweden",
+    "market_baseline": {
+      "teamA_win": "75%",
+      "draw": "16%",
+      "teamB_win": "9%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "80%",
+      "draw": "16%",
+      "teamB_win": "4%"
+    },
+    "predicted_outcome": "France Win (Heavy Favorites)",
+    "confidence": "medium",
+    "key_factors": [
+      "France is ranked 3rd in the FIFA World Rankings, while Sweden is ranked 36th.",
+      "Sweden starting center back Isak Hien is officially ruled out of the tournament with a hamstring injury requiring surgery.",
+      "France has a significant travel advantage, traveling ~220 miles from Boston to New Jersey, while Sweden traveled ~1,380 miles from Dallas. This 1,160-mile difference exceeds the 800-mile threshold and warrants a 2-point adjustment.",
+      "A 3-point adjustment was applied for the injury asymmetry due to the absence of Sweden's key starter Isak Hien.",
+      "France forward Marcus Thuram is ruled out with a calf injury, but defender William Saliba is fit to return after recovering from a back injury.",
+      "Sweden has 4 full rest days compared to France's 3, which is under the 2-day threshold for adjustment.",
+      "Historical head-to-head record favors France with 12 wins, 5 draws, and 6 losses."
+    ],
+    "unverified_or_unknown": [
+      "The exact starting lineups and tactical approaches are not officially confirmed at prediction time.",
+      "The official referee assignment and card-issuance rates for this tournament are unconfirmed.",
+      "The exact fitness level of minor squad players managing knocks is unconfirmed."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Sportsbook)",
+      "https://sportsbook.fanduel.com (FanDuel Sportsbook)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Around 93°F, hot and humid, clear skies",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 7,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": null,
+      "teamA_cards_per_match": null,
+      "teamB_cards_per_match": null,
+      "teamA_red_card_or_second_yellow_rate": null,
+      "teamB_red_card_or_second_yellow_rate": null,
+      "referee_dismissal_rate_this_tournament": null,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 42,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 59.5,
+      "teamB_favor_pct": 16.7,
+      "neutral_pct": 23.8,
+      "excluded_joke_or_bot_count": 3,
+      "bias_note": "60% of the sample was retrieved from r/soccer, showing heavy favorite expectations for France, with Swedish fans focusing on Graham Potter's defensive setups.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer OR site:reddit.com/r/worldcup \"France\" \"Sweden\" OR \"France vs Sweden\" June 2026"
+      ]
+    }
+  },
+  {
+    "date": "2026-06-30",
+    "kickoff_time": "9:00 PM ET",
+    "match": "Mexico vs. Ecuador",
+    "market_baseline": {
+      "teamA_win": "43%",
+      "draw": "33%",
+      "teamB_win": "24%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "45%",
+      "draw": "33%",
+      "teamB_win": "22%"
+    },
+    "predicted_outcome": "Mexico Win (Slight Favorites) or Draw",
+    "confidence": "medium",
+    "key_factors": [
+      "Mexico is ranked 14th in the FIFA World Rankings (live 9th), while Ecuador is ranked 23rd.",
+      "Mexico has a significant travel advantage, remaining in Mexico City after their last match, while Ecuador traveled ~2,080 miles from New Jersey. This 2,080-mile travel difference exceeds the 800-mile threshold and warrants a 2-point adjustment.",
+      "Ecuador starting center back Piero Hincapié is doubtful with a muscle strain and undergoes a late fitness test.",
+      "Mexico has 5 full rest days compared to Ecuador's 4, which is under the 2-day threshold for adjustment.",
+      "Estadio Azteca is located at an altitude of 7,200 ft, which introduces fatigue risks, though both squads have significant historical exposure to altitude.",
+      "Heavy rainfall is forecast for Mexico City at kickoff, which may affect play style but affects both teams equally."
+    ],
+    "unverified_or_unknown": [
+      "Piero Hincapié's injury status is unconfirmed as he is listed as doubtful and undergoing a late fitness test.",
+      "The exact starting lineups and tactical approaches are not officially confirmed at prediction time.",
+      "The referee assignment and card-issuance rates for this match are unconfirmed."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Sportsbook)",
+      "https://sportsbook.fanduel.com (FanDuel Sportsbook)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "heavy rain, high humidity, temperatures around 68°F",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 7200,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": null,
+      "teamA_cards_per_match": null,
+      "teamB_cards_per_match": null,
+      "teamA_red_card_or_second_yellow_rate": null,
+      "teamB_red_card_or_second_yellow_rate": null,
+      "referee_dismissal_rate_this_tournament": null,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 48,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 50.0,
+      "teamB_favor_pct": 25.0,
+      "neutral_pct": 25.0,
+      "excluded_joke_or_bot_count": 4,
+      "bias_note": "52% of the sample was from r/LigaMX, reflecting significant discussion about the home atmosphere at Estadio Azteca and local fans trying to disturb Ecuador's team hotel.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer OR site:reddit.com/r/LigaMX OR site:reddit.com/r/worldcup \"Mexico\" \"Ecuador\" OR \"Mexico vs Ecuador\" June 2026"
+      ]
+    }
+  }
+]
