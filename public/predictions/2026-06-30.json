@@ -72,7 +72,11 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer OR site:reddit.com/r/worldcup OR site:reddit.com/r/Norway \"Ivory Coast\" \"Norway\" OR \"Norway vs Ivory Coast\" OR \"Ivory Coast vs Norway\" June 2026"
       ]
-    }
+    },
+    "actual_result": "Ivory Coast 1-2 Norway",
+    "actual_winner": "teamB",
+    "graded_correct": true,
+    "graded_at": "2026-06-30"
   },
   {
     "date": "2026-06-30",
@@ -149,7 +153,11 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer OR site:reddit.com/r/worldcup \"France\" \"Sweden\" OR \"France vs Sweden\" June 2026"
       ]
-    }
+    },
+    "actual_result": "France 3-0 Sweden",
+    "actual_winner": "teamA",
+    "graded_correct": true,
+    "graded_at": "2026-06-30"
   },
   {
     "date": "2026-06-30",
@@ -207,9 +215,9 @@
       "details": null
     },
     "lineup_check": {
-      "confirmed": false,
+      "confirmed": true,
       "notable_absences": [],
-      "checked_at": null
+      "checked_at": "2026-06-30T20:18:40-04:00"
     },
     "late_adjustment": null,
     "social_sentiment_signal": {
