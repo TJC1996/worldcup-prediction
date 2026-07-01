@@ -233,6 +233,10 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer OR site:reddit.com/r/LigaMX OR site:reddit.com/r/worldcup \"Mexico\" \"Ecuador\" OR \"Mexico vs Ecuador\" June 2026"
       ]
-    }
+    },
+    "actual_result": "Mexico 2-0 Ecuador",
+    "actual_winner": "teamA",
+    "graded_correct": true,
+    "graded_at": "2026-06-30"
   }
 ]
