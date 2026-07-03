@@ -55,9 +55,9 @@
       "details": null
     },
     "lineup_check": {
-      "confirmed": false,
+      "confirmed": true,
       "notable_absences": [],
-      "checked_at": null
+      "checked_at": "2026-06-29T11:52:47-04:00"
     },
     "late_adjustment": null,
     "social_sentiment_signal": {
