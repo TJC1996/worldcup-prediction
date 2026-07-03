@@ -1,0 +1,77 @@
+[
+  {
+    "date": "2026-07-03",
+    "kickoff_time": "9:30 PM ET",
+    "match": "Colombia vs. Ghana",
+    "market_baseline": {
+      "teamA_win": "65%",
+      "draw": "23%",
+      "teamB_win": "12%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "65%",
+      "draw": "23%",
+      "teamB_win": "12%"
+    },
+    "predicted_outcome": "Colombia Win (Likely)",
+    "confidence": "medium",
+    "key_factors": [
+      "Colombia is ranked 13th in the official FIFA rankings (live 11th), while Ghana is ranked 73rd (live 65th).",
+      "Colombia topped Group K with 7 points (wins against Uzbekistan and DR Congo, draw against Portugal), while Ghana advanced as a third-placed wildcard team from Group L with 4 points.",
+      "Colombia has no major injury or suspension concerns; Ghana defender Kojo Oppong Peprah is ruled out with a knee injury, but he is a backup/defensive cover rather than a key starting player.",
+      "Both teams have exactly 5 rest days since their last group stage match on June 27, and the travel distance difference to Kansas City is under 800 miles (no travel asymmetry).",
+      "Extreme heat conditions (daytime temperatures up to 93°F and heat index values up to 110°F) are forecast, but they affect both squads equally.",
+      "The referee is French official Clément Turpin, who has issued 2 yellow cards and 0 red cards in his 2 refereed matches this tournament."
+    ],
+    "unverified_or_unknown": [
+      "The physical fitness of Antoine Semenyo for Ghana is unconfirmed, as he is managing an ankle injury and undergoes a late fitness test.",
+      "The exact starting lineups and tactical approaches are not officially confirmed at prediction time."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Sportsbook)",
+      "https://sportsbook.fanduel.com (FanDuel Sportsbook)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "extreme heat warning, temperature around 93°F, heat index up to 110°F, no rain expected until late night",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 886,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Clément Turpin",
+      "teamA_cards_per_match": 0.33,
+      "teamB_cards_per_match": 1.0,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": 0.0,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 12,
+      "confidence_tier": "weak_signal",
+      "teamA_favor_pct": 50.0,
+      "teamB_favor_pct": 25.0,
+      "neutral_pct": 25.0,
+      "excluded_joke_or_bot_count": 0,
+      "bias_note": "92% of the sample was retrieved from r/soccer, showing a slight bias towards neutral bracket predictions and general international viewers.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer OR site:reddit.com/r/worldcup OR site:reddit.com/r/Colombia \"Colombia\" \"Ghana\" OR \"Colombia vs Ghana\" OR \"Colombia vs. Ghana\" July 2026"
+      ]
+    }
+  }
+]
