@@ -72,6 +72,10 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer OR site:reddit.com/r/worldcup OR site:reddit.com/r/Colombia \"Colombia\" \"Ghana\" OR \"Colombia vs Ghana\" OR \"Colombia vs. Ghana\" July 2026"
       ]
-    }
+    },
+    "actual_result": "Colombia 1-0 Ghana",
+    "actual_winner": "teamA",
+    "graded_correct": true,
+    "graded_at": "2026-07-04"
   }
 ]

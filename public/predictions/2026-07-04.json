@@ -1,0 +1,153 @@
+[
+  {
+    "date": "2026-07-04",
+    "kickoff_time": "1:00 PM ET",
+    "match": "Canada vs. Morocco",
+    "market_baseline": {
+      "teamA_win": "19%",
+      "draw": "28%",
+      "teamB_win": "53%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "13%",
+      "draw": "28%",
+      "teamB_win": "59%"
+    },
+    "predicted_outcome": "Morocco Win (Likely)",
+    "confidence": "medium",
+    "key_factors": [
+      "Morocco is ranked 7th in the official FIFA rankings, while Canada is ranked 30th.",
+      "Canada reached the Round of 16 for the first time in their history after defeating South Africa 1-0, while Morocco advanced by defeating the Netherlands on penalties after a 1-1 draw.",
+      "Canada midfielder Ismaël Koné remains ruled out of the tournament with a broken leg, creating a confirmed key starter absence asymmetry in favor of Morocco.",
+      "Canada traveled approximately 1,380 miles from Los Angeles to Houston, while Morocco traveled approximately 400 miles from Monterrey. This 980-mile travel difference exceeds the 800-mile threshold and warrants a 2-point adjustment in favor of Morocco.",
+      "Hot and humid conditions (high of 97°F and heat index up to 109°F) are forecast in Houston, but the match is played inside the closed, air-conditioned Houston Stadium (no weather asymmetry).",
+      "The referee is English official Michael Oliver, who has issued an average of 3.5 yellow cards and 0.0 red cards per match in his 2 refereed games this tournament."
+    ],
+    "unverified_or_unknown": [
+      "The physical fitness of Alphonso Davies for Canada is unconfirmed, as he recently returned from a hamstring injury and his starting status is under evaluation.",
+      "The injury status of Morocco's Nayef Aguerd and Abde Ezzalzouli is unconfirmed, as they are managing knocks and undergo late fitness tests.",
+      "The exact starting lineups and tactical approaches are not officially confirmed at prediction time."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Sportsbook)",
+      "https://sportsbook.fanduel.com (FanDuel Sportsbook)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Around 97°F, high humidity, Heat Advisory in effect; indoor air-conditioned stadium expected to be closed",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 50,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Michael Oliver",
+      "teamA_cards_per_match": 1.75,
+      "teamB_cards_per_match": 0.5,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": 0.0,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 38,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 31.6,
+      "teamB_favor_pct": 52.6,
+      "neutral_pct": 15.8,
+      "excluded_joke_or_bot_count": 0,
+      "bias_note": "58% of the sample was retrieved from r/CanadaSoccer, showing a strong bias towards discussing Canada's pride, defensive setups, and underdog status.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer OR site:reddit.com/r/worldcup OR site:reddit.com/r/CanadaSoccer \"Canada\" \"Morocco\" OR \"Canada vs Morocco\" OR \"Canada vs. Morocco\" July 2026"
+      ]
+    }
+  },
+  {
+    "date": "2026-07-04",
+    "kickoff_time": "5:00 PM ET",
+    "match": "Paraguay vs. France",
+    "market_baseline": {
+      "teamA_win": "6%",
+      "draw": "13%",
+      "teamB_win": "81%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "6%",
+      "draw": "13%",
+      "teamB_win": "81%"
+    },
+    "predicted_outcome": "France Win (Heavy Favorites)",
+    "confidence": "medium",
+    "key_factors": [
+      "France is ranked 3rd in the official FIFA rankings (live 2nd), while Paraguay is ranked 41st (live 37th).",
+      "France enters the Round of 16 as undefeated tournament favorites following a 3-0 victory over Sweden, while Paraguay advanced after a dramatic penalty-shootout upset against Germany.",
+      "There are no confirmed key starter absences or suspensions reported for either squad heading into this match.",
+      "Both teams have a travel distance to Philadelphia under the 800-mile threshold (France ~90 miles from New Jersey, Paraguay ~300 miles from Boston), resulting in no travel asymmetry.",
+      "Extreme heat conditions (temperatures around 100°F and heat index up to 110°F) with potential severe thunderstorms are forecast for Philadelphia, affecting both squads equally.",
+      "The referee is English official Michael Oliver, who has issued an average of 3.5 yellow cards and 0.0 red cards per match in his 2 refereed games this tournament."
+    ],
+    "unverified_or_unknown": [
+      "The exact starting lineups and tactical approaches are not officially confirmed at prediction time.",
+      "The impact of the extreme heat (100°F) and severe thunderstorm warning on match-day squad selection and tactical plans is unconfirmed."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Sportsbook)",
+      "https://sportsbook.fanduel.com (FanDuel Sportsbook)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Around 100°F, high humidity, heat index up to 110°F, severe thunderstorm warning and heavy rain expected around kickoff",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 10,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Michael Oliver",
+      "teamA_cards_per_match": 1.5,
+      "teamB_cards_per_match": 0.5,
+      "teamA_red_card_or_second_yellow_rate": 0.25,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": 0.0,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 22,
+      "confidence_tier": "weak_signal",
+      "teamA_favor_pct": 9.1,
+      "teamB_favor_pct": 68.2,
+      "neutral_pct": 22.7,
+      "excluded_joke_or_bot_count": 0,
+      "bias_note": "100% of the sample was retrieved from r/soccer, showing a strong focus on general tournament context and the physical impact of the extreme weather.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer OR site:reddit.com/r/worldcup OR site:reddit.com/r/france \"Paraguay\" \"France\" OR \"Paraguay vs France\" OR \"Paraguay vs. France\" July 2026"
+      ]
+    }
+  }
+]
