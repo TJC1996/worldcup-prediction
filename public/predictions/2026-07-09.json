@@ -1,0 +1,78 @@
+[
+  {
+    "date": "2026-07-09",
+    "kickoff_time": "4:00 PM ET",
+    "match": "France vs. Morocco",
+    "market_baseline": {
+      "teamA_win": "60%",
+      "draw": "25%",
+      "teamB_win": "15%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "67%",
+      "draw": "25%",
+      "teamB_win": "8%"
+    },
+    "predicted_outcome": "France Win (Likely)",
+    "confidence": "medium",
+    "key_factors": [
+      "France is ranked 1st in the official FIFA rankings as of July 2026, while Morocco has risen significantly entering the top 15.",
+      "France reached the quarter-finals after a 1-0 victory over Paraguay, while Morocco advanced by defeating Canada 3-0.",
+      "Morocco midfielder Ismael Saibari is officially ruled out with a hamstring injury, creating a confirmed key starter absence asymmetry in favor of France.",
+      "France traveled approximately 310 miles from Philadelphia to Foxborough, while Morocco traveled approximately 1,850 miles from Houston. This 1,540-mile travel difference exceeds the 800-mile threshold and warrants a 3-point adjustment in favor of France.",
+      "Sunny and warm conditions (high of 88°F) are forecast in Foxborough, affecting both teams equally (no weather asymmetry).",
+      "The referee is Argentine official Facundo Tello, who has issued an average of 3.5 yellow cards and 0.0 red cards per match in his 2 refereed games this tournament."
+    ],
+    "unverified_or_unknown": [
+      "The physical fitness and availability of Aurélien Tchouaméni (groin injury) and Marcus Thuram (calf injury) for France are unconfirmed, as they are managing knocks and undergo late fitness tests.",
+      "The injury status of Morocco's Chadi Riad (knee issue) is unconfirmed, as his starting status is doubtful.",
+      "The exact starting lineups and tactical approaches are not officially confirmed at prediction time."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Sportsbook)",
+      "https://sportsbook.fanduel.com (FanDuel Sportsbook)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Sunny, around 88°F, west-southwest winds 10-15 mph, no precipitation expected during the match",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 270,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Facundo Tello",
+      "teamA_cards_per_match": 1.0,
+      "teamB_cards_per_match": 1.2,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": 0.0,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 42,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 47.6,
+      "teamB_favor_pct": 33.3,
+      "neutral_pct": 19.0,
+      "excluded_joke_or_bot_count": 0,
+      "bias_note": "100% of the sample was retrieved from r/soccer, focusing on neutral tactical discussion and general tournament context.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer OR site:reddit.com/r/worldcup OR site:reddit.com/r/Morocco \"France\" \"Morocco\" OR \"France vs Morocco\" OR \"France vs. Morocco\" July 2026"
+      ]
+    }
+  }
+]
