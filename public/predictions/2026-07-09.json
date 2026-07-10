@@ -73,6 +73,10 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer OR site:reddit.com/r/worldcup OR site:reddit.com/r/Morocco \"France\" \"Morocco\" OR \"France vs Morocco\" OR \"France vs. Morocco\" July 2026"
       ]
-    }
+    },
+    "actual_result": "France 2-0 Morocco",
+    "actual_winner": "teamA",
+    "graded_correct": true,
+    "graded_at": "2026-07-09"
   }
 ]
