@@ -1,0 +1,79 @@
+[
+  {
+    "date": "2026-07-10",
+    "kickoff_time": "3:00 PM ET",
+    "match": "Spain vs. Belgium",
+    "market_baseline": {
+      "teamA_win": "58%",
+      "draw": "25%",
+      "teamB_win": "17%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "58%",
+      "draw": "25%",
+      "teamB_win": "17%"
+    },
+    "predicted_outcome": "Spain Win (Likely)",
+    "confidence": "medium",
+    "key_factors": [
+      "Spain is ranked 3rd in the official FIFA rankings, while Belgium is ranked 9th.",
+      "Spain is undefeated in the tournament (4-0-1) and has not conceded a single goal, advancing after a 1-0 win over Portugal, while Belgium has scored 13 goals and advanced after a 4-1 win over the USA.",
+      "Spain's squad has an average age of 26.2 years, compared to Belgium's average age of 27.1 years.",
+      "Both teams have exactly 3 days of rest since their Round of 16 matches on July 6, and the travel distance difference to Los Angeles is under the 800-mile threshold (Spain traveled ~1,235 miles from Dallas, Belgium traveled ~960 miles from Seattle), so there is no travel asymmetry.",
+      "No probability adjustment was warranted because both teams face key starter absences: Spain is missing starting winger Nico Williams (adductor injury), while Belgium is missing starting midfielder Amadou Onana (ACL) and defender Zeno Debast (thigh injury). Since both squads are missing crucial starters, the net impact is roughly equal.",
+      "Weather conditions in Inglewood are forecast to be mild (around 80-81°F, partly cloudy) and affect both teams equally, with SoFi Stadium's canopy providing additional coverage.",
+      "The referee is English official Michael Oliver, who has issued an average of 4.33 yellow cards and 0.0 red cards per match in his 3 refereed games this tournament."
+    ],
+    "unverified_or_unknown": [
+      "The physical fitness and starting status of Belgium's Kevin De Bruyne are unconfirmed as he manages match-fitness concerns.",
+      "The starting status of Spain's Víctor Muñoz is unconfirmed due to him being listed as doubtful.",
+      "The exact starting lineups and tactical approaches are not officially confirmed at prediction time."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Sportsbook)",
+      "https://sportsbook.fanduel.com (FanDuel Sportsbook)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Partly cloudy, around 80-81°F, south-southwest winds 5-10 mph, no precipitation expected",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 35,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "Michael Oliver",
+      "teamA_cards_per_match": 0.63,
+      "teamB_cards_per_match": 0.84,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": 0.0,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 45,
+      "confidence_tier": "moderate_signal",
+      "teamA_favor_pct": 53.3,
+      "teamB_favor_pct": 26.7,
+      "neutral_pct": 20.0,
+      "excluded_joke_or_bot_count": 3,
+      "bias_note": "73% of the sample was retrieved from r/soccer, focusing on neutral tactical discussion and Spain's historic defensive run, while the remainder came from r/worldcup and r/belgium.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer OR site:reddit.com/r/worldcup OR site:reddit.com/r/belgium \"Spain vs Belgium\" OR \"Spain vs. Belgium\" July 2026"
+      ]
+    }
+  }
+]
