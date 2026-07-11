@@ -1,0 +1,77 @@
+[
+  {
+    "date": "2026-07-11",
+    "kickoff_time": "9:00 PM ET",
+    "match": "Argentina vs. Switzerland",
+    "market_baseline": {
+      "teamA_win": "57%",
+      "draw": "27%",
+      "teamB_win": "16%"
+    },
+    "adjusted_probability": {
+      "teamA_win": "63%",
+      "draw": "27%",
+      "teamB_win": "10%"
+    },
+    "predicted_outcome": "Argentina Win (Likely)",
+    "confidence": "medium",
+    "key_factors": [
+      "Argentina is ranked 1st in the official FIFA rankings, while Switzerland is ranked 14th.",
+      "Argentina reached the quarter-finals after a 3-2 victory over Egypt, while Switzerland advanced past Colombia on penalties after a scoreless 120 minutes.",
+      "Switzerland forward Johan Manzambi is officially ruled out with a knee injury, creating a confirmed key starter absence asymmetry in favor of Argentina.",
+      "Argentina traveled approximately 700 miles from Atlanta to Kansas City, while Switzerland traveled approximately 1,600 miles from Vancouver. This 900-mile travel difference exceeds the 800-mile threshold and warrants a 2-point adjustment in favor of Argentina.",
+      "Very warm and humid conditions (around 85-90°F at kickoff) are forecast in Kansas City, affecting both teams equally (no weather asymmetry).",
+      "The referee is Portuguese official João Pinheiro, who has issued an average of 2.5 yellow cards and 0.5 red cards per match in his 2 refereed games this tournament."
+    ],
+    "unverified_or_unknown": [
+      "The exact starting lineups and tactical approaches are not officially confirmed at prediction time.",
+      "The exact yellow/red card averages for both squads are partially unconfirmed, as complete tournament-wide stats are aggregated from secondary sources."
+    ],
+    "sources": [
+      "https://sportsbook.draftkings.com (DraftKings Sportsbook)",
+      "https://sportsbook.fanduel.com (FanDuel Sportsbook)"
+    ],
+    "weather_check": {
+      "checked": true,
+      "conditions": "Very warm, temperature around 85-90°F at kickoff, high humidity, no precipitation expected during the match",
+      "asymmetric_factor_found": false
+    },
+    "altitude_check": {
+      "checked": true,
+      "elevation_ft": 912,
+      "asymmetric_factor_found": false,
+      "details": null
+    },
+    "referee_check": {
+      "checked": true,
+      "referee_name": "João Pinheiro",
+      "teamA_cards_per_match": 0.8,
+      "teamB_cards_per_match": 1.2,
+      "teamA_red_card_or_second_yellow_rate": 0.0,
+      "teamB_red_card_or_second_yellow_rate": 0.0,
+      "referee_dismissal_rate_this_tournament": 0.5,
+      "red_card_risk_asymmetry_found": false,
+      "details": null
+    },
+    "lineup_check": {
+      "confirmed": false,
+      "notable_absences": [],
+      "checked_at": null
+    },
+    "late_adjustment": null,
+    "social_sentiment_signal": {
+      "data_accessible": true,
+      "sample_size": 0,
+      "confidence_tier": "insufficient_sample",
+      "teamA_favor_pct": null,
+      "teamB_favor_pct": null,
+      "neutral_pct": null,
+      "excluded_joke_or_bot_count": 0,
+      "bias_note": "No accessible Reddit comments were retrieved in search queries.",
+      "max_allowed_probability_shift": "±0 points",
+      "sources_or_queries_used": [
+        "site:reddit.com/r/soccer OR site:reddit.com/r/worldcup OR site:reddit.com/r/argentina \"Argentina\" \"Switzerland\" OR \"Argentina vs Switzerland\" OR \"Argentina vs. Switzerland\" July 2026"
+      ]
+    }
+  }
+]

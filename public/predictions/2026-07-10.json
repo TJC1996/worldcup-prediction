@@ -74,6 +74,10 @@
       "sources_or_queries_used": [
         "site:reddit.com/r/soccer OR site:reddit.com/r/worldcup OR site:reddit.com/r/belgium \"Spain vs Belgium\" OR \"Spain vs. Belgium\" July 2026"
       ]
-    }
+    },
+    "actual_result": "Spain 2-1 Belgium",
+    "actual_winner": "teamA",
+    "graded_correct": true,
+    "graded_at": "2026-07-11"
   }
 ]
